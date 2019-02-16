@@ -1,0 +1,4 @@
+include "cj.studio.nettest.be.program"
+include "cj.studio.nettest.be.main"
+include "cj.studio.nettest.be.plugin"
+include "cj.studio.nettest.be.stub"
