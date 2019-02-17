@@ -592,3 +592,128 @@
 2019年02月16日 23:48:31  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
 2019年02月16日 23:52:23  信息 : -------------网关启动完毕-------------------
 2019年02月16日 23:52:26  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 00:09:29  信息 : -------------网关启动完毕-------------------
+2019年02月17日 00:10:01  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 00:10:01  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.valve.SecurityValve.flow(SecurityValve.java:42)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckSessionInputValve.flow(CheckSessionInputValve.java:58)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckErrorInputVavle.flow(CheckErrorInputVavle.java:39)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckUrlInputValve.flow(CheckUrlInputValve.java:44)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.FirstWayInputValve.flow(FirstWayInputValve.java:23)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:108)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.headFlow(InputPipeline.java:76)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.flowHttpPipeline(HttpChannelHandler.java:408)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.pipelineHttpBuild(HttpChannelHandler.java:453)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.flowHttpRequest(HttpChannelHandler.java:397)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpRequest(HttpChannelHandler.java:204)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:107)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年02月17日 00:10:29  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.valve.SecurityValve.flow(SecurityValve.java:42)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckSessionInputValve.flow(CheckSessionInputValve.java:58)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckErrorInputVavle.flow(CheckErrorInputVavle.java:39)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckUrlInputValve.flow(CheckUrlInputValve.java:44)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.FirstWayInputValve.flow(FirstWayInputValve.java:23)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:108)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.headFlow(InputPipeline.java:76)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.flowHttpPipeline(HttpChannelHandler.java:408)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.flowHttpRequest(HttpChannelHandler.java:391)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpRequest(HttpChannelHandler.java:204)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:107)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年02月17日 00:11:15  信息 : -------------网关启动完毕-------------------
+2019年02月17日 00:11:17  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 00:11:35  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：500 密码验认失败
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:43)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:126)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:109)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年02月17日 00:12:20  信息 : -------------网关启动完毕-------------------
+2019年02月17日 00:12:21  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 08:34:22  信息 : -------------网关启动完毕-------------------
+2019年02月17日 08:34:25  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:css
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:js
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:js
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:js
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:css
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:css
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:css
+2019年02月17日 08:34:27  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:css
+2019年02月17日 08:34:53  信息 : -------------网关启动完毕-------------------
+2019年02月17日 08:34:54  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 08:35:50  信息 : -------------网关启动完毕-------------------
+2019年02月17日 08:35:50  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 08:36:09  信息 : -------------网关启动完毕-------------------
+2019年02月17日 08:36:09  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 09:08:06  信息 : -------------网关启动完毕-------------------
+2019年02月17日 09:08:30  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 09:25:30  信息 : -------------网关启动完毕-------------------
+2019年02月17日 09:25:32  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share

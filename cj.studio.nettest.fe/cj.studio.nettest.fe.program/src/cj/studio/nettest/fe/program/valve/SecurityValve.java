@@ -13,43 +13,44 @@ import cj.studio.gateway.socket.pipeline.IAnnotationInputValve;
 import cj.studio.gateway.socket.pipeline.IIPipeline;
 import cj.ultimate.util.StringUtil;
 
-@CjService(name="InputValve1",scope=Scope.multiton)
-public class SecurityValve implements IAnnotationInputValve{
-	
+@CjService(name = "InputValve1", scope = Scope.multiton)
+public class SecurityValve implements IAnnotationInputValve {
+
 	@Override
-	public void onActive(String inputName,  IIPipeline pipeline)
-			throws CircuitException {
+	public void onActive(String inputName, IIPipeline pipeline) throws CircuitException {
 		pipeline.nextOnActive(inputName, this);
 	}
 
 	@Override
 	public void flow(Object request, Object response, IIPipeline pipeline) throws CircuitException {
-		if(request instanceof HttpFrame) {
-			HttpFrame frame=(HttpFrame)request;
-			if(frame.relativePath().startsWith("/public")) {
+		if (request instanceof HttpFrame) {
+			HttpFrame frame = (HttpFrame) request;
+			if (frame.relativePath().startsWith("/public")) {
 				pipeline.nextFlow(request, response, this);
 				return;
 			}
-			ISession session=frame.session();
-			if(session==null) {//放过资源
+			ISession session = frame.session();
+			if (session == null) {// 放过资源
 				pipeline.nextFlow(request, response, this);
 				return;
 			}
-			String principals=(String)session.attribute("uc.principals");
+			String principals = (String) session.attribute("uc.principals");
 			@SuppressWarnings("unchecked")
-			List<Role> roles=(List<Role>)session.attribute("uc.roles");
-			boolean hasTestRole=false;
-			for(Role r:roles) {
-				if("tests".equals(r.getCode())) {
-					hasTestRole=true;
-					break;
+			List<Role> roles = (List<Role>) session.attribute("uc.roles");
+			boolean hasTestRole = false;
+			if (roles != null) {
+				for (Role r : roles) {
+					if ("tests".equals(r.getCode())) {
+						hasTestRole = true;
+						break;
+					}
 				}
 			}
-			if(StringUtil.isEmpty(principals)||!hasTestRole) {
-				HttpCircuit c=(HttpCircuit)response;
+			if (StringUtil.isEmpty(principals) || !hasTestRole) {
+				HttpCircuit c = (HttpCircuit) response;
 				c.status("302");
 				c.message("redirect url.");
-				c.head("Location","./public/login.html");
+				c.head("Location", "./public/login.html");
 				return;
 			}
 		}
