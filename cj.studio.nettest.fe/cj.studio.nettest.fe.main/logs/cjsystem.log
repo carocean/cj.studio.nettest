@@ -717,3 +717,365 @@
 2019年02月17日 09:08:30  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
 2019年02月17日 09:25:30  信息 : -------------网关启动完毕-------------------
 2019年02月17日 09:25:32  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 16:24:04  信息 : -------------网关启动完毕-------------------
+2019年02月17日 16:24:49  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 16:24:54  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9090
+2019年02月17日 16:24:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:42)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:126)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:109)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年02月17日 16:26:13  信息 : -------------网关启动完毕-------------------
+2019年02月17日 16:26:14  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 16:26:18  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9090
+2019年02月17日 16:26:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:42)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:126)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:109)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年02月17日 16:27:17  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:42)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:126)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:109)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年02月17日 16:37:07  信息 : -------------网关启动完毕-------------------
+2019年02月17日 16:37:09  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 20:05:27  信息 : -------------网关启动完毕-------------------
+2019年02月17日 20:05:30  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/face.jpg
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/sync.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/wigo.facility.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/sync.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/face.jpg
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/wigo.facility.png
+2019年02月17日 20:05:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/shop.jpg
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/shop.jpg
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/wigo.facility.png
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/wigo.facility.png
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/face.jpg
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/sync.png
+2019年02月17日 20:06:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/shop.jpg
+2019年02月17日 20:06:58  信息 : -------------网关启动完毕-------------------
+2019年02月17日 20:07:21  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/face.jpg
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/sync.png
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/shop.jpg
+2019年02月17日 20:07:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/face.jpg
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/sync.png
+2019年02月17日 20:09:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/shop.jpg
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/sync.png
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/face.jpg
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/task.png
+2019年02月17日 20:09:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/shop.jpg
+2019年02月17日 20:10:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:10:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:10:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:11:38  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:11:38  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:11:38  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:11:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:11:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:11:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:12:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:12:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:12:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:12:56  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:12:56  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:12:57  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:13:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:13:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:13:23  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:23  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:23  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:13:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:13:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:13:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:34:12  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:34:12  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:34:12  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:34:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:34:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:34:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:35:10  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:35:10  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:35:10  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:35:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:35:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:35:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:36:57  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:36:57  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:36:57  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:37:14  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:37:14  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:37:14  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:37:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:37:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:37:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:37:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:37:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:37:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:38:20  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:38:20  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:38:20  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:38:28  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:38:28  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:38:28  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:38:29  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:38:29  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:38:29  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:39:25  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:39:25  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:39:25  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:39:36  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:39:36  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:39:36  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:39:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:39:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:39:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:43:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:43:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:43:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:45:04  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:45:04  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:45:04  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:45:58  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:45:58  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:45:58  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:47:53  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:47:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:47:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:48:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:48:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:48:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:49:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:49:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:49:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:49:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:49:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:49:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:49:58  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:49:58  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:49:58  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:50:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:50:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:50:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:51:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:51:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:51:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:52:55  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:52:55  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:52:55  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:53:11  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:53:12  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:53:12  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:53:38  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:53:39  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:53:39  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:54:26  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:54:26  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:54:26  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:54:26  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:54:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:54:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:54:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:54:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:55:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:55:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:55:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:55:43  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:55:43  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:55:43  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:55:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:55:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:55:50  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:56:17  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:56:17  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:56:17  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:56:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:56:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:56:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:56:45  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:56:45  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:56:45  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:57:31  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:57:31  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:57:31  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 20:58:09  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:58:09  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 20:58:09  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 21:02:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:02:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:02:37  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 21:02:59  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:02:59  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:02:59  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 21:03:16  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:03:16  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:03:16  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 21:03:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:03:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:03:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 21:04:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:04:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:04:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/img/camera.png
+2019年02月17日 21:04:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:04:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:08:25  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:08:25  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:11:19  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:11:19  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:12:31  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:12:31  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:13:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:13:34  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:14:40  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:14:41  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:15:33  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:16:42  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:16:42  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:20:48  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:20:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:22:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:22:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:22:40  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:22:40  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:24:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:24:44  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:29:30  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:29:30  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:30:11  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:30:11  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:30:59  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:30:59  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:31:29  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:31:29  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:33:09  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:33:09  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:37:19  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:37:19  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:37:28  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:37:28  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:39:03  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:39:03  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:40:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:40:02  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:40:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:40:32  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:41:19  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:41:19  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:41:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:41:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:43:06  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:43:07  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:46:15  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:46:15  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:48:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:48:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:50:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 21:50:00  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 资源文件不存在:/js/index.js
+2019年02月17日 22:36:33  信息 : -------------网关启动完毕-------------------
+2019年02月17日 22:36:36  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月18日 01:36:52  信息 : -------------网关启动完毕-------------------
+2019年02月18日 01:36:55  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月18日 01:37:52  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/apple-touch-icon-precomposed.png
+2019年02月18日 01:37:57  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/apple-touch-icon-precomposed.png
+2019年02月18日 01:38:13  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/apple-touch-icon-precomposed.png
+2019年02月18日 02:39:52  信息 : -------------网关启动完毕-------------------
+2019年02月18日 02:39:54  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月18日 11:30:57  信息 : -------------网关启动完毕-------------------
+2019年02月18日 11:31:00  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月18日 11:35:38  信息 : -------------网关启动完毕-------------------
+2019年02月18日 11:35:41  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
