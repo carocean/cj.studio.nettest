@@ -21,7 +21,7 @@ dependencies {
 	compile project(':cj.studio.nettest.be.stub');
 	compile fileTree('../global/runtime')
 	compile fileTree('../global/cjtools')
-	compile fileTree('src/cj/references')
+	//compile fileTree('src/cj/references')
 	
 }
 task releaseToHost(type: Copy) {

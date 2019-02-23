@@ -7,13 +7,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
 <meta name="renderer" content="webkit|ie-stand">
 <title>NetTest.Center™</title>
-<meta name="keywords" content="广州连元信息科技有限公司">
+<meta name="keywords" content="cj工作室">
 <link href="css/global.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
 
 <script type="text/javascript" src="js/jquery/jquery-2.1.4.js"></script>
 <script type="text/javascript" src="js/socket.io.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/root-panel.js"></script>
+<script type="text/javascript" src="js/folder-panel.js"></script>
+<script type="text/javascript" src="js/service-panel.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -50,48 +53,636 @@
 							<ul class="main-column-lets">
 								<li class="portlet" position><span label>位置</span>://<span
 									name>目录</span>/<span name>服务</span>.<span name>方法</span></li>
-								<li class="portlet" takeput></li>
-								<li class="portlet" takeput></li>
+								<li class="portlet">
+									<div class="req-url">
+										<span>http://192.168.0.100/website/</span>
+									</div>
+									<div class="net-protocols">
+										<ul>
+											<li><input id="ws-js" type="radio" name="net-protocol"
+												checked="checked"><label for="ws-js">ws(Js)</label></li>
+											<li><input id="http" type="radio" name="net-protocol"><label
+												for="ws-js">http(Net)</label></li>
+											<li><input id="ws-net" type="radio" name="net-protocol"><label
+												for="ws-net">ws(Net)</label></li>
+											<li><input id="tcp-net" type="radio" name="net-protocol"><label
+												for="tcp-net">tcp(Net)</label></li>
+											<li><input id="udt-net" type="radio" name="net-protocol"><label
+												for="udt-net">udt(Net)</label></li>
+										</ul>
+									</div>
+									<div class="headline">
+										<ul>
+											<li class="cmd"><input type="text" list="cmdlist"
+												placeholder="输入自定义命令"> <datalist id="cmdlist">
+													<option>GET</option>
+													<option>POST</option>
+													<option>PUT</option>
+													<option>PULL</option>
+													<option>PUSH</option>
+												</datalist></li>
+											<li class="url"><input type="text"
+												placeholder="输入请求地址或后台请求字串名"></li>
+											<li class="prot"><input type="text" list="ptlist"
+												placeholder="输入自定义协议"> <datalist id="ptlist">
+													<option>HTTP/1.1</option>
+													<option>WS/1.0</option>
+													<option>TCP/1.0</option>
+													<option>UDT/1.0</option>
+													<option>HTTP/1.0</option>
+												</datalist></li>
+											<li class="send"><input type="button" value="发送"></li>
+										</ul>
+									</div>
+									<div class="settings">
+										<ul class="tabs">
+											<li class="tab selected" kind="parameter"><span>参数</span></li>
+											<li class="tab" kind="header"><span>头</span></li>
+											<li class="tab" kind="content"><span>内容</span></li>
+										</ul>
+										<ul class="tab-panels">
+											<li class="tab-panel parameter">
+												<ul class="tab-table-ul">
+													<li class="tab-table-row t-header">
+														<div class="tab-table-cell key">
+															<span>键</span>
+														</div>
+														<div class="tab-table-cell parameter">
+															<span>值</span>
+														</div>
+														<div class="tab-table-cell desc">
+															<span>说明</span>
+														</div>
+													</li>
+													<li class="tab-table-row">
+														<div class="tab-table-cell key">
+															<input type="text" placeholder="输入键">
+														</div>
+														<div class="tab-table-cell parameter">
+															<input type="text" placeholder="输入值">
+														</div>
+														<div class="tab-table-cell desc">
+															<input type="text" placeholder="输入说明，可为空">
+														</div>
+														<div class="tab-table-cell op">
+															<span>X</span>
+														</div>
+													</li>
+													<li class="tab-table-row">
+														<div class="tab-table-cell key">
+															<input type="text" placeholder="输入键">
+														</div>
+														<div class="tab-table-cell parameter">
+															<input type="text" placeholder="输入值">
+														</div>
+														<div class="tab-table-cell desc">
+															<input type="text" placeholder="输入说明，可为空">
+														</div>
+														<div class="tab-table-cell op">
+															<span>X</span>
+														</div>
+													</li>
+												</ul>
+											</li>
+											<li class="tab-panel header">
+												<ul class="tab-table-ul">
+													<li class="tab-table-row t-header">
+														<div class="tab-table-cell key">
+															<span>键</span>
+														</div>
+														<div class="tab-table-cell parameter">
+															<span>值</span>
+														</div>
+														<div class="tab-table-cell desc">
+															<span>说明</span>
+														</div>
+													</li>
+													<li class="tab-table-row">
+														<div class="tab-table-cell key">
+															<input type="text" placeholder="输入键">
+														</div>
+														<div class="tab-table-cell parameter">
+															<input type="text" placeholder="输入值">
+														</div>
+														<div class="tab-table-cell desc">
+															<input type="text" placeholder="输入说明，可为空">
+														</div>
+														<div class="tab-table-cell op">
+															<span>X</span>
+														</div>
+													</li>
+													<li class="tab-table-row">
+														<div class="tab-table-cell key">
+															<input type="text" placeholder="输入键">
+														</div>
+														<div class="tab-table-cell parameter">
+															<input type="text" placeholder="输入值">
+														</div>
+														<div class="tab-table-cell desc">
+															<input type="text" placeholder="输入说明，可为空">
+														</div>
+														<div class="tab-table-cell op">
+															<span>X</span>
+														</div>
+													</li>
+												</ul>
+											</li>
+											<li class="tab-panel content">
+												<ul class="radios">
+													<li><input id="none" type="radio" name="body-type"
+														checked="checked"><label for="none">None</label></li>
+													<li><input id="any" type="radio" name="body-type"><label
+														for="any">Any</label></li>
+													<li><input id="xwfu" type="radio" name="body-type"><label
+														for="xwfu">x-www-form-urlencode</label></li>
+													<li><input id="formdata" type="radio" name="body-type"><label
+														for="formdata">Form-Data</label></li>
+												</ul>
+												<ul class="tab-panels">
+													<li class="tab-panel None"></li>
+													<li class="tab-panel Any"><textarea rows="" cols=""
+															placeholder="输入内容..."></textarea></li>
+													<li class="tab-panel x-www-form-urlencode">
+														<ul class="tab-table-ul">
+															<li class="tab-table-row t-header">
+																<div class="tab-table-cell key">
+																	<span>键</span>
+																</div>
+																<div class="tab-table-cell parameter">
+																	<span>值</span>
+																</div>
+																<div class="tab-table-cell desc">
+																	<span>说明</span>
+																</div>
+															</li>
+															<li class="tab-table-row">
+																<div class="tab-table-cell key">
+																	<input type="text" placeholder="输入键">
+																</div>
+																<div class="tab-table-cell parameter">
+																	<input type="text" placeholder="输入值">
+																</div>
+																<div class="tab-table-cell desc">
+																	<input type="text" placeholder="输入说明，可为空">
+																</div>
+																<div class="tab-table-cell op">
+																	<span>X</span>
+																</div>
+															</li>
+															<li class="tab-table-row">
+																<div class="tab-table-cell key">
+																	<input type="text" placeholder="输入键">
+																</div>
+																<div class="tab-table-cell parameter">
+																	<input type="text" placeholder="输入值">
+																</div>
+																<div class="tab-table-cell desc">
+																	<input type="text" placeholder="输入说明，可为空">
+																</div>
+																<div class="tab-table-cell op">
+																	<span>X</span>
+																</div>
+															</li>
+														</ul>
+													</li>
+													<li class="tab-panel Form-Data"><ul
+															class="tab-table-ul">
+															<li class="tab-table-row t-header">
+																<div class="tab-table-cell key">
+																	<span>键</span>
+																</div>
+																<div class="tab-table-cell parameter">
+																	<span>值</span>
+																</div>
+																<div class="tab-table-cell desc">
+																	<span>说明</span>
+																</div>
+															</li>
+															<li class="tab-table-row">
+																<div class="tab-table-cell key">
+																	<input type="text" placeholder="输入键">
+																</div>
+																<div class="tab-table-cell parameter">
+																	<input type="text" placeholder="输入值">
+																</div>
+																<div class="tab-table-cell desc">
+																	<input type="text" placeholder="输入说明，可为空">
+																</div>
+																<div class="tab-table-cell op">
+																	<span>X</span>
+																</div>
+															</li>
+															<li class="tab-table-row">
+																<div class="tab-table-cell key">
+																	<input type="text" placeholder="输入键">
+																</div>
+																<div class="tab-table-cell parameter">
+																	<input type="text" placeholder="输入值">
+																</div>
+																<div class="tab-table-cell desc">
+																	<input type="text" placeholder="输入说明，可为空">
+																</div>
+																<div class="tab-table-cell op">
+																	<span>X</span>
+																</div>
+															</li>
+														</ul></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="portlet reslet">
+									<div class="res-bar">
+										<span>晌应结果</span>
+									</div>
+									<div class="response">
+										<div class="content">无</div>
+									</div>
+								</li>
 							</ul>
-							<div class="panel-tools on-mask">
-								
-							</div>
+							<div class="panel-tools on-mask"></div>
 						</div>
 					</div>
 					<div class="column-left">
 						<div class="proj-region">
 							<label>项目</label>
 							<div class="pr-toolbar">
+								<div class="popup-template">
+									<ul class="popup-ul root">
+										<li class="popup-tbar popup-bar">
+											<div class="popup-bar-left">
+												<span>所有文件夹</span>
+											</div>
+											<ul class="popup-bar-right-ul">
+												<li class="popup-bar-right-li" addFolder title="添加文件夹"><img
+													src="img/tianjia.svg"></li>
+											</ul>
+										</li>
+										<li class="popup-tbar-region">
+											<ul class="popup-rbar-table">
+												<li class="popup-rbar-row">
+													<div class="popup-rbar-cell code">
+														<input placeholder="文件夹代码名">
+													</div>
+													<div class="popup-rbar-cell name">
+														<input placeholder="文件夹显示名">
+													</div>
+													<div class="popup-rbar-cell save" title="保存">
+														<img alt="" src="img/save.svg">
+													</div>
+													<div class="popup-rbar-cell delete" title="删除">
+														<img alt="" src="img/delete.svg">
+													</div>
+												</li>
+												<li class="popup-rbar-row">
+													<div class="popup-rbar-cell">
+														<input placeholder="文件夹代码名">
+													</div>
+													<div class="popup-rbar-cell">
+														<input placeholder="文件夹显示名">
+													</div>
+													<div class="popup-rbar-cell" title="删除">
+														<img alt="" src="img/delete.svg">
+													</div>
+												</li>
+												<li class="popup-rbar-row">
+													<div class="popup-rbar-cell">
+														<input placeholder="文件夹代码名">
+													</div>
+													<div class="popup-rbar-cell">
+														<input placeholder="文件夹显示名">
+													</div>
+													<div class="popup-rbar-cell" title="删除">
+														<img alt="" src="img/delete.svg">
+													</div>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
 								<ul>
-									<li addFolder title="添加文件夹"><img src="img/add.svg"></li>
+									<li addFolder title="添加文件夹"><img src="img/add.svg"
+										arrow="root"></li>
 								</ul>
 							</div>
 							<div class="pr-tree">
+								<div class="popup-template">
+									<ul class="popup-ul folder">
+										<li class="popup-tbar popup-bar">
+											<div class="popup-bar-left">
+												<span>文件夹</span>
+											</div>
+											<ul class="popup-bar-right-ul">
+												<li class="popup-bar-right-li" addService title="添加服务对象"><img
+													src="img/tianjia.svg"></li>
+											</ul>
+										</li>
+										<li class="popup-tbar-region">
+											<ul class="popup-rbar-table">
+												<li class="popup-rbar-row">
+													<div class="popup-rbar-cell code">
+														<input placeholder="服务名">
+													</div>
+													<div class="popup-rbar-cell name">
+														<input placeholder="描述">
+													</div>
+													<div class="popup-rbar-cell save" title="保存">
+														<img alt="" src="img/save.svg">
+													</div>
+													<div class="popup-rbar-cell delete" title="删除">
+														<img alt="" src="img/delete.svg">
+													</div>
+												</li>
+												<li class="popup-rbar-row">
+													<div class="popup-rbar-cell">
+														<input placeholder="服务名">
+													</div>
+													<div class="popup-rbar-cell">
+														<input placeholder="描述">
+													</div>
+													<div class="popup-rbar-cell save" title="保存">
+														<img alt="" src="img/save.svg">
+													</div>
+													<div class="popup-rbar-cell delete" title="删除">
+														<img alt="" src="img/delete.svg">
+													</div>
+												</li>
+												<li class="popup-rbar-row">
+													<div class="popup-rbar-cell">
+														<input placeholder="服务名">
+													</div>
+													<div class="popup-rbar-cell">
+														<input placeholder="描述">
+													</div>
+													<div class="popup-rbar-cell" title="删除">
+														<img alt="" src="img/delete.svg">
+													</div>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
 								<ul class="pr-folders">
 									<li class="pr-folder"><div class="folder-main">
 											<img class="folder-arrow" isdown='false' src="img/arrow.svg">
 											<img class="folder-face" src="img/folder.svg">
 											<ul class="folder-title">
-												<li class="folder-name">uc</li>
+												<li class="folder-code">uc</li>
 												<li class="folder-count"><span>29</span><label>个</label></li>
 											</ul>
-										</div> <span class="popup-arrow"><img
+										</div> <span class="popup-arrow" arrow="folder"><img
 											src="img/arrow-right.svg"></span>
+										<div class="popup-template">
+											<ul class="popup-ul service">
+												<li class="popup-tbar popup-bar">
+													<div class="popup-bar-left" title="双击重命名">
+														<span>服务对象x</span>
+													</div>
+													<ul class="popup-bar-right-ul">
+														<li class="popup-bar-right-li" addMethod title="添加服务方法"><img
+															src="img/tianjia.svg"></li>
+													</ul>
+												</li>
+												<li class="popup-tbar-region">
+													<ul class="popup-rbar-table">
+														<li class="popup-rbar-row">
+															<div class="popup-rbar-cell code">
+																<input placeholder="方法名">
+															</div>
+															<div class="popup-rbar-cell name">
+																<input placeholder="描述">
+															</div>
+															<div class="popup-rbar-cell save" title="保存">
+																<img alt="" src="img/save.svg">
+															</div>
+															<div class="popup-rbar-cell delete" title="删除">
+																<img alt="" src="img/delete.svg">
+															</div>
+														</li>
+														<li class="popup-rbar-row">
+															<div class="popup-rbar-cell">
+																<input placeholder="方法名">
+															</div>
+															<div class="popup-rbar-cell">
+																<input placeholder="描述">
+															</div>
+															<div class="popup-rbar-cell" title="删除">
+																<img alt="" src="img/delete.svg">
+															</div>
+														</li>
+														<li class="popup-rbar-row">
+															<div class="popup-rbar-cell">
+																<input placeholder="方法名">
+															</div>
+															<div class="popup-rbar-cell">
+																<input placeholder="描述">
+															</div>
+															<div class="popup-rbar-cell" title="删除">
+																<img alt="" src="img/delete.svg">
+															</div>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
 										<ul class="pr-objs">
 											<li class="pr-obj"><div class="obj-main">
-													<img class="obj-arrow" isdown='false' src="img/arrow.svg"> <img
-														class="obj-face" src="img/folder-obj.svg">
+													<img class="obj-arrow" isdown='false' src="img/arrow.svg">
+													<img class="obj-face" src="img/microservice.svg">
 													<ul class="obj-title">
-														<li class="obj-name">uc</li>
+														<li class="obj-code">uc</li>
+													</ul>
+												</div>
+												<div class="popup-template method">
+													<ul class="popup-ul">
+														<li class="popup-tbar popup-bar">
+															<div class="popup-bar-left" title="双击重命名">
+																<span>方法x</span>
+															</div>
+															<ul class="popup-bar-right-ul">
+																
+															</ul>
+														</li>
+														<li class="popup-ibar  popup-bar">
+															<div class="popup-bar-left">
+																<span>运行策略</span>
+															</div>
+															<ul class="popup-bar-right-ul">
+																<li class="popup-bar-right-li" title="服务方法数(个)"><label>10</label></li>
+																<li class="popup-bar-right-li" title="保存"><img
+																	src="img/save.svg"></li>
+																<li class="popup-bar-right-li" title="运行"><img
+																	src="img/run.svg"></li>
+																<li class="popup-bar-right-li" title="停止"><img
+																	src="img/stop.svg"></li>
+															</ul>
+														</li>
+														<li class="popup-ibar-region">
+															<ul class="popup-ibar-table">
+																<li class="popup-ibar-row">
+																	<div class="popup-ibar-cell">
+																		<label>线程数</label>
+																	</div>
+																	<div class="popup-ibar-cell">
+																		<input type="text" placeholder="线程数就是模拟用户并发数">
+																	</div>
+																</li>
+																<li class="popup-ibar-row">
+																	<div class="popup-ibar-cell">
+																		<label>间隔（秒）</label>
+																	</div>
+																	<div class="popup-ibar-cell">
+																		<input type="text" placeholder="下个线程与上个线程启动时间间隔">
+																	</div>
+																</li>
+																<li class="popup-ibar-row">
+																	<div class="popup-ibar-cell">
+																		<label>循环</label><input type="checkbox"
+																			placeholder="永远循环">
+																	</div>
+																	<div class="popup-ibar-cell">
+																		<input type="text" placeholder="循环次数">
+																	</div>
+																</li>
+															</ul>
+														</li>
+														<li class="popup-rbar popup-bar">
+															<div class="popup-bar-left">
+																<span>测试报告</span>
+															</div>
+															<ul class="popup-bar-right-ul">
+																<li class="popup-bar-right-li" title="服务方法数"><label></label></li>
+															</ul>
+														</li>
+														<li class="popup-rbar-region">
+															<ul class="popup-rbar-table">
+																<li class="popup-rbar-row">
+																	<div style="width: 10px;"></div>
+																	<div class="popup-rbar-cell">
+																		<label>取样数</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>平均数</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>最小</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>最大</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>错误率</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>通过率</label>
+																	</div>
+																	<div style="width: 10px;"></div>
+																</li>
+																<li class="popup-rbar-row">
+																	<div style="width: 10px;"></div>
+																	<div class="popup-rbar-cell">
+																		<label>1</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>3</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>4</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>100</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>22%</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>1%</label>
+																	</div>
+																	<div style="width: 10px;"></div>
+																</li>
+																<li class="popup-rbar-row">
+																	<div style="width: 10px;"></div>
+																	<div class="popup-rbar-cell">
+																		<label>1</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>3</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>4</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>100</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>22%</label>
+																	</div>
+																	<div class="popup-rbar-cell">
+																		<label>1%</label>
+																	</div>
+																	<div style="width: 10px;"></div>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+												<ul class="pr-methods">
+													<li class="pr-method"><div class="method-main">
+															<label class="method-command" title="命令">?</label>
+															<ul class="method-title">
+																<li class="method-code">uc</li>
+															</ul>
+														</div> <span class="popup-arrow" arrow="method">...&nbsp;</span></li>
+													<li class="pr-method"><div class="method-main">
+															<label class="method-command">post</label>
+															<ul class="method-title">
+																<li class="method-code">uc</li>
+															</ul>
+														</div> <span class="popup-arrow" arrow="method">...&nbsp;</span></li>
+												</ul> <span class="popup-arrow" arrow="obj"><img
+													src="img/arrow-right.svg"></span></li>
+											<li class="pr-obj"><div class="obj-main">
+													<img class="obj-arrow" isdown='false' src="img/arrow.svg">
+													<img class="obj-face" src="img/microservice.svg">
+													<ul class="obj-title">
+														<li class="obj-code">uc</li>
 													</ul>
 												</div>
 												<ul class="pr-methods">
 													<li class="pr-method"><div class="method-main">
 															<label class="method-command">post</label>
 															<ul class="method-title">
-																<li class="method-name">uc</li>
+																<li class="method-code">uc</li>
 															</ul>
-														</div> <span class="popup-arrow">...&nbsp;</span></li>
+														</div> <span class="popup-arrow" arrow="method">...&nbsp;</span></li>
+												</ul> <span class="popup-arrow" arrow="obj"><img
+													src="img/arrow-right.svg"></span></li>
+										</ul></li>
+									<li class="pr-folder"><div class="folder-main">
+											<img class="folder-arrow" isdown='false' src="img/arrow.svg">
+											<img class="folder-face" src="img/folder.svg">
+											<ul class="folder-title">
+												<li class="folder-code">uc</li>
+												<li class="folder-count"><span>29</span><label>个</label></li>
+											</ul>
+										</div> <span class="popup-arrow" arrow="folder"><img
+											src="img/arrow-right.svg"></span>
+										<ul class="pr-objs">
+											<li class="pr-obj"><div class="obj-main">
+													<img class="obj-arrow" isdown='false' src="img/arrow.svg">
+													<img class="obj-face" src="img/microservice.svg">
+													<ul class="obj-title">
+														<li class="obj-code">uc</li>
+													</ul>
+												</div>
+												<ul class="pr-methods">
+													<li class="pr-method"><div class="method-main">
+															<label class="method-command">post</label>
+															<ul class="method-title">
+																<li class="method-code">uc</li>
+															</ul>
+														</div> <span class="popup-arrow" arrow="method">...&nbsp;</span></li>
 												</ul> <span class="popup-arrow"><img
 													src="img/arrow-right.svg"></span></li>
 										</ul></li>
@@ -99,15 +690,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="column-right">
-						<ul class="right-column-lets">
-							<li class="portlet"></li>
-							<li class="portlet"></li>
-						</ul>
-					</div>
 				</div>
 				<div class="mask">
-					<div class="content">xx</div>
+					<div class="content"></div>
 				</div>
 			</div>
 		</div>
