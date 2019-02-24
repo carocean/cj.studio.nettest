@@ -2,6 +2,8 @@ package cj.studio.nettest.be.service;
 
 import java.util.List;
 
+import cj.studio.nettest.be.args.RunnerReport;
+import cj.studio.nettest.be.args.RunnerStrategy;
 import cj.studio.nettest.be.args.TFolder;
 import cj.studio.nettest.be.args.TMethod;
 import cj.studio.nettest.be.args.TService;
@@ -50,5 +52,9 @@ public interface IProjectTreeService {
 	public List<TMethod> getMyMethods(String serviceCode, String creator);
 
 	public TMethod getMethodById(String id);
+	
+	RunnerStrategy getRunnerStrategy(String mid,String creator);
+	RunnerReport getRunnerReport(String mid,String creator);
+	void saveRunnerStrategy(RunnerStrategy strategy);
 
 }

@@ -674,7 +674,7 @@
 }
 .portlet .net-protocols>ul>li{
 	display: table-cell;
-	width:100px;
+	width:150px;
 }
 .portlet .net-protocols>ul>li label{
 	display: inline-block;
@@ -845,4 +845,7 @@
 	display: table-cell;
 	min-height: 300px;
 	padding: 10px;
+}
+.panel-tools > .popup-ul > .popup-bar.popup-tbar > .popup-bar-left>label{
+	color: red;
 }

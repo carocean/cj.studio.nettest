@@ -5,6 +5,8 @@ import java.util.List;
 import cj.studio.ecm.annotation.CjService;
 import cj.studio.ecm.annotation.CjServiceRef;
 import cj.studio.gateway.stub.GatewayAppSiteRestStub;
+import cj.studio.nettest.be.args.RunnerReport;
+import cj.studio.nettest.be.args.RunnerStrategy;
 import cj.studio.nettest.be.args.TFolder;
 import cj.studio.nettest.be.args.TMethod;
 import cj.studio.nettest.be.args.TService;
@@ -127,6 +129,21 @@ public class ProjectTreeStub extends GatewayAppSiteRestStub implements IProjectT
 	@Override
 	public TMethod getMethodById(String id) {
 		return ptService.getMethodById(id);
+	}
+
+	@Override
+	public RunnerStrategy getRunnerStrategy(String mid, String creator) {
+		return ptService.getRunnerStrategy(mid, creator);
+	}
+
+	@Override
+	public RunnerReport getRunnerReport(String mid, String creator) {
+		return ptService.getRunnerReport(mid, creator);
+	}
+
+	@Override
+	public void saveRunnerStrategy(RunnerStrategy strategy) {
+		ptService.saveRunnerStrategy(strategy);
 	}
 
 	

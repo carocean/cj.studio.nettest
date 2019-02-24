@@ -7,6 +7,8 @@ import cj.studio.gateway.stub.annotation.CjStubInParameter;
 import cj.studio.gateway.stub.annotation.CjStubMethod;
 import cj.studio.gateway.stub.annotation.CjStubReturn;
 import cj.studio.gateway.stub.annotation.CjStubService;
+import cj.studio.nettest.be.args.RunnerReport;
+import cj.studio.nettest.be.args.RunnerStrategy;
 import cj.studio.nettest.be.args.TFolder;
 import cj.studio.nettest.be.args.TMethod;
 import cj.studio.nettest.be.args.TService;
@@ -14,7 +16,7 @@ import cj.studio.nettest.be.args.TService;
 @CjStubService(bindService = "/projectTree.service", usage = "项目目录树")
 public interface IProjectTreeStub {
 	@CjStubMethod(command = "post", usage = "添加文件夹")
-	@CjStubReturn(usage="文件夹标识")
+	@CjStubReturn(usage = "文件夹标识")
 	String addFolder(@CjStubInContentKey(key = "folder", usage = "文件夹对象") TFolder folder);
 
 	@CjStubMethod(command = "post", usage = "添加文件夹")
@@ -44,7 +46,7 @@ public interface IProjectTreeStub {
 	int getMethodCountOfFolder(@CjStubInParameter(key = "folderCode", usage = "文件夹代码") String folderCode);
 
 	@CjStubMethod(command = "post", usage = "添加服务")
-	@CjStubReturn(usage="标识")
+	@CjStubReturn(usage = "标识")
 	String addService(@CjStubInContentKey(key = "service", usage = "服务对象") TService service);
 
 	@CjStubMethod(command = "post", usage = "添加服务")
@@ -74,7 +76,7 @@ public interface IProjectTreeStub {
 	TService getServiceById(@CjStubInParameter(key = "id", usage = "标识") String id);
 
 	@CjStubMethod(command = "post", usage = "添加服务方法")
-	@CjStubReturn(usage="标识")
+	@CjStubReturn(usage = "标识")
 	String addMethod(
 			@CjStubInContentKey(key = "method", usage = "服务方法,表示格式：folderCode.serviceCode.methodCode") TMethod method);
 
@@ -106,4 +108,14 @@ public interface IProjectTreeStub {
 	@CjStubReturn(type = TMethod.class, usage = "方法")
 	TMethod getMethodById(@CjStubInParameter(key = "id", usage = "标识") String id);
 
+	@CjStubMethod(usage = "获取运行策略")
+	RunnerStrategy getRunnerStrategy(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
+			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
+
+	@CjStubMethod(usage = "获取运行报告")
+	RunnerReport getRunnerReport(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
+			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
+
+	@CjStubMethod(command = "post", usage = "获取运行报告")
+	void saveRunnerStrategy(@CjStubInContentKey(key = "strategy", usage = "运行策略") RunnerStrategy strategy);
 }

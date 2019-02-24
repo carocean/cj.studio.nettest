@@ -17,6 +17,7 @@
 <script type="text/javascript" src="js/root-panel.js"></script>
 <script type="text/javascript" src="js/folder-panel.js"></script>
 <script type="text/javascript" src="js/service-panel.js"></script>
+<script type="text/javascript" src="js/method-panel.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -43,8 +44,8 @@
 				<div class="desktop-top wrap">
 					<div style="height: 10px;"></div>
 					<div class="top-select">
-						<span class="label">位置://</span><span class="top-name">目录</span>/<span
-							class="top-name">服务</span>.<span class="top-name">方法</span>
+						<span class="label">位置://</span><span folder class="top-name">目录</span>/<span
+							service class="top-name">服务</span>.<span method class="top-name">方法</span>
 					</div>
 				</div>
 				<div class="column wrap">
@@ -52,23 +53,21 @@
 						<div class="column-context">
 							<ul class="main-column-lets">
 								<li class="portlet" position><span label>位置</span>://<span
-									name>目录</span>/<span name>服务</span>.<span name>方法</span></li>
+									folder>目录</span>/<span service>服务</span>.<span method>方法</span></li>
 								<li class="portlet">
 									<div class="req-url">
 										<span>http://192.168.0.100/website/</span>
 									</div>
 									<div class="net-protocols">
 										<ul>
+											<li><input id="http" type="radio" checked="checked" name="net-protocol"><label
+												for="http">http(OnBrowser)</label></li>
 											<li><input id="ws-js" type="radio" name="net-protocol"
-												checked="checked"><label for="ws-js">ws(Js)</label></li>
-											<li><input id="http" type="radio" name="net-protocol"><label
-												for="ws-js">http(Net)</label></li>
-											<li><input id="ws-net" type="radio" name="net-protocol"><label
-												for="ws-net">ws(Net)</label></li>
+												><label for="ws-js">ws(OnBrowser)</label></li>
 											<li><input id="tcp-net" type="radio" name="net-protocol"><label
-												for="tcp-net">tcp(Net)</label></li>
+												for="tcp-net">tcp(OnServer)</label></li>
 											<li><input id="udt-net" type="radio" name="net-protocol"><label
-												for="udt-net">udt(Net)</label></li>
+												for="udt-net">udt(OnServer)</label></li>
 										</ul>
 									</div>
 									<div class="headline">
@@ -494,14 +493,15 @@
 														<li class="obj-code">uc</li>
 													</ul>
 												</div>
-												<div class="popup-template method">
-													<ul class="popup-ul">
+												<div class="popup-template">
+													<ul class="popup-ul method">
 														<li class="popup-tbar popup-bar">
-															<div class="popup-bar-left" title="双击重命名">
+															<div class="popup-bar-left">
 																<span>方法x</span>
+																<label></label>
 															</div>
 															<ul class="popup-bar-right-ul">
-																
+
 															</ul>
 														</li>
 														<li class="popup-ibar  popup-bar">
@@ -509,12 +509,11 @@
 																<span>运行策略</span>
 															</div>
 															<ul class="popup-bar-right-ul">
-																<li class="popup-bar-right-li" title="服务方法数(个)"><label>10</label></li>
-																<li class="popup-bar-right-li" title="保存"><img
+																<li class="popup-bar-right-li" title="保存" save><img
 																	src="img/save.svg"></li>
-																<li class="popup-bar-right-li" title="运行"><img
+																<li class="popup-bar-right-li" title="运行" run><img
 																	src="img/run.svg"></li>
-																<li class="popup-bar-right-li" title="停止"><img
+																<li class="popup-bar-right-li" title="停止" stop><img
 																	src="img/stop.svg"></li>
 															</ul>
 														</li>
@@ -525,7 +524,7 @@
 																		<label>线程数</label>
 																	</div>
 																	<div class="popup-ibar-cell">
-																		<input type="text" placeholder="线程数就是模拟用户并发数">
+																		<input threadcount type="text" placeholder="线程数就是模拟用户并发数">
 																	</div>
 																</li>
 																<li class="popup-ibar-row">
@@ -533,16 +532,16 @@
 																		<label>间隔（秒）</label>
 																	</div>
 																	<div class="popup-ibar-cell">
-																		<input type="text" placeholder="下个线程与上个线程启动时间间隔">
+																		<input intervals type="text" placeholder="下个线程与上个线程启动时间间隔">
 																	</div>
 																</li>
 																<li class="popup-ibar-row">
 																	<div class="popup-ibar-cell">
-																		<label>循环</label><input type="checkbox"
+																		<label>循环</label><input type="checkbox" alwaysloop
 																			placeholder="永远循环">
 																	</div>
 																	<div class="popup-ibar-cell">
-																		<input type="text" placeholder="循环次数">
+																		<input type="text" placeholder="循环次数" loopcount>
 																	</div>
 																</li>
 															</ul>
@@ -557,7 +556,7 @@
 														</li>
 														<li class="popup-rbar-region">
 															<ul class="popup-rbar-table">
-																<li class="popup-rbar-row">
+																<li class="popup-rbar-row header">
 																	<div style="width: 10px;"></div>
 																	<div class="popup-rbar-cell">
 																		<label>取样数</label>
@@ -579,47 +578,25 @@
 																	</div>
 																	<div style="width: 10px;"></div>
 																</li>
-																<li class="popup-rbar-row">
+																<li class="popup-rbar-row data">
 																	<div style="width: 10px;"></div>
 																	<div class="popup-rbar-cell">
-																		<label>1</label>
+																		<label>0</label>
 																	</div>
 																	<div class="popup-rbar-cell">
-																		<label>3</label>
+																		<label>0</label>
 																	</div>
 																	<div class="popup-rbar-cell">
-																		<label>4</label>
+																		<label>0</label>
 																	</div>
 																	<div class="popup-rbar-cell">
-																		<label>100</label>
+																		<label>0</label>
 																	</div>
 																	<div class="popup-rbar-cell">
-																		<label>22%</label>
+																		<label>0</label>
 																	</div>
 																	<div class="popup-rbar-cell">
-																		<label>1%</label>
-																	</div>
-																	<div style="width: 10px;"></div>
-																</li>
-																<li class="popup-rbar-row">
-																	<div style="width: 10px;"></div>
-																	<div class="popup-rbar-cell">
-																		<label>1</label>
-																	</div>
-																	<div class="popup-rbar-cell">
-																		<label>3</label>
-																	</div>
-																	<div class="popup-rbar-cell">
-																		<label>4</label>
-																	</div>
-																	<div class="popup-rbar-cell">
-																		<label>100</label>
-																	</div>
-																	<div class="popup-rbar-cell">
-																		<label>22%</label>
-																	</div>
-																	<div class="popup-rbar-cell">
-																		<label>1%</label>
+																		<label>0</label>
 																	</div>
 																	<div style="width: 10px;"></div>
 																</li>

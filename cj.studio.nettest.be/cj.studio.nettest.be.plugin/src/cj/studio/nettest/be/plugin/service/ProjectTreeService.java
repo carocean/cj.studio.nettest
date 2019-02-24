@@ -10,10 +10,13 @@ import cj.lns.chip.sos.cube.framework.TupleDocument;
 import cj.studio.ecm.EcmException;
 import cj.studio.ecm.annotation.CjService;
 import cj.studio.ecm.annotation.CjServiceRef;
+import cj.studio.nettest.be.args.RunnerReport;
+import cj.studio.nettest.be.args.RunnerStrategy;
 import cj.studio.nettest.be.args.TFolder;
 import cj.studio.nettest.be.args.TMethod;
 import cj.studio.nettest.be.args.TService;
 import cj.studio.nettest.be.service.IProjectTreeService;
+import cj.ultimate.util.StringUtil;
 
 @CjService(name = "ptService")
 public class ProjectTreeService implements IProjectTreeService {
@@ -26,7 +29,7 @@ public class ProjectTreeService implements IProjectTreeService {
 		if (getFolder(folder.getCode()) != null) {
 			throw new EcmException("已存在文件夹：" + folder.getCode());
 		}
-		String id=test.saveDoc("folders", new TupleDocument<>(folder));
+		String id = test.saveDoc("folders", new TupleDocument<>(folder));
 		folder.setId(id);
 		return id;
 	}
@@ -117,7 +120,7 @@ public class ProjectTreeService implements IProjectTreeService {
 		if (getService(fullName) != null) {
 			throw new EcmException("已存在服务：" + service.getCode());
 		}
-		String id=test.saveDoc("services", new TupleDocument<>(service));
+		String id = test.saveDoc("services", new TupleDocument<>(service));
 		service.setId(id);
 		return id;
 	}
@@ -210,7 +213,7 @@ public class ProjectTreeService implements IProjectTreeService {
 		if (getMethod(fullName) != null) {
 			throw new EcmException("已存在方法：" + method.getCode());
 		}
-		String id=test.saveDoc("methods", new TupleDocument<>(method));
+		String id = test.saveDoc("methods", new TupleDocument<>(method));
 		method.setId(id);
 		return id;
 	}
@@ -331,6 +334,55 @@ public class ProjectTreeService implements IProjectTreeService {
 	public void updateMethod(String id, TMethod method) {
 		method.setId(null);
 		test.updateDoc("methods", id, new TupleDocument<>(method));
+	}
+
+	@Override
+	public RunnerStrategy getRunnerStrategy(String mid, String creator) {
+		String cjql = String.format(
+				"select {'tuple':'*'} from tuple runner.strategies %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
+				RunnerStrategy.class.getName(), mid, creator);
+		IQuery<RunnerStrategy> q = test.createQuery(cjql);
+		IDocument<RunnerStrategy> doc = q.getSingleResult();
+		if (doc == null)
+			return null;
+		doc.tuple().setId(doc.docid());
+		return doc.tuple();
+	}
+
+	@Override
+	public RunnerReport getRunnerReport(String mid, String creator) {
+		String cjql = String.format(
+				"select {'tuple':'*'} from tuple runner.reports %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
+				RunnerStrategy.class.getName(), mid, creator);
+		IQuery<RunnerReport> q = test.createQuery(cjql);
+		IDocument<RunnerReport> doc = q.getSingleResult();
+		if (doc == null)
+			return null;
+		doc.tuple().setId(doc.docid());
+		return doc.tuple();
+	}
+
+	@Override
+	public void saveRunnerStrategy(RunnerStrategy strategy) {
+		RunnerStrategy exists=getRunnerStrategy(strategy.getMid(), strategy.getCreator());
+		if(exists==null) {
+			addRunnerStrategy(strategy);
+			return;
+		}
+		strategy.setId(exists.getId());
+		updateRunnerStrategy(strategy);
+	}
+
+	private void updateRunnerStrategy(RunnerStrategy strategy) {
+		String id=strategy.getId();
+		strategy.setId(null);
+		test.updateDoc("runner.strategies", id, new TupleDocument<>(strategy));
+		
+	}
+
+	private void addRunnerStrategy(RunnerStrategy strategy) {
+		strategy.setId(null);
+		this.test.saveDoc("runner.strategies", new TupleDocument<>(strategy));
 	}
 
 }
