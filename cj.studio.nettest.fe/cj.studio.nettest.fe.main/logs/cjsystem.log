@@ -5202,3 +5202,5 @@ printWelcome(doc,f){
 		at java.lang.Thread.run(Thread.java:748)
 2019年02月25日 01:16:38  信息 : -------------网关启动完毕-------------------
 2019年02月25日 01:17:22  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年02月25日 01:23:26  信息 : -------------网关启动完毕-------------------
+2019年02月25日 01:23:28  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
