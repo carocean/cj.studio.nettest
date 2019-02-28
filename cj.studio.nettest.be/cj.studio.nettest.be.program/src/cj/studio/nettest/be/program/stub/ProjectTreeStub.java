@@ -146,6 +146,4 @@ public class ProjectTreeStub extends GatewayAppSiteRestStub implements IProjectT
 		ptService.saveRunnerStrategy(strategy);
 	}
 
-	
-	
 }

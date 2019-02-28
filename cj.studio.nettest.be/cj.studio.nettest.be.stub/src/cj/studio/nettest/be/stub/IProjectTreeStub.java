@@ -118,4 +118,6 @@ public interface IProjectTreeStub {
 
 	@CjStubMethod(command = "post", usage = "获取运行报告")
 	void saveRunnerStrategy(@CjStubInContentKey(key = "strategy", usage = "运行策略") RunnerStrategy strategy);
+
+	
 }

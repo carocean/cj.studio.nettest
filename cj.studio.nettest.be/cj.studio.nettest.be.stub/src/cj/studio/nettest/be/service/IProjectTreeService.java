@@ -52,9 +52,13 @@ public interface IProjectTreeService {
 	public List<TMethod> getMyMethods(String serviceCode, String creator);
 
 	public TMethod getMethodById(String id);
-	
-	RunnerStrategy getRunnerStrategy(String mid,String creator);
-	RunnerReport getRunnerReport(String mid,String creator);
+
+	RunnerStrategy getRunnerStrategy(String mid, String creator);
+
+	RunnerReport getRunnerReport(String mid, String creator);
+
 	void saveRunnerStrategy(RunnerStrategy strategy);
+
+	
 
 }

@@ -18,6 +18,7 @@
 <script type="text/javascript" src="js/folder-panel.js"></script>
 <script type="text/javascript" src="js/service-panel.js"></script>
 <script type="text/javascript" src="js/method-panel.js"></script>
+<script type="text/javascript" src="js/request-panel.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -60,14 +61,15 @@
 									</div>
 									<div class="net-protocols">
 										<ul>
-											<li><input id="http" type="radio" checked="checked" name="net-protocol"><label
-												for="http">http(OnBrowser)</label></li>
-											<li><input id="ws-js" type="radio" name="net-protocol"
-												><label for="ws-js">ws(OnBrowser)</label></li>
-											<li><input id="tcp-net" type="radio" name="net-protocol"><label
-												for="tcp-net">tcp(OnServer)</label></li>
-											<li><input id="udt-net" type="radio" name="net-protocol"><label
-												for="udt-net">udt(OnServer)</label></li>
+											<li><input id="httpOnBrower" type="radio"
+												name="net-protocol"><label for="httpOnBrower">http(OnBrowser)</label></li>
+											<li><input id="wsOnBrowser" type="radio"
+												name="net-protocol"><label
+												for="wsOnBrowser">ws(OnBrowser)</label></li>
+											<li><input id="tcpOnServer" type="radio"
+												name="net-protocol"><label for="tcpOnServer">tcp(OnServer)</label></li>
+											<li><input id="udtOnServer" type="radio"
+												name="net-protocol"><label for="udtOnServer">udt(OnServer)</label></li>
 										</ul>
 									</div>
 									<div class="headline">
@@ -106,32 +108,22 @@
 														<div class="tab-table-cell key">
 															<span>键</span>
 														</div>
-														<div class="tab-table-cell parameter">
+														<div class="tab-table-cell value">
 															<span>值</span>
 														</div>
 														<div class="tab-table-cell desc">
 															<span>说明</span>
 														</div>
 													</li>
-													<li class="tab-table-row">
+													<li class="tab-table-row t-content">
 														<div class="tab-table-cell key">
-															<input type="text" placeholder="输入键">
+															<input type="text" placeholder="输入键" list="parameter-proposes">
+															<datalist id="parameter-proposes">
+																<option>Rest-StubFace</option>
+																<option>Rest-Command</option>
+															</datalist>
 														</div>
-														<div class="tab-table-cell parameter">
-															<input type="text" placeholder="输入值">
-														</div>
-														<div class="tab-table-cell desc">
-															<input type="text" placeholder="输入说明，可为空">
-														</div>
-														<div class="tab-table-cell op">
-															<span>X</span>
-														</div>
-													</li>
-													<li class="tab-table-row">
-														<div class="tab-table-cell key">
-															<input type="text" placeholder="输入键">
-														</div>
-														<div class="tab-table-cell parameter">
+														<div class="tab-table-cell value">
 															<input type="text" placeholder="输入值">
 														</div>
 														<div class="tab-table-cell desc">
@@ -149,32 +141,27 @@
 														<div class="tab-table-cell key">
 															<span>键</span>
 														</div>
-														<div class="tab-table-cell parameter">
+														<div class="tab-table-cell value">
 															<span>值</span>
 														</div>
 														<div class="tab-table-cell desc">
 															<span>说明</span>
 														</div>
 													</li>
-													<li class="tab-table-row">
+													<li class="tab-table-row t-content">
 														<div class="tab-table-cell key">
-															<input type="text" placeholder="输入键">
+															<input type="text" placeholder="输入键" list="header-proposes">
+															<datalist id="header-proposes">
+																<option>Rest-StubFace</option>
+																<option>Rest-Command</option>
+																<option>Cookie</option>
+																<option>Connection</option>
+																<option>Pragma</option>
+																<option>Cache-Control</option>
+																<option>Host</option>
+															</datalist>
 														</div>
-														<div class="tab-table-cell parameter">
-															<input type="text" placeholder="输入值">
-														</div>
-														<div class="tab-table-cell desc">
-															<input type="text" placeholder="输入说明，可为空">
-														</div>
-														<div class="tab-table-cell op">
-															<span>X</span>
-														</div>
-													</li>
-													<li class="tab-table-row">
-														<div class="tab-table-cell key">
-															<input type="text" placeholder="输入键">
-														</div>
-														<div class="tab-table-cell parameter">
+														<div class="tab-table-cell value">
 															<input type="text" placeholder="输入值">
 														</div>
 														<div class="tab-table-cell desc">
@@ -207,32 +194,18 @@
 																<div class="tab-table-cell key">
 																	<span>键</span>
 																</div>
-																<div class="tab-table-cell parameter">
+																<div class="tab-table-cell value">
 																	<span>值</span>
 																</div>
 																<div class="tab-table-cell desc">
 																	<span>说明</span>
 																</div>
 															</li>
-															<li class="tab-table-row">
+															<li class="tab-table-row t-content">
 																<div class="tab-table-cell key">
 																	<input type="text" placeholder="输入键">
 																</div>
-																<div class="tab-table-cell parameter">
-																	<input type="text" placeholder="输入值">
-																</div>
-																<div class="tab-table-cell desc">
-																	<input type="text" placeholder="输入说明，可为空">
-																</div>
-																<div class="tab-table-cell op">
-																	<span>X</span>
-																</div>
-															</li>
-															<li class="tab-table-row">
-																<div class="tab-table-cell key">
-																	<input type="text" placeholder="输入键">
-																</div>
-																<div class="tab-table-cell parameter">
+																<div class="tab-table-cell value">
 																	<input type="text" placeholder="输入值">
 																</div>
 																<div class="tab-table-cell desc">
@@ -250,32 +223,18 @@
 																<div class="tab-table-cell key">
 																	<span>键</span>
 																</div>
-																<div class="tab-table-cell parameter">
+																<div class="tab-table-cell value">
 																	<span>值</span>
 																</div>
 																<div class="tab-table-cell desc">
 																	<span>说明</span>
 																</div>
 															</li>
-															<li class="tab-table-row">
+															<li class="tab-table-row t-content">
 																<div class="tab-table-cell key">
 																	<input type="text" placeholder="输入键">
 																</div>
-																<div class="tab-table-cell parameter">
-																	<input type="text" placeholder="输入值">
-																</div>
-																<div class="tab-table-cell desc">
-																	<input type="text" placeholder="输入说明，可为空">
-																</div>
-																<div class="tab-table-cell op">
-																	<span>X</span>
-																</div>
-															</li>
-															<li class="tab-table-row">
-																<div class="tab-table-cell key">
-																	<input type="text" placeholder="输入键">
-																</div>
-																<div class="tab-table-cell parameter">
+																<div class="tab-table-cell value">
 																	<input type="text" placeholder="输入值">
 																</div>
 																<div class="tab-table-cell desc">
@@ -497,8 +456,7 @@
 													<ul class="popup-ul method">
 														<li class="popup-tbar popup-bar">
 															<div class="popup-bar-left">
-																<span>方法x</span>
-																<label></label>
+																<span>方法x</span> <label></label>
 															</div>
 															<ul class="popup-bar-right-ul">
 
@@ -524,7 +482,8 @@
 																		<label>线程数</label>
 																	</div>
 																	<div class="popup-ibar-cell">
-																		<input threadcount type="text" placeholder="线程数就是模拟用户并发数">
+																		<input threadcount type="text"
+																			placeholder="线程数就是模拟用户并发数">
 																	</div>
 																</li>
 																<li class="popup-ibar-row">
@@ -532,7 +491,8 @@
 																		<label>间隔（秒）</label>
 																	</div>
 																	<div class="popup-ibar-cell">
-																		<input intervals type="text" placeholder="下个线程与上个线程启动时间间隔">
+																		<input intervals type="text"
+																			placeholder="下个线程与上个线程启动时间间隔">
 																	</div>
 																</li>
 																<li class="popup-ibar-row">

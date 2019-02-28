@@ -500,6 +500,7 @@
 	background: white;
 }
 .container>.workbench>.desktop>.column  .layout-main .column-context >.main-column-lets{
+	display: none;
 }
 .container>.workbench>.desktop>.column  .layout-main .column-context >.main-column-lets>.portlet{
 	min-height: 100px;

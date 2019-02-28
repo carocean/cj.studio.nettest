@@ -13,7 +13,7 @@ import cj.studio.gateway.socket.pipeline.IAnnotationInputValve;
 import cj.studio.gateway.socket.pipeline.IIPipeline;
 import cj.ultimate.util.StringUtil;
 
-@CjService(name = "InputValve1", scope = Scope.multiton)
+@CjService(name = "securityValve", scope = Scope.multiton)
 public class SecurityValve implements IAnnotationInputValve {
 
 	@Override
@@ -64,7 +64,7 @@ public class SecurityValve implements IAnnotationInputValve {
 
 	@Override
 	public int getSort() {
-		return 1;
+		return 2;
 	}
 
 }

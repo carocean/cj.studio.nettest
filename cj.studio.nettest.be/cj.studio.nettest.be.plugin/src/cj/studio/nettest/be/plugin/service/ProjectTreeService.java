@@ -16,7 +16,6 @@ import cj.studio.nettest.be.args.TFolder;
 import cj.studio.nettest.be.args.TMethod;
 import cj.studio.nettest.be.args.TService;
 import cj.studio.nettest.be.service.IProjectTreeService;
-import cj.ultimate.util.StringUtil;
 
 @CjService(name = "ptService")
 public class ProjectTreeService implements IProjectTreeService {
@@ -320,12 +319,36 @@ public class ProjectTreeService implements IProjectTreeService {
 
 	@Override
 	public void updateFolder(String id, TFolder folder) {
+		TFolder old = getFolderById(id);
+		if (old == null) {
+			return;
+		}
+		// 更新services和methods
+		List<TService> services = getServices(old.getCode());
+		for (TService s : services) {
+			List<TMethod> methods = getMethods(old.getCode() + "." + s.getCode());
+			for (TMethod m : methods) {
+				m.setFolder(folder.getCode());
+				m.setService(s.getCode());
+				updateMethod(m.getId(), m);
+			}
+			s.setFolder(folder.getCode());
+			updateService(s.getId(), s);
+		}
 		folder.setId(null);
 		test.updateDoc("folders", id, new TupleDocument<>(folder));
 	}
 
 	@Override
 	public void updateService(String id, TService service) {
+		TService old = getServiceById(id);
+		if (old == null)
+			return;
+		List<TMethod> methods = getMethods(old.getFolder() + "." + old.getCode());
+		for (TMethod m : methods) {
+			m.setService(service.getCode());
+			updateMethod(m.getId(), m);
+		}
 		service.setId(null);
 		test.updateDoc("services", id, new TupleDocument<>(service));
 	}
@@ -364,8 +387,8 @@ public class ProjectTreeService implements IProjectTreeService {
 
 	@Override
 	public void saveRunnerStrategy(RunnerStrategy strategy) {
-		RunnerStrategy exists=getRunnerStrategy(strategy.getMid(), strategy.getCreator());
-		if(exists==null) {
+		RunnerStrategy exists = getRunnerStrategy(strategy.getMid(), strategy.getCreator());
+		if (exists == null) {
 			addRunnerStrategy(strategy);
 			return;
 		}
@@ -374,10 +397,10 @@ public class ProjectTreeService implements IProjectTreeService {
 	}
 
 	private void updateRunnerStrategy(RunnerStrategy strategy) {
-		String id=strategy.getId();
+		String id = strategy.getId();
 		strategy.setId(null);
 		test.updateDoc("runner.strategies", id, new TupleDocument<>(strategy));
-		
+
 	}
 
 	private void addRunnerStrategy(RunnerStrategy strategy) {
