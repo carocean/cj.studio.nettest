@@ -11,6 +11,7 @@
 	},
 	assemblyInfo : {
 		assemblyTitle : "nettest.program",
+		assemblyIcon : "favicon.ico",
 		assemblyResource:"site=/site;http.root=$(site)/web;http.jss=$(site)/jss/http;ws.jss=$(site)/jss/ws",
 		assemblyDescription : "网络测试中心前端",
 		assemblyConfiguration : "",

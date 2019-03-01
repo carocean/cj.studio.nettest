@@ -70,5 +70,4 @@ public class TMethod {
 	public void setFolder(String folder) {
 		this.folder = folder;
 	}
-	
 }

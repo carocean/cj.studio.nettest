@@ -29,9 +29,11 @@ var StringUtil = Java.type('cj.ultimate.util.StringUtil');
 var StringBuffer = Java.type('java.lang.StringBuffer');
 var CircuitException=Java.type('cj.studio.ecm.net.CircuitException');
 var IProjectTreeStub=Java.type('cj.studio.nettest.be.stub.IProjectTreeStub');
+var IRequestConfigStub=Java.type('cj.studio.nettest.be.stub.IRequestConfigStub');
 
 exports.flow = function(f,c,ctx) {
 	var ptStub=imports.head.services.rest.forRemote("rest://backend/nettest/").open(IProjectTreeStub.class);
+	var rcStub=imports.head.services.rest.forRemote("rest://backend/nettest/").open(IRequestConfigStub.class);
 	var doc = ctx.html("/index.html", "utf-8");
 	if('true'==f.parameter('onlyPrintPt')){
 		printProjectTree(f,doc,ptStub);
@@ -40,7 +42,8 @@ exports.flow = function(f,c,ctx) {
 		return;
 	}
 	printWelcome(doc,f);
-	printProjectTree(f,doc,ptStub);
+	var creator=f.session().attribute('uc.principals');
+	printProjectTree(f,doc,ptStub,creator,rcStub);
 	c.content().writeBytes(doc.toString().getBytes());
 }
 function printWelcome(doc,f){
@@ -56,7 +59,7 @@ function printWelcome(doc,f){
 	var codeE=doc.select('.container > .workbench > .header > .topbar > .items span[code]').first();
 	codeE.html(f.session().attribute('uc.principals'));
 }
-function printProjectTree(f,doc,ptStub){
+function printProjectTree(f,doc,ptStub,creator,rcStub){
 	var foldersE=doc.select('.container > .workbench > .desktop > .column .column-left > .proj-region > .pr-tree > .pr-folders').first();
 	var cli=foldersE.select('>.pr-folder').first().clone();
 	foldersE.empty();
@@ -71,12 +74,12 @@ function printProjectTree(f,doc,ptStub){
 		var count=ptStub.getMethodCountOfFolder(folder.code);
 		li.select('.folder-count>span').html(count);
 		
-		printServices(folder.code,li,ptStub);
+		printServices(folder.code,li,ptStub,creator,rcStub);
 		
 		foldersE.appendChild(li);
 	}
 }
-function printServices(folderCode,li,ptStub){
+function printServices(folderCode,li,ptStub,creator,rcStub){
 	var objsE=li.select('.pr-objs').first();
 	var cli=objsE.select('>li').first().clone();
 	objsE.empty();
@@ -90,21 +93,25 @@ function printServices(folderCode,li,ptStub){
 		li.attr('title',StringUtil.isEmpty(service.name)?'':service.name);
 		li.select('.obj-code').html(service.code);
 		
-		printMethods(folderCode,service.code,li,ptStub);
+		printMethods(folderCode,service.code,li,ptStub,creator,rcStub);
 		
 		objsE.appendChild(li);
 	}
 }
-function printMethods(folderCode,servicecode,li,ptStub){
+function printMethods(folderCode,servicecode,li,ptStub,creator,rcStub){
 	var methodUL=li.select('.pr-methods').first();
 	var methodLi=methodUL.select('>.pr-method').first().clone();
 	methodUL.empty();
 	var methods=ptStub.getMethods(folderCode+'.'+servicecode);
 	for(var i=0;i<methods.length;i++){
 		var m=methods.get(i);
+		var headline=rcStub.getMyRequestHeadline(m.id,creator);
 		var li=methodLi.clone();
 		li.attr('id',m.id);
 		li.attr('code',m.code);
+		if(headline!=null){
+			li.select('.method-command').html(headline.cmd);
+		}
 		li.attr('folder',m.folder);
 		li.attr('service',m.service);
 		li.attr('title',StringUtil.isEmpty(m.name)?'':m.name);

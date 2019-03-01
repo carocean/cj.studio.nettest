@@ -27,12 +27,14 @@ $(document).ready(function(){
 		var url=ul.children('li.url').find('input').val();
 		var protocol=ul.children('li.prot').find('input').val();
 		$.post('./views/headline-save.service',{mid:mid,cmd:cmd,url:url,protocol:protocol},function(data){
-			
+			var selected=$('.container > .workbench > .desktop > .column .column-left > .proj-region > .pr-tree > .pr-folders > .pr-folder > .pr-objs > .pr-obj > .pr-methods > .pr-method > .method-main.selected');
+			selected.find('.method-command').html(cmd);
 		}).error(function(e){
 			alert(e.responseText);
 		});
 	});
 	var reqPanels=$('.portlet .settings > .tab-panels');
+	
 	reqPanels.find('.tab-panel.parameter').undelegate('.tab-table-cell input:text','change');
 	reqPanels.find('.tab-panel.parameter').delegate('.tab-table-cell input:text','change',function(){
 		var mid=$('.main-column-lets').find('.portlet[position]').attr('mid');
@@ -253,5 +255,37 @@ $(document).ready(function(){
 		}).error(function(e){
 			alert(e.responseText);
 		});
+	});
+	
+	reqPanels.find('.tab-panel.Form-Data').undelegate('.tab-table-cell.key.mutil > img','mouseenter');
+	reqPanels.find('.tab-panel.Form-Data').delegate('.tab-table-cell.key.mutil > img','mouseenter',function(e){
+		if(e.type=='mouseenter'){
+			$(this).siblings('.down-list').show();
+			return;
+		}
+	});
+	reqPanels.find('.tab-panel.Form-Data').undelegate('.tab-table-cell.key.mutil > .down-list','mouseleave');
+	reqPanels.find('.tab-panel.Form-Data').delegate('.tab-table-cell.key.mutil > .down-list','mouseleave',function(e){
+		if(e.type=='mouseleave'){
+			$(this).hide();
+			return;
+		}
+	});
+	reqPanels.find('.tab-panel.Form-Data').undelegate('.tab-table-cell.key.mutil > .down-list>li','click');
+	reqPanels.find('.tab-panel.Form-Data').delegate('.tab-table-cell.key.mutil > .down-list>li','click',function(e){
+		var selected=$(this).is('[text]')?'text':($(this).is('[file]')?'file':'');
+		var value=$(this).parents('.tab-table-cell.key').siblings('.tab-table-cell.value');
+		var text=$(this).parents('.tab-table-cell.key').siblings('.tab-table-cell.value').find(' input:text');
+		var file=$(this).parents('.tab-table-cell.key').siblings('.tab-table-cell.value').find(' input:file');
+		if('file'==selected){
+			text.hide();
+			file.show();
+			return;
+		}
+		if('text'==selected){
+			file.hide();
+			text.show();
+			return;
+		}
 	});
 })

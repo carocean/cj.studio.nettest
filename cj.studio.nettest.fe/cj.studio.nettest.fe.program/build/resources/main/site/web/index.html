@@ -19,6 +19,7 @@
 <script type="text/javascript" src="js/service-panel.js"></script>
 <script type="text/javascript" src="js/method-panel.js"></script>
 <script type="text/javascript" src="js/request-panel.js"></script>
+<script type="text/javascript" src="js/send.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -66,6 +67,10 @@
 											<li><input id="wsOnBrowser" type="radio"
 												name="net-protocol"><label
 												for="wsOnBrowser">ws(OnBrowser)</label></li>
+											<li><input id="httpOnServer" type="radio"
+												name="net-protocol"><label for="httpOnServer">http(OnServer)</label></li>
+											<li><input id="wsOnServer" type="radio"
+												name="net-protocol"><label for="wsOnServer">ws(OnServer)</label></li>
 											<li><input id="tcpOnServer" type="radio"
 												name="net-protocol"><label for="tcpOnServer">tcp(OnServer)</label></li>
 											<li><input id="udtOnServer" type="radio"
@@ -231,11 +236,17 @@
 																</div>
 															</li>
 															<li class="tab-table-row t-content">
-																<div class="tab-table-cell key">
+																<div class="tab-table-cell key mutil">
 																	<input type="text" placeholder="输入键">
+																	<img alt="" src="img/arrow-down.svg">
+																	<ul class="down-list box-shadow-1">
+																		<li text>Text</li>
+																		<li file>File</li>
+																	</ul>
 																</div>
 																<div class="tab-table-cell value">
 																	<input type="text" placeholder="输入值">
+																	<input type="file">
 																</div>
 																<div class="tab-table-cell desc">
 																	<input type="text" placeholder="输入说明，可为空">
