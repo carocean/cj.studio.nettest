@@ -35,14 +35,14 @@ exports.flow = function(f,c,ctx) {
 	var ptStub=imports.head.services.rest.forRemote("rest://backend/nettest/").open(IProjectTreeStub.class);
 	var rcStub=imports.head.services.rest.forRemote("rest://backend/nettest/").open(IRequestConfigStub.class);
 	var doc = ctx.html("/index.html", "utf-8");
+	var creator=f.session().attribute('uc.principals');
 	if('true'==f.parameter('onlyPrintPt')){
-		printProjectTree(f,doc,ptStub);
+		printProjectTree(f,doc,ptStub,creator,rcStub);
 		var tree=doc.select('.pr-tree').first();
 		c.content().writeBytes(tree.html().getBytes());
 		return;
 	}
 	printWelcome(doc,f);
-	var creator=f.session().attribute('uc.principals');
 	printProjectTree(f,doc,ptStub,creator,rcStub);
 	c.content().writeBytes(doc.toString().getBytes());
 }
@@ -107,15 +107,15 @@ function printMethods(folderCode,servicecode,li,ptStub,creator,rcStub){
 		var m=methods.get(i);
 		var headline=rcStub.getMyRequestHeadline(m.id,creator);
 		var li=methodLi.clone();
-		li.attr('id',m.id);
-		li.attr('code',m.code);
+		li.attr('id',m.id+'');
+		li.attr('code',m.code+'');
 		if(headline!=null){
-			li.select('.method-command').html(headline.cmd);
+			li.select('.method-command').html(headline.cmd+'');
 		}
-		li.attr('folder',m.folder);
-		li.attr('service',m.service);
-		li.attr('title',StringUtil.isEmpty(m.name)?'':m.name);
-		li.select('.method-code').html(m.code);
+		li.attr('folder',m.folder+'');
+		li.attr('service',m.service+'');
+		li.attr('title',m.name+'');
+		li.select('.method-code').html(m.code+'');
 		methodUL.appendChild(li);
 	}
 }

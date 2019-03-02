@@ -13,6 +13,7 @@ import cj.studio.nettest.be.args.RequestContentType;
 import cj.studio.nettest.be.args.RequestContentXwww;
 import cj.studio.nettest.be.args.RequestHeader;
 import cj.studio.nettest.be.args.RequestHeadline;
+import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
 
@@ -28,6 +29,16 @@ public interface IRequestConfigStub {
 	RequestNetprotocol getMyRequestNetprotocol(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
 			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
 
+	@CjStubMethod(command = "get", usage = "更新请求的主机地址")
+	void saveAndUpdateRequestHost(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
+			@CjStubInParameter(key = "host", usage = "主机地址") String host,
+			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
+
+	@CjStubMethod(command = "get", usage = "获取请求的主机地址")
+	@CjStubReturn(type = RequestHost.class, usage = "请求主机")
+	RequestHost getMyRequestHost(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
+			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
+	
 	@CjStubMethod(command = "post", usage = "更新请求头")
 	void saveAndUpdateRequestHeadline(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
 			@CjStubInParameter(key = "cmd", usage = "命令") String cmd,

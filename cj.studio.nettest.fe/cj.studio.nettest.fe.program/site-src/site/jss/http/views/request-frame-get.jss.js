@@ -35,7 +35,8 @@ exports.flow = function(f,c,ctx) {
 	var mid=f.parameter('mid');
 	var rfStub=imports.head.services.rest.forRemote("rest://backend/nettest/").open(IRequestFrameStub.class);
 	var creator=f.session().attribute('uc.principals');
-	var xwwws=rfStub.getMyRequestFrame(mid,creator);
-	c.content().writeBytes(new Gson().toJson(xwwws).getBytes());
+	var req=rfStub.getMyRequestFrame(mid,creator);
+	var json=new Gson().toJson(req);
+	c.content().writeBytes(json.getBytes());
 }
 

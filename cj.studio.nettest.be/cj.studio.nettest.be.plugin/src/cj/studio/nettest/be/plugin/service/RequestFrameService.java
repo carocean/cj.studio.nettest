@@ -17,6 +17,7 @@ import cj.studio.nettest.be.args.RequestContentXwww;
 import cj.studio.nettest.be.args.RequestFrame;
 import cj.studio.nettest.be.args.RequestHeader;
 import cj.studio.nettest.be.args.RequestHeadline;
+import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
 import cj.studio.nettest.be.service.IRequestConfigService;
@@ -37,7 +38,7 @@ public class RequestFrameService implements IRequestFrameService {
 		}
 		IInputChannel in = new MemoryInputChannel();
 		Frame f = new Frame(in, String.format("%s %s %s", line.getCmd(), line.getUrl(), line.getProtocol()));
-		MemoryContentReciever reciever=new MemoryContentReciever();
+		MemoryContentReciever reciever = new MemoryContentReciever();
 		try {
 			f.content().accept(reciever);
 		} catch (CircuitException e1) {
@@ -52,48 +53,56 @@ public class RequestFrameService implements IRequestFrameService {
 			f.parameter(param.getKey(), param.getValue());
 		}
 		RequestContentType type = config.getMyRequestContentType(mid, creator);
-		if (type != null) {
-			switch (type.getType()) {
-			case "none":
-				break;
-			case "any":
-				RequestContentAny any = config.getMyRequestContentAny(mid, creator);
-				String cnt = any.getContent();
-				if (StringUtil.isEmpty(cnt)) {
-					byte[] b = cnt.getBytes();
-					try {
-						in.done(b, 0, b.length);
-					} catch (CircuitException e) {
-						e.printStackTrace();
-					}
-				}
-				break;
-			case "xwfu":
-				List<RequestContentXwww> xwwws = config.getMyRequestContentXwwws(mid, creator);
-				byte[] b = new Gson().toJson(xwwws).getBytes();
+		String typeStr = "";
+		if (type == null) {
+			typeStr = "none";
+		} else {
+			typeStr = type.getType();
+		}
+		switch (typeStr) {
+		case "none":
+			break;
+		case "any":
+			RequestContentAny any = config.getMyRequestContentAny(mid, creator);
+			String cnt = any.getContent();
+			if (!StringUtil.isEmpty(cnt)) {
+				byte[] b = cnt.getBytes();
 				try {
 					in.done(b, 0, b.length);
 				} catch (CircuitException e) {
 					e.printStackTrace();
 				}
-				break;
-			case "formdata":
-				List<RequestContentFormData> formdatas = config.getMyRequestContentFormDatas(mid, creator);
-				b = new Gson().toJson(formdatas).getBytes();
-				try {
-					in.done(b, 0, b.length);
-				} catch (CircuitException e) {
-					e.printStackTrace();
-				}
-				break;
 			}
+			break;
+		case "xwfu":
+			List<RequestContentXwww> xwwws = config.getMyRequestContentXwwws(mid, creator);
+			byte[] b = new Gson().toJson(xwwws).getBytes();
+			try {
+				in.done(b, 0, b.length);
+			} catch (CircuitException e) {
+				e.printStackTrace();
+			}
+			break;
+		case "formdata":
+			List<RequestContentFormData> formdatas = config.getMyRequestContentFormDatas(mid, creator);
+			b = new Gson().toJson(formdatas).getBytes();
+			try {
+				in.done(b, 0, b.length);
+			} catch (CircuitException e) {
+				e.printStackTrace();
+			}
+			break;
 		}
 		RequestNetprotocol rnpt = config.getMyRequestNetprotocol(mid, creator);
 		String socketType = rnpt.getProtocol();
 		if (StringUtil.isEmpty(socketType)) {
 			throw new EcmException("没明确指明网络协议");
 		}
-		RequestFrame rf = new RequestFrame(f, socketType, type.getType(), creator);
+		RequestHost host = config.getMyRequestHost(mid, creator);
+		if (StringUtil.isEmpty(host.getHost())) {
+			throw new EcmException("没明确指明主机地址");
+		}
+		RequestFrame rf = new RequestFrame(f, host.getHost(), socketType, typeStr, creator);
 		return rf;
 	}
 

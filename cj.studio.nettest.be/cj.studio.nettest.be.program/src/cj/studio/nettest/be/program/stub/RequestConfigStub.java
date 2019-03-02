@@ -11,6 +11,7 @@ import cj.studio.nettest.be.args.RequestContentType;
 import cj.studio.nettest.be.args.RequestContentXwww;
 import cj.studio.nettest.be.args.RequestHeader;
 import cj.studio.nettest.be.args.RequestHeadline;
+import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
 import cj.studio.nettest.be.service.IRequestConfigService;
@@ -30,7 +31,14 @@ public class RequestConfigStub extends GatewayAppSiteRestStub implements IReques
 	public RequestNetprotocol getMyRequestNetprotocol(String mid, String creator) {
 		return rcService.getMyRequestNetprotocol(mid, creator);
 	}
-
+	@Override
+	public void saveAndUpdateRequestHost(String mid, String host, String creator) {
+		rcService.saveAndUpdateRequestHost(mid, host, creator);
+	}
+	@Override
+	public RequestHost getMyRequestHost(String mid, String creator) {
+		return rcService.getMyRequestHost(mid, creator);
+	}
 	@Override
 	public RequestHeadline getMyRequestHeadline(String mid, String creator) {
 		return rcService.getMyRequestHeadline(mid, creator);

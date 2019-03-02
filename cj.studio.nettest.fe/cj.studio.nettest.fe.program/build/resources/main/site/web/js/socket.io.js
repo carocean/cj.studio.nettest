@@ -94,8 +94,14 @@ function byteToString(arr) {
         }  
     }  
     return str;  
-}  
+}
 $.ws = {
+	isFrame:function(frameObj){
+		if((typeof frameObj.heads.command=='undefined')||(typeof frameObj.heads.url=='undefined')||(typeof frameObj.heads.protocol=='undefined')){
+			return false;
+		}
+		return true;
+	},
 	toFrame : function(frameRaw) {//如果是二进制侦则解析
 		// debugger;
 		var up = 0;
@@ -150,11 +156,20 @@ $.ws = {
 	open : function(wsurl, onmessage, onopen, onclose,onerror) {
 		var doReceive = function(e) {
 			var raw=e.data;
+			if(raw==''){
+				return;
+			}
 			if( raw instanceof ArrayBuffer){
 				 raw = new Int8Array(raw);
 				 raw=binayUtf8ToString(raw,0);
 			}
 			var frame = $.ws.toFrame(raw);
+			if((typeof frame.heads['command']=='undefined')||(typeof frame.heads['protocol']=='undefined')||(typeof frame.heads['url']=='undefined')){
+				var obj={isFrame:false,content:raw};
+				onmessage(obj);
+				return;
+			}
+			frame.isFrame=true;
 			var status=parseInt(frame.status);
 			if(status>=300){
 				alert(frame.message);
@@ -197,7 +212,7 @@ $.ws = {
 				}
 				this.socket=socket;
 			},
-			send : function(frame) {
+			sendText : function(frame) {
 				if (!window.WebSocket) {//将来添加comet技术，以模拟websocket的api
 					return;
 				}
@@ -214,8 +229,39 @@ $.ws = {
 					alert("The socket is not open.");
 				}
 			},
+			sendFrame:function(frameObj){
+				if(typeof frameObj.heads=='undefined'){
+					alert('不是侦格式');
+					return;
+				}
+				if((typeof frameObj.heads.command=='undefined')||(typeof frameObj.heads.url=='undefined')||(typeof frameObj.heads.protocol=='undefined')){
+					alert('不是侦格式');
+					return;
+				}
+				var frameText='';
+				for(var head in frameObj.heads){
+					if(typeof frameObj.heads[head]=='undefined')continue;
+					frameText+=head+'='+frameObj.heads[head]+'\r\n';
+				}
+				frameText+='\r\n';
+				for(var p in frameObj.params){
+					if(typeof frameObj.params[p]=='undefined')continue;
+					frameText+=p+'='+frameObj.params[p]+'\r\n';
+				}
+				frameText+='\r\n';
+				if(typeof frameObj.content!='undefined'){
+					frameText+=frameObj.content;
+				}
+				var socket = this.socket;
+				if (socket.readyState == WebSocket.OPEN) {
+					//console.log(frameText);
+					socket.send(frameText);
+				} else {
+					alert("The socket is not open.");
+				}
+			},
 			close : function() {
-				socket.close();
+				this.socket.close();
 			}
 		};
 		websocket.init();

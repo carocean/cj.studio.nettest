@@ -208,6 +208,16 @@ $(document).ready(function(){
 				return;
 			}
 			$('#'+obj.protocol).prop('checked',true);
+			var connLabel=$('.portlet .req-url label');
+			connLabel.attr('type',obj.protocol);
+			if(connLabel.attr('state')=='isopen'){
+				connLabel.trigger('click');
+			}
+			if('wsOnBrowser'!=obj.protocol){
+				connLabel.hide();
+			}else{
+				connLabel.attr('style','display:table-cell;');
+			}
 		}).error(function(e){
 			alert(e.responseText);
 		});
@@ -222,6 +232,16 @@ $(document).ready(function(){
 			$('.portlet .headline > ul > li.cmd > input:text').val(obj.cmd);
 			$('.portlet .headline > ul > li.url > input:text').val(obj.url);
 			$('.portlet .headline > ul > li.prot > input:text').val(obj.protocol);
+		}).error(function(e){
+			alert(e.responseText);
+		});
+		$.get('./views/host-get.service',{mid:li.attr('id')},function(data){
+			var obj=$.parseJSON(data);
+			if(obj==null){
+				$('.portlet .req-url input:text').val('');
+				return;
+			}
+			$('.portlet .req-url input').val(obj.host);
 		}).error(function(e){
 			alert(e.responseText);
 		});

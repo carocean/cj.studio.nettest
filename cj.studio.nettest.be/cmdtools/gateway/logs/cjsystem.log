@@ -271,3 +271,4 @@
 		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
 		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
 		at java.lang.Thread.run(Thread.java:748)
+2019年03月01日 22:35:12  信息 : -------------网关启动完毕-------------------

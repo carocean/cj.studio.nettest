@@ -8,6 +8,7 @@ import cj.studio.nettest.be.args.RequestContentType;
 import cj.studio.nettest.be.args.RequestContentXwww;
 import cj.studio.nettest.be.args.RequestHeader;
 import cj.studio.nettest.be.args.RequestHeadline;
+import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
 
@@ -15,6 +16,10 @@ public interface IRequestConfigService {
 	void saveAndUpdateRequestNetprotocol(String mid, String netprotocol, String creator);
 
 	RequestNetprotocol getMyRequestNetprotocol(String mid, String creator);
+
+	void saveAndUpdateRequestHost(String mid, String host, String creator);
+
+	RequestHost getMyRequestHost(String mid, String creator);
 
 	void saveAndUpdateRequestHeadline(String mid, String cmd, String url, String protocol, String creator);
 
@@ -28,9 +33,9 @@ public interface IRequestConfigService {
 
 	RequestContentAny getMyRequestContentAny(String mid, String creator);
 
-	String saveRequestContentXwww(String mid, String key,String value,String desc, String creator);
+	String saveRequestContentXwww(String mid, String key, String value, String desc, String creator);
 
-	void updateRequestContentXwww(String mid, String id,String key,String value,String desc, String creator);
+	void updateRequestContentXwww(String mid, String id, String key, String value, String desc, String creator);
 
 	void deleteRequestContentXwww(String id);
 
@@ -38,9 +43,9 @@ public interface IRequestConfigService {
 
 	List<RequestContentXwww> getMyRequestContentXwwws(String mid, String creator);
 
-	String saveRequestContentFormData(String mid,String key,String value,String desc, String creator);
+	String saveRequestContentFormData(String mid, String key, String value, String desc, String creator);
 
-	void updateRequestContentFormData(String mid, String id, String key,String value,String desc, String creator);
+	void updateRequestContentFormData(String mid, String id, String key, String value, String desc, String creator);
 
 	void deleteRequestContentFormData(String id);
 
@@ -48,9 +53,9 @@ public interface IRequestConfigService {
 
 	List<RequestContentFormData> getMyRequestContentFormDatas(String mid, String creator);
 
-	String saveRequestParameter(String mid, String key, String value,String desc, String creator);
+	String saveRequestParameter(String mid, String key, String value, String desc, String creator);
 
-	void updateRequestParameter(String mid, String id, String key, String value,String desc, String creator);
+	void updateRequestParameter(String mid, String id, String key, String value, String desc, String creator);
 
 	void deleteRequestParameter(String id);
 
@@ -58,9 +63,9 @@ public interface IRequestConfigService {
 
 	List<RequestParameter> getMyRequestParameters(String mid, String creator);
 
-	String saveRequestHeader(String mid, String key, String value,String desc, String creator);
+	String saveRequestHeader(String mid, String key, String value, String desc, String creator);
 
-	void updateRequestHeader(String mid, String id, String key, String value,String desc, String creator);
+	void updateRequestHeader(String mid, String id, String key, String value, String desc, String creator);
 
 	void deleteRequestHeader(String id);
 

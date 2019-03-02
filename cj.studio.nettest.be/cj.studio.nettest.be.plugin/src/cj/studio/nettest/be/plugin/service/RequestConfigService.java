@@ -15,6 +15,7 @@ import cj.studio.nettest.be.args.RequestContentType;
 import cj.studio.nettest.be.args.RequestContentXwww;
 import cj.studio.nettest.be.args.RequestHeader;
 import cj.studio.nettest.be.args.RequestHeadline;
+import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
 import cj.studio.nettest.be.service.IRequestConfigService;
@@ -51,7 +52,34 @@ public class RequestConfigService implements IRequestConfigService{
 			return null;
 		return doc.tuple();
 	}
-
+	@Override
+	public void saveAndUpdateRequestHost(String mid, String host, String creator) {
+		String cjql = String.format(
+				"select {'tuple':'*'} from tuple request.hosts %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
+				RequestHost.class.getName(), mid, creator);
+		IQuery<RequestHost> q = test.createQuery(cjql);
+		IDocument<RequestHost> doc = q.getSingleResult();
+		if (doc == null) {
+			// add
+			RequestHost rnp = new RequestHost(host,mid, creator);
+			test.saveDoc("request.hosts", new TupleDocument<>(rnp));
+			return;
+		}
+		// update
+		RequestHost newrnp = new RequestHost(host, mid, creator);
+		test.updateDoc("request.hosts", doc.docid(), new TupleDocument<>(newrnp));
+	}
+	@Override
+	public RequestHost getMyRequestHost(String mid, String creator) {
+		String cjql = String.format(
+				"select {'tuple':'*'} from tuple request.hosts %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
+				RequestHost.class.getName(), mid, creator);
+		IQuery<RequestHost> q = test.createQuery(cjql);
+		IDocument<RequestHost> doc = q.getSingleResult();
+		if (doc == null)
+			return null;
+		return doc.tuple();
+	}
 	@Override
 	public void saveAndUpdateRequestHeadline(String mid, String cmd, String url, String protocol, String creator) {
 		String cjql = String.format(
