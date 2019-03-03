@@ -1,0 +1,41 @@
+sourceSets { 
+	 main { 
+	 	java{
+	 		srcDir "$projectDir/src"
+	 	}
+	 	resources{
+		 	srcDir "$projectDir/site-src"
+		 }
+	 } 
+ 	}
+ 	sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+ 	tasks.withType(JavaCompile) {  
+        options.encoding = "UTF-8"  
+    } 
+ repositories { 
+	 flatDir(dirs: "../global/lib") 
+ } 
+
+dependencies {
+	compile fileTree('../global/runtime')
+	compile fileTree('../global/cjtools')
+	compile fileTree('src/cj/refembeds')
+	compile fileTree('src/cj/references')
+}
+
+ task releaseToUC(type: Copy) {
+ dependsOn "build"
+ from 'build/libs/'
+ into '../cj.studio.nettest.jobserver.program/src/cj/references'
+ include '**/*.jar'
+ }
+ task releaseToOutputs(type: Copy) {
+ dependsOn "build"
+ from 'build/libs/'
+ into '../outputs'
+ include '**/*.jar'
+ }
+ task release(type:Copy){
+  dependsOn "releaseToUC","releaseToOutputs"
+ }

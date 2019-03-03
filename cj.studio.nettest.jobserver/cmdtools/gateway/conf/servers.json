@@ -1,0 +1,10 @@
+[
+	{
+		"name": "tcpSite",
+		"protocol": "tcp",
+		"host": "localhost:9098",
+		"props": {
+			
+		}
+	}
+]

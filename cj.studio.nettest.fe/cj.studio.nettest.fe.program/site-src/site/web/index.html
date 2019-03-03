@@ -14,6 +14,7 @@
 <script type="text/javascript" src="js/jquery/jquery-2.1.4.js"></script>
 <script type="text/javascript" src="js/socket.io.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/ws-event.js"></script>
 <script type="text/javascript" src="js/root-panel.js"></script>
 <script type="text/javascript" src="js/folder-panel.js"></script>
 <script type="text/javascript" src="js/service-panel.js"></script>
@@ -27,6 +28,7 @@
 			<div class="header">
 				<div class="topbar">
 					<ul class="items">
+						<li conn><span>未连接</span></li>
 						<li user><label>欢迎</label><span role>角色</span>&nbsp;&nbsp;<span
 							code>carocean</span></li>
 						<li logout><span>退出</span></li>
@@ -58,18 +60,14 @@
 									folder>目录</span>/<span service>服务</span>.<span method>方法</span></li>
 								<li class="portlet">
 									<div class="req-url">
-										<input placeholder="输入连接地址，或后台目标名" type="text">
-										<label>未连接</label>
+										<input placeholder="输入连接地址，或后台目标名" type="text"> <label>未连接</label>
 									</div>
 									<div class="net-protocols">
 										<ul>
-											<li><input id="httpOnBrower" type="radio"
-												name="net-protocol"><label for="httpOnBrower">http(OnBrowser)</label></li>
-											<li><input id="wsOnBrowser" type="radio"
-												name="net-protocol"><label
-												for="wsOnBrowser">ws(OnBrowser)</label></li>
-											<li><input id="httpOnServer" type="radio"
+											<li><input id="httpOnServer" type="radio" 
 												name="net-protocol"><label for="httpOnServer">http(OnServer)</label></li>
+											<li><input id="wsOnBrowser" type="radio"
+												name="net-protocol"><label for="wsOnBrowser">ws(OnBrowser)</label></li>
 											<li><input id="wsOnServer" type="radio"
 												name="net-protocol"><label for="wsOnServer">ws(OnServer)</label></li>
 											<li><input id="tcpOnServer" type="radio"
@@ -123,7 +121,8 @@
 													</li>
 													<li class="tab-table-row t-content">
 														<div class="tab-table-cell key">
-															<input type="text" placeholder="输入键" list="parameter-proposes">
+															<input type="text" placeholder="输入键"
+																list="parameter-proposes">
 															<datalist id="parameter-proposes">
 																<option>Rest-StubFace</option>
 																<option>Rest-Command</option>
@@ -156,7 +155,8 @@
 													</li>
 													<li class="tab-table-row t-content">
 														<div class="tab-table-cell key">
-															<input type="text" placeholder="输入键" list="header-proposes">
+															<input type="text" placeholder="输入键"
+																list="header-proposes">
 															<datalist id="header-proposes">
 																<option>Rest-StubFace</option>
 																<option>Rest-Command</option>
@@ -238,16 +238,16 @@
 															</li>
 															<li class="tab-table-row t-content">
 																<div class="tab-table-cell key mutil">
-																	<input type="text" placeholder="输入键">
-																	<img alt="" src="img/arrow-down.svg">
+																	<input type="text" placeholder="输入键"> <img
+																		alt="" src="img/arrow-down.svg">
 																	<ul class="down-list box-shadow-1">
 																		<li text>Text</li>
 																		<li file>File</li>
 																	</ul>
 																</div>
 																<div class="tab-table-cell value">
-																	<input type="text" placeholder="输入值">
-																	<input type="file">
+																	<input type="text" placeholder="输入值"> <input
+																		type="file">
 																</div>
 																<div class="tab-table-cell desc">
 																	<input type="text" placeholder="输入说明，可为空">

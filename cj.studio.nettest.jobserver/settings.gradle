@@ -1,0 +1,4 @@
+include "cj.studio.nettest.jobserver.program"
+include "cj.studio.nettest.jobserver.main"
+include "cj.studio.nettest.jobserver.plugin"
+include "cj.studio.nettest.jobserver.stub"

@@ -24,6 +24,14 @@
 			"props": {
 				
 			}
+		},{
+			"name": "/jobserver/nettest/",
+			"uris": [
+				"tcp://localhost:9098"
+			],
+			"props": {
+				
+			}
 		}
 	],
 	"invalids": []

@@ -31,11 +31,24 @@ $(document).ready(function(){
 	})
 	var sender=$('.portlet .headline > ul > li.send');
 	sender.on('click',function(){
+		var mid=$('.container > .workbench > .desktop > .column .layout-main .column-context > .main-column-lets > .portlet[position]').attr('mid');
+		
+		var netptCheckedValue=$('.portlet .net-protocols > ul > li input:radio:checked').attr('id');
+		console.log('....'+netptCheckedValue);
+		if('wsOnBrowser'!=netptCheckedValue){
+			//服务器端是异步回路，作业处理完之后通过全局的ws将响应推送回来显示
+			$.get('./views/onserver-job-add.service',{mid:mid},function(data){
+				
+			}).error(function(e){
+				alert(e.responseText);
+			})
+			return;
+		}
+		//以下是处理wsOnBrowser
 		if(typeof connector.ws=='undefined'||connector.attr('state')=='isclose'){
 			alert('请先点击连接按钮');
 			return;
 		}
-		var mid=$('.container > .workbench > .desktop > .column .layout-main .column-context > .main-column-lets > .portlet[position]').attr('mid');
 		$.get('./views/request-frame-get.service',{mid:mid},function(data){
 			var obj=$.parseJSON(data);
 			obj.frame=$.parseJSON(obj.frameText);

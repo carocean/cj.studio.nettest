@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Sun Mar 03 13:36:11 CST 2019
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;cj.studio.nettest.jobserver.main;cj.studio.nettest.jobserver.plugin;cj.studio.nettest.jobserver.program;cj.studio.nettest.jobserver.stub;
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=

@@ -47,6 +47,9 @@ exports.flow = function(f,c,ctx) {
 	c.content().writeBytes(doc.toString().getBytes());
 }
 function printWelcome(doc,f){
+	var connLabel=doc.select('.container > .workbench > .header > .topbar > .items>li[conn]');
+	var wsurl=String.format('ws://%s/myChannel',f.head('Host'));
+	connLabel.attr('wsurl',wsurl);
 	var roleE=doc.select('.container > .workbench > .header > .topbar > .items span[role]').first();
 	var roles=f.session().attribute('uc.roles');
 	var sb=new StringBuffer();

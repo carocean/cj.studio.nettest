@@ -1,0 +1,22 @@
+{
+	"valids": [
+		{
+			"name": "nettest",
+			"uris": [
+				"app://nettest:way"
+			],
+			"props": {
+				
+			}
+		},{
+			"name": "/backend/nettest/",
+			"uris": [
+				"http://localhost:9097"
+			],
+			"props": {
+				
+			}
+		}
+	],
+	"invalids": []
+}
