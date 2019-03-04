@@ -53,7 +53,7 @@ public class RequestConfigService implements IRequestConfigService{
 		return doc.tuple();
 	}
 	@Override
-	public void saveAndUpdateRequestHost(String mid, String host, String creator) {
+	public void saveAndUpdateRequestHost(String mid, String host,String dest, String creator) {
 		String cjql = String.format(
 				"select {'tuple':'*'} from tuple request.hosts %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
 				RequestHost.class.getName(), mid, creator);
@@ -61,12 +61,12 @@ public class RequestConfigService implements IRequestConfigService{
 		IDocument<RequestHost> doc = q.getSingleResult();
 		if (doc == null) {
 			// add
-			RequestHost rnp = new RequestHost(host,mid, creator);
+			RequestHost rnp = new RequestHost(host,mid,dest, creator);
 			test.saveDoc("request.hosts", new TupleDocument<>(rnp));
 			return;
 		}
 		// update
-		RequestHost newrnp = new RequestHost(host, mid, creator);
+		RequestHost newrnp = new RequestHost(host, mid,dest, creator);
 		test.updateDoc("request.hosts", doc.docid(), new TupleDocument<>(newrnp));
 	}
 	@Override

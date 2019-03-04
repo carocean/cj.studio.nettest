@@ -1,19 +1,25 @@
 $(document).ready(function(){
-	var connector=$('.portlet .req-url label');
+	var connector=$('.portlet .req-url li.state');
 	connector.attr('state','isclose');
 	function onmessage(frame){
+		var content='';
+		var responsePanel=$('.portlet > .response > .content');
 		if(frame.isFrame){
-			console.log('...onmessage--是否侦:'+frame.isFrame+'; '+frame.heads.command+' '+frame.heads.url+' '+frame.heads.protocol);
+//			console.log('...onmessage--是否侦:'+frame.isFrame+'; '+frame.heads.command+' '+frame.heads.url+' '+frame.heads.protocol);
+			content=frame.content.replace(/\\\"/g,'"');
+			responsePanel.html(content);
 			return;
 		}
-		console.log('...onmessage--是否侦:'+frame.isFrame+' 内容：'+frame.content);
+		content=frame.content;
+		responsePanel.html(content);
+//		console.log('...onmessage--是否侦:'+frame.isFrame+' 内容：'+frame.content);
 	}
 	function onopen(e){
-		connector.html('已连接');
+		connector.find('label').html('已连接');
 		connector.attr('state','isopen');
 	}
 	function onclose(e){
-		connector.html('未连接');
+		connector.find('label').html('未连接');
 		connector.attr('state','isclose');
 	}
 	function onerror(e){
@@ -21,10 +27,10 @@ $(document).ready(function(){
 	}
 	
 	connector.on('click',function(){
-		var host=$(this).siblings('input').val();
 		if(connector.attr('state')=='isopen'){
 			connector.ws.close();
 		}else{
+			var host=$(this).parents('.req-url').find('li.url input').val();
 			var ws=$.ws.open(host,onmessage, onopen, onclose,onerror);
 			connector.ws=ws;
 		}
@@ -34,7 +40,6 @@ $(document).ready(function(){
 		var mid=$('.container > .workbench > .desktop > .column .layout-main .column-context > .main-column-lets > .portlet[position]').attr('mid');
 		
 		var netptCheckedValue=$('.portlet .net-protocols > ul > li input:radio:checked').attr('id');
-		console.log('....'+netptCheckedValue);
 		if('wsOnBrowser'!=netptCheckedValue){
 			//服务器端是异步回路，作业处理完之后通过全局的ws将响应推送回来显示
 			$.get('./views/onserver-job-add.service',{mid:mid},function(data){

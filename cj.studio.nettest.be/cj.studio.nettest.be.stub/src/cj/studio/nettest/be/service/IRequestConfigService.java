@@ -17,7 +17,7 @@ public interface IRequestConfigService {
 
 	RequestNetprotocol getMyRequestNetprotocol(String mid, String creator);
 
-	void saveAndUpdateRequestHost(String mid, String host, String creator);
+	void saveAndUpdateRequestHost(String mid, String host,String dest, String creator);
 
 	RequestHost getMyRequestHost(String mid, String creator);
 

@@ -8,12 +8,15 @@ $(document).ready(function(){
 			alert('您未选中任何服务方法');
 			return;
 		}
-		var connLabel=$('.portlet .req-url label');
+		var destLabel=$('.portlet .req-url li.dest');
+		var connLabel=$('.portlet .req-url li.state');
 		connLabel.attr('type',netprotocol);
 		if('wsOnBrowser'!=netprotocol){
 			connLabel.hide();
+			destLabel.attr('style','display:table-cell;');
 		}else{
 			connLabel.attr('style','display:table-cell;');
+			destLabel.hide();
 		}
 		var the=$(this);
 		$.get('./views/netprotocol-save.service',{netprotocol:netprotocol,mid:mid},function(data){
@@ -41,7 +44,7 @@ $(document).ready(function(){
 		});
 	});
 	$('.portlet .req-url input:text').on('change',function(){
-		var connLabel=$('.portlet .req-url label');
+		var connLabel=$('.portlet .req-url li.state');
 		if(connLabel.attr('state')=='isopen'){
 			connLabel.trigger('click');
 		}
@@ -51,8 +54,9 @@ $(document).ready(function(){
 			alert('您未选中任何服务方法');
 			return;
 		}
-		var host=$(this).val();
-		$.post('./views/host-save.service',{mid:mid,host:host},function(data){
+		var host=$(this).parents('.req-url').find('li.url input').val();
+		var dest=$(this).parents('.req-url').find('li.dest input').val();
+		$.post('./views/host-save.service',{mid:mid,host:host,dest:dest},function(data){
 		}).error(function(e){
 			alert(e.responseText);
 		});
@@ -313,7 +317,7 @@ $(document).ready(function(){
 			return;
 		}
 	});
-	$('.portlet .req-url').on('click',function(){
+	$('.portlet .req-url li.state').on('click',function(){
 		var state=$(this).attr('state');
 		state=(typeof state=='undefined')?'disconnected':state;
 		if(state=='disconnected'){

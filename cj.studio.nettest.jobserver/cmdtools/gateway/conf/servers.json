@@ -4,7 +4,7 @@
 		"protocol": "tcp",
 		"host": "localhost:9098",
 		"props": {
-			
+			"OnChannelEvent-Notify-Dests":"nettest"
 		}
 	}
 ]

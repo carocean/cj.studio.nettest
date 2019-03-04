@@ -102,7 +102,7 @@ public class RequestFrameService implements IRequestFrameService {
 		if (StringUtil.isEmpty(host.getHost())) {
 			throw new EcmException("没明确指明主机地址");
 		}
-		RequestFrame rf = new RequestFrame(f, host.getHost(), socketType, typeStr, creator);
+		RequestFrame rf = new RequestFrame(f, host.getHost(), host.getDest(),socketType, typeStr, creator);
 		return rf;
 	}
 

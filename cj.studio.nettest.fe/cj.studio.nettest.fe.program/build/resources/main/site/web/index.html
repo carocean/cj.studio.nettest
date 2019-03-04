@@ -59,12 +59,14 @@
 								<li class="portlet" position><span label>位置</span>://<span
 									folder>目录</span>/<span service>服务</span>.<span method>方法</span></li>
 								<li class="portlet">
-									<div class="req-url">
-										<input placeholder="输入连接地址，或后台目标名" type="text"> <label>未连接</label>
-									</div>
+									<ul class="req-url">
+										<li class="dest"><input placeholder="输入目标名" type="text"></li>
+										<li class="url"><input placeholder="输入连接地址" type="text"></li>
+										<li class="state"><label>未连接</label></li>
+									</ul>
 									<div class="net-protocols">
 										<ul>
-											<li><input id="httpOnServer" type="radio" 
+											<li><input id="httpOnServer" type="radio"
 												name="net-protocol"><label for="httpOnServer">http(OnServer)</label></li>
 											<li><input id="wsOnBrowser" type="radio"
 												name="net-protocol"><label for="wsOnBrowser">ws(OnBrowser)</label></li>

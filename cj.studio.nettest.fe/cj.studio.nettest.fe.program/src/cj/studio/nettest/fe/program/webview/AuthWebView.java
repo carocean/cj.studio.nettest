@@ -12,6 +12,7 @@ import cj.studio.ecm.annotation.CjService;
 import cj.studio.ecm.net.Circuit;
 import cj.studio.ecm.net.CircuitException;
 import cj.studio.ecm.net.Frame;
+import cj.studio.ecm.net.http.CookieHelper;
 import cj.studio.ecm.net.http.HttpFrame;
 import cj.studio.gateway.socket.app.IGatewayAppSiteResource;
 import cj.studio.gateway.socket.app.IGatewayAppSiteWayWebView;
@@ -48,6 +49,7 @@ public class AuthWebView  implements IGatewayAppSiteWayWebView,StringTypeConvert
 				
 				ArrayList<Role> roles=(ArrayList<Role>)role.getRolesOnUser(user);
 				frame.session().attribute("uc.roles",roles);
+				CookieHelper.appendCookie(c, "cjtoken", map.get("result"));
 			}
 		});
 	}

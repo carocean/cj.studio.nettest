@@ -64,3 +64,262 @@
 2019年03月03日 23:01:17  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
 2019年03月03日 23:01:17  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
 2019年03月03日 23:04:21  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 11:53:17  信息 : -------------网关启动完毕-------------------
+2019年03月04日 11:55:38  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 11:55:38  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 11:55:38  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 11:56:38  错误: cj.studio.gateway.tools.RouterConsole - Unrecognized option: -a
+2019年03月04日 11:57:57  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 12:05:24  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:19:13  信息 : -------------网关启动完毕-------------------
+2019年03月04日 13:21:01  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:21:01  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:21:01  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 13:22:42  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:39:06  信息 : -------------网关启动完毕-------------------
+2019年03月04日 13:42:00  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:42:00  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:42:00  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 13:42:40  信息 : -------------网关启动完毕-------------------
+2019年03月04日 13:42:42  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 13:42:43  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 13:51:18  信息 : -------------网关启动完毕-------------------
+2019年03月04日 14:18:12  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:18:12  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:18:12  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 14:18:57  信息 : -------------网关启动完毕-------------------
+2019年03月04日 14:18:58  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:18:58  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 14:19:17  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:25:07  信息 : -------------网关启动完毕-------------------
+2019年03月04日 14:25:09  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:25:09  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:25:09  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 14:34:17  信息 : -------------网关启动完毕-------------------
+2019年03月04日 14:34:18  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:34:18  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 14:34:51  信息 : -------------网关启动完毕-------------------
+2019年03月04日 14:34:54  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 14:34:54  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 15:05:31  信息 : -------------网关启动完毕-------------------
+2019年03月04日 15:05:36  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 15:05:36  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 15:23:10  信息 : -------------网关启动完毕-------------------
+2019年03月04日 15:23:14  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 15:23:14  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 15:32:17  信息 : -------------网关启动完毕-------------------
+2019年03月04日 15:32:20  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 15:32:20  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 15:44:39  信息 : -------------网关启动完毕-------------------
+2019年03月04日 15:45:06  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 15:45:06  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 15:45:06  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 16:41:23  信息 : -------------网关启动完毕-------------------
+2019年03月04日 16:41:34  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 16:41:34  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 16:43:22  信息 : -------------网关启动完毕-------------------
+2019年03月04日 16:43:24  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 16:43:24  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 16:43:44  信息 : -------------网关启动完毕-------------------
+2019年03月04日 16:43:45  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 16:43:45  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 16:47:57  信息 : -------------网关启动完毕-------------------
+2019年03月04日 16:49:07  信息 : -------------网关启动完毕-------------------
+2019年03月04日 16:49:08  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 16:49:08  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 16:50:20  信息 : -------------网关启动完毕-------------------
+2019年03月04日 16:50:23  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 16:50:23  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:17:56  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:18:04  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:18:04  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:23:07  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:23:31  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:23:31  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:23:31  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:24:25  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:25:31  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:27:05  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:27:05  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:30:22  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:30:22  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:30:26  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:30:44  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:30:46  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:30:46  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:30:47  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:39:58  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:40:25  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:220)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:122)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:43:28  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:220)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:122)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:45:33  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:45:34  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:45:34  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:45:40  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:220)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:122)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:46:01  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:220)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:101)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:46:07  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:220)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:101)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:48:41  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:220)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:101)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:50:38  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:50:40  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:50:41  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:50:46  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:221)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:101)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:51:54  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:51:57  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:51:57  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:52:02  错误: cj.studio.gateway.tools.RouterConsole -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printTarget(LsJunctionsCommand.java:221)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.printBackwardJunction(LsJunctionsCommand.java:182)
+		at cj.studio.gateway.tools.cmd.LsJunctionsCommand.doCommand(LsJunctionsCommand.java:101)
+		at cj.studio.gateway.tools.Console.monitor(Console.java:107)
+		at cj.studio.gateway.tools.RouterConsole.monitor(RouterConsole.java:27)
+		at cj.studio.gateway.tools.GatewayEntrypoint.main(GatewayEntrypoint.java:30)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:141)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$a28eb84c.exeCommand(<generated>:-1)
+		at cj.studio.nettest.jobserver.main.JobServerMain.main(JobServerMain.java:96)
+2019年03月04日 17:53:46  信息 : -------------网关启动完毕-------------------
+2019年03月04日 17:53:47  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 17:53:47  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 17:57:55  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:02:34  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:05:24  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:07:20  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:07:20  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月04日 18:09:39  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:12:09  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:21:40  信息 : -------------网关启动完毕-------------------
+2019年03月04日 18:21:43  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:21:43  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 18:21:44  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:put
+2019年03月04日 18:23:27  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:put
+2019年03月04日 18:26:20  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:39:24  信息 : -------------网关启动完毕-------------------
+2019年03月04日 18:39:26  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:39:26  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月04日 18:41:18  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:41:18  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月04日 18:42:37  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:02:06  信息 : -------------网关启动完毕-------------------
+2019年03月05日 00:02:19  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:02:19  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 00:30:51  信息 : -------------网关启动完毕-------------------
+2019年03月05日 00:31:13  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:31:13  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:31:13  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 00:34:02  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:34:02  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月05日 00:36:35  信息 : -------------网关启动完毕-------------------
+2019年03月05日 00:36:53  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:36:53  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:36:53  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 00:37:10  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:40:11  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:44:33  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:52:34  信息 : -------------网关启动完毕-------------------
+2019年03月05日 00:52:55  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:52:55  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:52:55  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 00:55:22  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:56:40  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:56:40  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 00:56:41  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 01:44:41  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 01:44:41  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 01:46:05  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 01:46:05  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 01:46:22  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
+2019年03月05日 01:47:43  信息 : -------------网关启动完毕-------------------
+2019年03月05日 01:47:48  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share

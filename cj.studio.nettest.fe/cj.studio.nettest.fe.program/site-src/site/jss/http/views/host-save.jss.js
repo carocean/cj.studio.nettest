@@ -38,8 +38,9 @@ exports.flow = function(f,c,ctx) {
 		done:function(f){
 			var mid=f.parameter('mid');
 			var host=f.parameter('host');
+			var dest=f.parameter('dest');
 			var creator=f.session().attribute('uc.principals');
-			ptStub.saveAndUpdateRequestHost(mid,host,creator);
+			ptStub.saveAndUpdateRequestHost(mid,host,dest,creator);
 			c.content().writeBytes("{status:success}".getBytes());
 		}
 	});

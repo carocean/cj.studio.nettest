@@ -32,6 +32,7 @@ public interface IRequestConfigStub {
 	@CjStubMethod(command = "get", usage = "更新请求的主机地址")
 	void saveAndUpdateRequestHost(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
 			@CjStubInParameter(key = "host", usage = "主机地址") String host,
+			@CjStubInParameter(key = "dest", usage = "目标名") String dest,
 			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
 
 	@CjStubMethod(command = "get", usage = "获取请求的主机地址")

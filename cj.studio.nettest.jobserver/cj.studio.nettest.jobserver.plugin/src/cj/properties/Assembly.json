@@ -16,7 +16,13 @@
 			}
 		],		
 		activators : [
-			
+			{
+			name:'运行作业引擎',
+			class:'cj.studio.nettest.jobserver.plugin.JobEngineActivator',
+			parameters:{
+					name:'xxxx'
+				}
+			}
 		]
 	},
 	assemblyInfo : {

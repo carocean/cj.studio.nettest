@@ -1,7 +1,13 @@
 package cj.studio.nettest.be.args;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import cj.studio.ecm.net.CircuitException;
 import cj.studio.ecm.net.Frame;
+import cj.ultimate.gson2.com.google.gson.Gson;
+import cj.ultimate.gson2.com.google.gson.reflect.TypeToken;
+import cj.ultimate.util.StringUtil;
 
 public class RequestFrame {
 	String frameText;
@@ -9,11 +15,14 @@ public class RequestFrame {
 	String requestor;// 请求者
 	String contentType;
 	String host;
+	String dest;
+
 	public RequestFrame() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public RequestFrame(Frame frame,String host, String socketType, String contentType, String requestor) {
+	public RequestFrame(Frame frame, String host, String dest, String socketType, String contentType,
+			String requestor) {
 		super();
 		try {
 			this.frameText = frame.toJson();
@@ -23,14 +32,31 @@ public class RequestFrame {
 		this.socketType = socketType;
 		this.requestor = requestor;
 		this.contentType = contentType;
-		this.host=host;
+		this.host = host;
+		this.dest = dest;
 	}
-public String getHost() {
-	return host;
-}
-public void setHost(String host) {
-	this.host = host;
-}
+	public Map<String, Object> getFrame() {
+		if(StringUtil.isEmpty(frameText)) {
+			return new HashMap<>();
+		}
+		return new Gson().fromJson(frameText, new TypeToken<HashMap<String,Object>>(){}.getType());
+	}
+	public String getHost() {
+		return host;
+	}
+
+	public void setHost(String host) {
+		this.host = host;
+	}
+
+	public String getDest() {
+		return dest;
+	}
+
+	public void setDest(String dest) {
+		this.dest = dest;
+	}
+
 	public String getFrameText() {
 		return frameText;
 	}

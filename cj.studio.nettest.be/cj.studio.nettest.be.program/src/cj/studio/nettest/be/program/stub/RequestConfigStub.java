@@ -32,8 +32,8 @@ public class RequestConfigStub extends GatewayAppSiteRestStub implements IReques
 		return rcService.getMyRequestNetprotocol(mid, creator);
 	}
 	@Override
-	public void saveAndUpdateRequestHost(String mid, String host, String creator) {
-		rcService.saveAndUpdateRequestHost(mid, host, creator);
+	public void saveAndUpdateRequestHost(String mid, String host,String dest, String creator) {
+		rcService.saveAndUpdateRequestHost(mid, host,dest, creator);
 	}
 	@Override
 	public RequestHost getMyRequestHost(String mid, String creator) {

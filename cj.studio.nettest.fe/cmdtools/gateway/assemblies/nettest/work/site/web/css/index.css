@@ -669,32 +669,45 @@
 	display: table;
 	width:100%;
 }
+.portlet .req-url li{
+	display: table-cell;
+	vertical-align: middle;
+}
+.portlet .req-url li.dest{
+	width:180px;
+}
+.portlet .req-url li.dest input{
+	width:179px;
+}
+.portlet .req-url li.state{
+	width:150px;
+	display: none;
+	text-align: center;
+}
 .portlet .req-url input{
 	font-size: 12px;
 	color: #555;
 	padding: 8px 5px;
-	display: table-cell;
-	vertical-align: middle;
 	width:100%;
 	border-bottom:none;
 	border-left: none;
 	border-right: none;
 	border-top: none;
-	margin-right: 10px;
 	background: #f5f5f5;
+	border-right: 1px solid white;
 }
-.portlet .req-url label{
+
+.portlet .req-url li.state label{
 	font-size: 10px;
 	color: #555;
-	padding: 0 10px;
+	padding: 8px 0;
 	border-bottom:1px solid #f5f5f5;
-	display: table-cell;
+	display: inline-block;
 	vertical-align: middle;
-	width:100px;
+	width:120px;
 	text-align: center;
-	display: none;
 }
-.portlet .req-url label:hover{
+.portlet .req-url li.state label:hover{
 	color: red;
 	border-bottom:1px solid red;
 	cursor: pointer;

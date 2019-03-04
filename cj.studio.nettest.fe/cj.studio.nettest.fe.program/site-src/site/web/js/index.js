@@ -208,15 +208,18 @@ $(document).ready(function(){
 				return;
 			}
 			$('#'+obj.protocol).prop('checked',true);
-			var connLabel=$('.portlet .req-url label');
+			var destLabel=$('.portlet .req-url li.dest');
+			var connLabel=$('.portlet .req-url li.state');
 			connLabel.attr('type',obj.protocol);
 			if(connLabel.attr('state')=='isopen'){
 				connLabel.trigger('click');
 			}
 			if('wsOnBrowser'!=obj.protocol){
 				connLabel.hide();
+				destLabel.attr('style','display:table-cell;');
 			}else{
 				connLabel.attr('style','display:table-cell;');
+				destLabel.hide();
 			}
 		}).error(function(e){
 			alert(e.responseText);
@@ -241,7 +244,8 @@ $(document).ready(function(){
 				$('.portlet .req-url input:text').val('');
 				return;
 			}
-			$('.portlet .req-url input').val(obj.host);
+			$('.portlet .req-url li.url input').val(obj.host);
+			$('.portlet .req-url li.dest input').val(obj.dest);
 		}).error(function(e){
 			alert(e.responseText);
 		});
