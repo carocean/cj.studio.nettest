@@ -11,6 +11,6 @@
 
 ## 使用说明书
 
-![测试中心主页](/path/to/img.jpg)
+![测试中心主页](https://github.com/carocean/cj.studio.nettest/blob/master/documents/img/home.jpg)
 
-![测试中心压力测试](/path/to/img.jpg)
+![测试中心压力测试](https://github.com/carocean/cj.studio.nettest/blob/master/documents/img/runner.jpg)
