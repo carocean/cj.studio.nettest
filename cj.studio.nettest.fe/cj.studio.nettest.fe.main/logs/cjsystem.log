@@ -9912,3 +9912,145 @@ printWelcome(doc,f){
 		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
 		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
 		at java.lang.Thread.run(Thread.java:748)
+2019年03月05日 22:41:49  信息 : -------------网关启动完毕-------------------
+2019年03月05日 22:42:24  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月05日 22:42:50  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 22:58:49  信息 : -------------网关启动完毕-------------------
+2019年03月05日 22:58:53  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月05日 23:02:33  信息 : -------------网关启动完毕-------------------
+2019年03月05日 23:02:38  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月05日 23:02:52  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:02:58  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:03:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:03:02  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:04:27  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:04:28  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:33  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:35  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:36  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:36  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:37  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:37  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:41  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:41  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:49  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:53  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:08:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:09:13  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月05日 23:48:15  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月06日 00:15:12  信息 : -------------网关启动完毕-------------------
+2019年03月06日 00:15:15  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月06日 00:15:39  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.valve.OnlineEventValve.onInactive(OnlineEventValve.java:25)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.nettest.fe.program.valve.SecurityValve.onInactive(SecurityValve.java:62)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.nettest.fe.program.valve.DecodeValve.onInactive(DecodeValve.java:35)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckSessionInputValve.onInactive(CheckSessionInputValve.java:75)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckErrorInputVavle.onInactive(CheckErrorInputVavle.java:76)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckUrlInputValve.onInactive(CheckUrlInputValve.java:49)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.FirstWayInputValve.onInactive(FirstWayInputValve.java:18)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:188)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.headOnInactive(InputPipeline.java:168)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.channelInactive(HttpChannelHandler.java:429)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.ChannelHandlerAdapter.channelInactive(ChannelHandlerAdapter.java:100)
+		at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:147)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:209)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:827)
+		at io.netty.channel.AbstractChannel$AbstractUnsafe$5.run(AbstractChannel.java:544)
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:318)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月06日 00:15:39  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.valve.OnlineEventValve.onInactive(OnlineEventValve.java:25)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.nettest.fe.program.valve.SecurityValve.onInactive(SecurityValve.java:62)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.nettest.fe.program.valve.DecodeValve.onInactive(DecodeValve.java:35)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckSessionInputValve.onInactive(CheckSessionInputValve.java:75)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckErrorInputVavle.onInactive(CheckErrorInputVavle.java:76)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckUrlInputValve.onInactive(CheckUrlInputValve.java:49)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.FirstWayInputValve.onInactive(FirstWayInputValve.java:18)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:188)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.headOnInactive(InputPipeline.java:168)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.channelInactive(HttpChannelHandler.java:429)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.ChannelHandlerAdapter.channelInactive(ChannelHandlerAdapter.java:100)
+		at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:147)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.ChannelHandlerAdapter.channelInactive(ChannelHandlerAdapter.java:100)
+		at io.netty.handler.codec.http.HttpContentEncoder.channelInactive(HttpContentEncoder.java:242)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.handler.codec.ReplayingDecoder.channelInactive(ReplayingDecoder.java:347)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:827)
+		at io.netty.channel.AbstractChannel$AbstractUnsafe$5.run(AbstractChannel.java:544)
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:318)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月06日 00:15:57  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.nettest.fe.program.valve.OnlineEventValve.onInactive(OnlineEventValve.java:25)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.nettest.fe.program.valve.SecurityValve.onInactive(SecurityValve.java:62)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.nettest.fe.program.valve.DecodeValve.onInactive(DecodeValve.java:35)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckSessionInputValve.onInactive(CheckSessionInputValve.java:75)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckErrorInputVavle.onInactive(CheckErrorInputVavle.java:76)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.CheckUrlInputValve.onInactive(CheckUrlInputValve.java:49)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:194)
+		at cj.studio.gateway.socket.app.valve.FirstWayInputValve.onInactive(FirstWayInputValve.java:18)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextOnInactive(InputPipeline.java:188)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.headOnInactive(InputPipeline.java:168)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.channelInactive(HttpChannelHandler.java:429)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.ChannelHandlerAdapter.channelInactive(ChannelHandlerAdapter.java:100)
+		at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:147)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:209)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelInactiveNow(ChannelHandlerInvokerUtil.java:46)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelInactive(DefaultChannelHandlerInvoker.java:77)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelInactive(DefaultChannelHandlerContext.java:299)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:827)
+		at io.netty.channel.AbstractChannel$AbstractUnsafe$5.run(AbstractChannel.java:544)
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:318)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:353)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月06日 00:16:29  信息 : -------------网关启动完毕-------------------
+2019年03月06日 00:16:30  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月06日 00:18:46  信息 : -------------网关启动完毕-------------------
+2019年03月06日 00:18:49  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share

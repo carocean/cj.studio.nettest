@@ -3,12 +3,11 @@ package cj.studio.nettest.jobserver.args;
 public class CountReport {
 	String mid;
 	String creator;
-	volatile int simCount;
-	volatile int passCount;
-	volatile long avg;
-	volatile long min;
-	volatile long max;
-	volatile long takeTimes;
+	int simCount;
+	int passCount;
+	long min;
+	long max;
+	long takeTimes;
 
 	public CountReport() {
 	}
@@ -18,8 +17,6 @@ public class CountReport {
 		this.mid = mid;
 		this.creator = creator;
 	}
-
-	
 	public int getSimCount() {
 		return simCount;
 	}
@@ -34,14 +31,6 @@ public class CountReport {
 
 	public void setPassCount(int passCount) {
 		this.passCount = passCount;
-	}
-
-	public long getAvg() {
-		return avg;
-	}
-
-	public void setAvg(long avg) {
-		this.avg = avg;
 	}
 
 	public long getMin() {

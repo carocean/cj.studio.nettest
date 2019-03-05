@@ -21,27 +21,28 @@ import cj.studio.nettest.jobserver.args.JobSender;
 import cj.ultimate.gson2.com.google.gson.Gson;
 import cj.ultimate.util.StringUtil;
 
-public class Job implements IJob {
+public class Job implements IJob,ICalDoneEvent {
 	IOutputer outclient;
 	IOutputer outdest;
 	JobSender sender;
 	RequestFrame rf;
 	AtomicBoolean isRunning;
-	private CountReport cReport;
+	private CalReport pool;
 
-	public Job(CountReport cReport,IOutputer toclient, IOutputer todest, JobSender sender, RequestFrame rf, AtomicBoolean isRunning) {
+	public Job(CalReport pool,IOutputer toclient, IOutputer todest, JobSender sender, RequestFrame rf, AtomicBoolean isRunning) {
 		this.outclient = toclient;
-		this.cReport=cReport;
+		this.pool=pool;
 		this.outdest = todest;
 		this.sender = sender;
 		this.rf = rf;
 		this.isRunning = isRunning;
+		pool.setEvent(this);
 	}
 
 	@SuppressWarnings("unchecked")
 	@Override
 	public void run() {
-		cReport.setSimCount(cReport.getSimCount()+1);
+		pool.addCalTask(new CalTask(CalCommand.cmd_add_simpleCount, 1));
 		long before = System.currentTimeMillis();
 		SimpleReport report = new SimpleReport();
 		report.setState(200);
@@ -124,35 +125,37 @@ public class Job implements IJob {
 			
 			long taketime = System.currentTimeMillis() - before;
 			report.setTakeTime(taketime);
-			cReport.setTakeTimes(cReport.getTakeTimes()+taketime);
-			cReport.setAvg((cReport.getTakeTimes()/(cReport.getSimCount())));
-			long mix=cReport.getMin();
-			if(taketime<mix) {
-				cReport.setMin(taketime);
-			}
-			long max=cReport.getMax();
-			if(taketime>max) {
-				cReport.setMax(taketime);
-			}
-			cReport.setPassCount(cReport.getPassCount()+1);
+			
+			pool.addCalTask(new CalTask(CalCommand.cmd_add_takeTime, taketime));
+			pool.addCalTask(new CalTask(CalCommand.cmd_set_min, taketime));
+			pool.addCalTask(new CalTask(CalCommand.cmd_set_max, taketime));
+			pool.addCalTask(new CalTask(CalCommand.cmd_add_passCount, 1));
 			byte[] b = new Gson().toJson(report).getBytes();
 			in.writeBytes(b, 0, b.length);
 			fb.commitLast(in);
 			
-			sendCountReport();
+			sendCountReport(this.pool.getReport());
 		} catch (CircuitException e) {
+			e.printStackTrace();
 			throw new EcmException(e);
 		}
 	}
-
-	private void sendCountReport() throws CircuitException {
+	@Override
+	public void done(CountReport report) {
+		try {
+			sendCountReport(report);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	private void sendCountReport(CountReport report) throws CircuitException {
 		DefaultFeedbackToOutputer fb = new DefaultFeedbackToOutputer(outclient);
 		Frame first = fb.createFirst("put /nettest/count-report.service tcp/1.0");
 		first.parameter("sender", sender.getSender());
 		fb.commitFirst(first);
 		IInputChannel in = fb.createLast();
 		
-		byte[] b = new Gson().toJson(cReport).getBytes();
+		byte[] b = new Gson().toJson(report).getBytes();
 		in.writeBytes(b, 0, b.length);
 		fb.commitLast(in);
 	}

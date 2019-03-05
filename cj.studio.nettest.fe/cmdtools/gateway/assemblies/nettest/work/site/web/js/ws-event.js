@@ -37,7 +37,9 @@ $(document).ready(function(){
 				return;
 			}
 			reportPanel.find('.popup-rbar-cell[simcount] label').html(report.simCount+'');
-			reportPanel.find('.popup-rbar-cell[avg] label').html(report.avg+'');
+			var avg=(report.takeTimes/report.simCount);
+			avg=Math.floor(avg * 100) / 100;
+			reportPanel.find('.popup-rbar-cell[avg] label').html(avg+'');
 			reportPanel.find('.popup-rbar-cell[min] label').html(report.min+'');
 			reportPanel.find('.popup-rbar-cell[max] label').html(report.max+'');
 			var passcnt=parseInt(report.passCount);
