@@ -11,8 +11,11 @@ import cj.studio.nettest.be.args.RequestHeadline;
 import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
+import cj.studio.nettest.be.args.SimpleReport;
 
 public interface IRequestConfigService {
+	void saveAndUpdateRequestResponse(SimpleReport report,String creator);
+	SimpleReport getMyRequestResponse(String mid,String creator);
 	void saveAndUpdateRequestNetprotocol(String mid, String netprotocol, String creator);
 
 	RequestNetprotocol getMyRequestNetprotocol(String mid, String creator);

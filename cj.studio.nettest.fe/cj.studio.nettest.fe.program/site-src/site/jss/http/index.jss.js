@@ -109,9 +109,15 @@ function printMethods(folderCode,servicecode,li,ptStub,creator,rcStub){
 	for(var i=0;i<methods.length;i++){
 		var m=methods.get(i);
 		var headline=rcStub.getMyRequestHeadline(m.id,creator);
+		var netpt=rcStub.getMyRequestNetprotocol(m.id,creator);
 		var li=methodLi.clone();
 		li.attr('id',m.id+'');
 		li.attr('code',m.code+'');
+		var ptcol='';
+		if(netpt!=null){
+			ptcol=netpt.protocol;
+		}
+		li.attr('netprotocol',ptcol);
 		if(headline!=null){
 			li.select('.method-command').html(headline.cmd+'');
 		}

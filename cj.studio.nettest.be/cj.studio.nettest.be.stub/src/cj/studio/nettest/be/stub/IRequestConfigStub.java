@@ -16,9 +16,19 @@ import cj.studio.nettest.be.args.RequestHeadline;
 import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
+import cj.studio.nettest.be.args.SimpleReport;
 
 @CjStubService(bindService = "/request-config.service", usage = "请求配置服务")
 public interface IRequestConfigStub {
+	@CjStubMethod(command = "post", usage = "保存响应")
+	void saveAndUpdateRequestResponse(@CjStubInContentKey(key = "report", usage = "测试报告") SimpleReport report,
+			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
+
+	@CjStubMethod(command = "get", usage = "获取测试报告")
+	@CjStubReturn(type = SimpleReport.class, usage = "报告")
+	SimpleReport getMyRequestResponse(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
+			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
+
 	@CjStubMethod(command = "get", usage = "更新请求的协议")
 	void saveAndUpdateRequestNetprotocol(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
 			@CjStubInParameter(key = "netprotocol", usage = "协议，如：httpOnBrower|wsOnBrowser|tcpOnServer|udtOnServer") String netprotocol,
@@ -39,7 +49,7 @@ public interface IRequestConfigStub {
 	@CjStubReturn(type = RequestHost.class, usage = "请求主机")
 	RequestHost getMyRequestHost(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
 			@CjStubInParameter(key = "creator", usage = "创建者") String creator);
-	
+
 	@CjStubMethod(command = "post", usage = "更新请求头")
 	void saveAndUpdateRequestHeadline(@CjStubInParameter(key = "mid", usage = "方法标识") String mid,
 			@CjStubInParameter(key = "cmd", usage = "命令") String cmd,

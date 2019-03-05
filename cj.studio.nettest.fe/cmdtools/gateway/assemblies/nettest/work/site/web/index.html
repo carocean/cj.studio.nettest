@@ -13,6 +13,7 @@
 
 <script type="text/javascript" src="js/jquery/jquery-2.1.4.js"></script>
 <script type="text/javascript" src="js/socket.io.js"></script>
+<script type="text/javascript" src="js/date.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/ws-event.js"></script>
 <script type="text/javascript" src="js/root-panel.js"></script>
@@ -266,7 +267,13 @@
 								</li>
 								<li class="portlet reslet">
 									<div class="res-bar">
-										<span>晌应结果</span>
+										<span>晌应结果：</span>
+										<ul>
+											<li taketime><label>耗时： </label><span></span></li>
+											<li ctime><label>创建时间： </label><span></span></li>
+											<li state><label>状态： </label><span></span></li>
+											<li message><label>消息： </label><span></span></li>
+										</ul>
 									</div>
 									<div class="response">
 										<div class="content">无</div>
@@ -528,48 +535,48 @@
 																<li class="popup-bar-right-li" title="服务方法数"><label></label></li>
 															</ul>
 														</li>
-														<li class="popup-rbar-region">
+														<li class="popup-rbar-region test-report">
 															<ul class="popup-rbar-table">
 																<li class="popup-rbar-row header">
 																	<div style="width: 10px;"></div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" simcount>
 																		<label>取样数</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" avg>
 																		<label>平均数</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" min>
 																		<label>最小</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" max>
 																		<label>最大</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" errrate>
 																		<label>错误率</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" passrate>
 																		<label>通过率</label>
 																	</div>
 																	<div style="width: 10px;"></div>
 																</li>
 																<li class="popup-rbar-row data">
 																	<div style="width: 10px;"></div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" simcount>
 																		<label>0</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" avg>
 																		<label>0</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" min>
 																		<label>0</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" max>
 																		<label>0</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" errrate>
 																		<label>0</label>
 																	</div>
-																	<div class="popup-rbar-cell">
+																	<div class="popup-rbar-cell" passrate>
 																		<label>0</label>
 																	</div>
 																	<div style="width: 10px;"></div>

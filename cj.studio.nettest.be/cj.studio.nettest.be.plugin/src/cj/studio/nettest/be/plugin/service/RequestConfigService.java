@@ -18,11 +18,48 @@ import cj.studio.nettest.be.args.RequestHeadline;
 import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
+import cj.studio.nettest.be.args.SimpleReport;
 import cj.studio.nettest.be.service.IRequestConfigService;
 @CjService(name = "rcService")
 public class RequestConfigService implements IRequestConfigService{
 	@CjServiceRef(refByName = "mongodb.netos.test")
 	ICube test;
+	
+	@Override
+	public void saveAndUpdateRequestResponse(SimpleReport report, String creator) {
+		String cjql = String.format(
+				"select {'tuple':'*'} from tuple request.reports %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
+				SimpleReport.class.getName(), report.getMid(), creator);
+		IQuery<SimpleReport> q = test.createQuery(cjql);
+		IDocument<SimpleReport> doc = q.getSingleResult();
+		if (doc == null) {
+			// add
+			test.saveDoc("request.reports", new TupleDocument<>(report));
+			return;
+		}
+		// update
+		SimpleReport old=doc.tuple();
+		old.setCreator(report.getCreator());
+		old.setCtime(report.getCtime());
+		old.setMessage(report.getMessage());
+		old.setMid(report.getMid());
+		old.setResponse(report.getResponse());
+		old.setState(report.getState());
+		old.setTakeTime(report.getTakeTime());
+		test.updateDoc("request.reports", doc.docid(), new TupleDocument<>(old));
+		
+	}
+	@Override
+	public SimpleReport getMyRequestResponse(String mid, String creator) {
+		String cjql = String.format(
+				"select {'tuple':'*'} from tuple request.reports %s where {'tuple.mid':'%s','tuple.creator':'%s'}",
+				SimpleReport.class.getName(), mid, creator);
+		IQuery<SimpleReport> q = test.createQuery(cjql);
+		IDocument<SimpleReport> doc = q.getSingleResult();
+		if (doc == null)
+			return null;
+		return doc.tuple();
+	}
 	@Override
 	public void saveAndUpdateRequestNetprotocol(String mid, String netprotocol, String creator) {
 		String cjql = String.format(

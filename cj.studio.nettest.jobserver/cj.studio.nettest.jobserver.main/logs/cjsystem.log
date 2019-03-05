@@ -323,3 +323,390 @@
 2019年03月05日 01:46:22  警告: cj.studio.gateway.server.handler.TcpChannelHandler - 服务器：tcpSite 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的属性中指定：OnChannelEvent-Notify-Dests=dest1,dest2
 2019年03月05日 01:47:43  信息 : -------------网关启动完毕-------------------
 2019年03月05日 01:47:48  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:11:51  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:12:11  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:39:59  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:42:31  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:42:45  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:43:44  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:44:06  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:44:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：null,http://localhost:9090 的处理队列已完成
+2019年03月05日 11:48:13  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:48:28  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:51:33  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:51:38  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:53:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:52  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:54  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:55  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:53:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:54:07  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:55:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 11:55:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 11:57:26  信息 : -------------网关启动完毕-------------------
+2019年03月05日 11:57:47  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 11:58:18  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 11:58:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:09:25  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:09:38  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:10:15  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:10:17  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:10:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:13:29  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:13:32  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:13:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:15:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:15:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:16:37  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:16:40  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:16:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:07  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:07  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:29  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:17:34  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:17:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:17:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:27:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:44:16  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:44:34  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:44:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:44:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:44:58  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 12:44:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:51:38  信息 : -------------网关启动完毕-------------------
+2019年03月05日 12:52:39  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 12:52:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:55:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:56:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:56:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:56:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:57:12  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:57:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 12:59:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:30:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:32:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:33:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:33:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:34:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:35:03  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:51:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:52:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:53:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:54:13  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:54:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:55:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:44  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:54  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:56:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:57:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 13:57:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 14:18:40  信息 : -------------网关启动完毕-------------------
+2019年03月05日 14:19:08  信息 : -------------网关启动完毕-------------------
+2019年03月05日 14:19:31  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 14:19:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 14:19:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 14:29:22  信息 : -------------网关启动完毕-------------------
+2019年03月05日 14:29:24  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 14:29:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 14:29:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 14:30:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 14:31:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:36:25  信息 : -------------网关启动完毕-------------------
+2019年03月05日 15:38:09  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 15:45:32  信息 : -------------网关启动完毕-------------------
+2019年03月05日 15:45:39  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 15:45:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:45:48  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:45:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:46:09  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:46:09  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:46:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:47:13  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:47:20  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:47:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 15:47:36  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:47:36  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:47:36  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:47:36  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:47:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 15:48:05  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:48:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 15:48:34  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:48:39  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 15:50:15  信息 : -------------网关启动完毕-------------------
+2019年03月05日 15:50:31  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 15:50:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:51:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:51:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:53:44  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:54:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:55:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 15:56:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:05:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:06:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:08:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:12:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:13:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:14:03  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:15:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:15:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:17:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:17:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:19:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:20:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:21:07  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:27:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:29:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:30:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:30:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:31:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:32:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:33:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:33:54  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:34:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:34:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:15  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:47  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:35:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:04  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:09  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:13  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:15  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:36:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:37:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:37:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:37:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:38:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:38:12  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:38:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:38:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:43:46  信息 : -------------网关启动完毕-------------------
+2019年03月05日 16:51:39  信息 : -------------网关启动完毕-------------------
+2019年03月05日 16:51:51  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 16:51:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:52:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:52:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:54:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 16:54:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:20:35  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:20:57  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:20:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:21:37  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:21:38  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:24:28  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:24:49  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:29:36  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:29:42  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:30:30  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:30:37  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:30:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:32:50  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:33:12  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:34:42  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:34:46  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:34:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:36:37  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:36:41  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:36:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:36:43  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:13  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:37:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:20  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:37:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:37:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:32  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:37:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:35  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:37:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:43  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:47  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:37:49  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:37:49  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:37:50  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:02  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:05  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:13  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:19  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:20  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:38:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:38:27  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:32  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:35  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:43  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:49  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:50  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:38:57  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:52:02  信息 : -------------网关启动完毕-------------------
+2019年03月05日 17:56:18  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月05日 17:56:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:56:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:57:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:57:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:57:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:57:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月05日 17:58:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月05日 17:58:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:58:47  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:58:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:04  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:59:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user2.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:59:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 17:59:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 17:59:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:00:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 18:00:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:00:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:00:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:00:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:01:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:01:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:01:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:01:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:02:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:02:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:02:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:02:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:03:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:03:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:03:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:03:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 18:03:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:03:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 18:04:03  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月05日 18:04:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:04:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:04:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:04:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:05:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:05:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:05:42  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:05:47  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:06:12  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月05日 18:06:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成

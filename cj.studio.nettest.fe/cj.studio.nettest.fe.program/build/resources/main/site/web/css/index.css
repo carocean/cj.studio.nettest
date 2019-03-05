@@ -924,6 +924,23 @@
 	border-bottom: 1px solid #ececec;
 	color: #555;
 }
+
+.portlet>.res-bar ul{
+	display: table;
+	padding-left: 70px;
+}
+.portlet>.res-bar ul>li{
+	display: table-cell;
+	padding-right: 10px;
+}
+.portlet>.res-bar ul>li label{
+	color: #555;
+	font-size: 12px;
+}
+.portlet>.res-bar ul>li span{
+	font-weight: bold;
+	color: red;
+}
 .portlet>.response{
 	display: table;
 	width:100%;

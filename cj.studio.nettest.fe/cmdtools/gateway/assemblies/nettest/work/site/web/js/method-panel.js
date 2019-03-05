@@ -32,12 +32,23 @@ $(document).ready(function(){
 	
 	panelTools.undelegate(' > .popup-ul.method > .popup-bar > .popup-bar-right-ul > li[run]','click');
 	panelTools.delegate('> .popup-ul.method > .popup-bar > .popup-bar-right-ul > li[run]','click',function(){
-		alert('');
+		var id=panelTools.attr('id');
+		var methodid=panelTools.attr('mid');
+		$.get('./views/runner-start.service',{mid:methodid,runnerid:id},function(){
+			
+		}).error(function(e){
+			alert(e.responseText);
+		})
 	});
 	
 	panelTools.undelegate(' > .popup-ul.method > .popup-bar > .popup-bar-right-ul > li[stop]','click');
 	panelTools.delegate('> .popup-ul.method > .popup-bar > .popup-bar-right-ul > li[stop]','click',function(){
-		alert('');
+		var methodid=panelTools.attr('mid');
+		$.get('./views/runner-stop.service',{mid:methodid},function(){
+			
+		}).error(function(e){
+			alert(e.responseText);
+		})
 	});
 	
 	panelTools.undelegate('>.popup-ul > .popup-ibar-region > .popup-ibar-table > .popup-ibar-row > .popup-ibar-cell input[type="text"]','change');

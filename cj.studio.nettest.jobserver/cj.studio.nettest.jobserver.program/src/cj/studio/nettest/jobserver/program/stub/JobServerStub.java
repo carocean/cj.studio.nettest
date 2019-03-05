@@ -24,11 +24,27 @@ public class JobServerStub extends GatewayAppSiteRestStub implements IJobServerS
 			if(sender!=null) {
 				sender.setBackendid(frame.head(SocketContants.__frame_fromPipelineName));
 			}
+			return;
+		}
+		if(m.getName().equals("addJobByRunner")) {
+			JobSender  sender=(JobSender)args[2];
+			if(sender!=null) {
+				sender.setBackendid(frame.head(SocketContants.__frame_fromPipelineName));
+			}
+			return;
 		}
 	}
 	@Override
 	public void addJob(String mid, JobSender sender) throws CircuitException {
 		jobserver.addJob(mid, sender);
+	}
+	@Override
+	public void addJobByRunner(String mid, String runnerid, JobSender sender) throws CircuitException {
+		jobserver.addJobByRunner(mid,runnerid, sender);
+	}
+	@Override
+	public void stopJobRunner(String mid, String sender) throws CircuitException {
+		jobserver.stopJobRunner(mid, sender);
 	}
 
 }

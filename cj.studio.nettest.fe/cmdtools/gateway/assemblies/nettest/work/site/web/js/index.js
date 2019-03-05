@@ -126,6 +126,11 @@ $(document).ready(function(){
 				var method=$(this).parents('.pr-method').attr('code');
 				var folder=$(this).parents('.pr-method').attr('folder');
 				var service=$(this).parents('.pr-method').attr('service');
+				var netprotocol=$(this).parents('.pr-method').attr('netprotocol');
+				if('wsOnBrowser'==netprotocol){
+					alert('不支持wsOnBrowser的压力策试');
+					return;
+				}
 				var mid=$(this).parents('.pr-method').attr('id');
 				pannelTools.attr('folder',folder);
 				pannelTools.attr('service',service);
@@ -311,7 +316,25 @@ $(document).ready(function(){
 		}).error(function(e){
 			alert(e.responseText);
 		});
-		
+		$.get('./views/request-response-get.service',{mid:li.attr('id')},function(data){
+			var rescnt=$('.portlet > .response > .content');
+			var resul=$('.portlet > .res-bar ul');
+			if(data==null||(typeof data=='undefined')||data=='null'){
+				resul.hide();
+				rescnt.html('无');
+				return;
+			}
+			var report=$.parseJSON(data);
+			resul.find('li[state] span').html(report.state);
+			resul.find('li[message] span').html(report.message);
+			resul.find('li[taketime] span').html(report.takeTime);
+			var time=new Date(report.ctime).Format('yyyy-MM-dd hh:mm:ss');
+			resul.find('li[ctime] span').html(time);
+			resul.show();
+			rescnt.html(report.response);
+		}).error(function(e){
+			alert(e.responseText);
+		});
 	});
 	var tabPanels=$('.portlet .settings>.tab-panels');
 	var tabs=$('.portlet .settings > .tabs');

@@ -14,6 +14,7 @@ import cj.studio.nettest.be.args.RequestHeadline;
 import cj.studio.nettest.be.args.RequestHost;
 import cj.studio.nettest.be.args.RequestNetprotocol;
 import cj.studio.nettest.be.args.RequestParameter;
+import cj.studio.nettest.be.args.SimpleReport;
 import cj.studio.nettest.be.service.IRequestConfigService;
 import cj.studio.nettest.be.stub.IRequestConfigStub;
 
@@ -22,6 +23,14 @@ public class RequestConfigStub extends GatewayAppSiteRestStub implements IReques
 	@CjServiceRef(refByName = "nettestplugin.rcService")
 	IRequestConfigService rcService;
 
+	@Override
+	public void saveAndUpdateRequestResponse(SimpleReport report, String creator) {
+		rcService.saveAndUpdateRequestResponse(report, creator);
+	}
+	@Override
+	public SimpleReport getMyRequestResponse(String mid, String creator) {
+		return rcService.getMyRequestResponse(mid, creator);
+	}
 	@Override
 	public void saveAndUpdateRequestNetprotocol(String mid, String netprotocol, String creator) {
 		rcService.saveAndUpdateRequestNetprotocol(mid, netprotocol, creator);

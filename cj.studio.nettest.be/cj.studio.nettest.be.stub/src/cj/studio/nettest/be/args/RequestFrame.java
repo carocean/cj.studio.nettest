@@ -16,12 +16,12 @@ public class RequestFrame {
 	String contentType;
 	String host;
 	String dest;
-
+	String mid;
 	public RequestFrame() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public RequestFrame(Frame frame, String host, String dest, String socketType, String contentType,
+	public RequestFrame(Frame frame,String mid, String host, String dest, String socketType, String contentType,
 			String requestor) {
 		super();
 		try {
@@ -34,6 +34,13 @@ public class RequestFrame {
 		this.contentType = contentType;
 		this.host = host;
 		this.dest = dest;
+		this.mid=mid;
+	}
+	public String getMid() {
+		return mid;
+	}
+	public void setMid(String mid) {
+		this.mid = mid;
 	}
 	public Map<String, Object> getFrame() {
 		if(StringUtil.isEmpty(frameText)) {

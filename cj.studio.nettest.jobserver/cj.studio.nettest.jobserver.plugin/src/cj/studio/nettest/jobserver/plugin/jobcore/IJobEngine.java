@@ -18,4 +18,6 @@ public interface IJobEngine {
 	void stop();
 
 	IJobQueue createJobQueue(JobSender sender, RequestFrame rf) throws CircuitException;
+
+	void stopJobRunner(String mid, String sender);
 }
