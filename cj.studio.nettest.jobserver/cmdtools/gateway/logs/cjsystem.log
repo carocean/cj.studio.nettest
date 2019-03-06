@@ -272,3 +272,7 @@
 		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
 		at java.lang.Thread.run(Thread.java:748)
 2019年03月01日 22:35:12  信息 : -------------网关启动完毕-------------------
+2019年03月06日 09:38:06  信息 : -------------网关启动完毕-------------------
+2019年03月06日 09:41:28  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 09:41:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月06日 09:42:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成

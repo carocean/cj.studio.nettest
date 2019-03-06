@@ -158,3 +158,9 @@
 2018年12月30日 22:14:25  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.gateway.examples.frontend/cmdtools/gateway/lib/share
 2019年03月01日 22:34:45  信息 : -------------网关启动完毕-------------------
 2019年03月01日 22:34:46  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月06日 09:36:55  信息 : -------------网关启动完毕-------------------
+2019年03月06日 09:41:13  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/
+2019年03月06日 09:41:14  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月06日 09:41:16  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/apple-touch-icon-precomposed.png
+2019年03月06日 09:41:18  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/apple-touch-icon-precomposed.png
+2019年03月06日 09:41:24  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 缺少路由目标，请求侦被丢掉：/apple-touch-icon-precomposed.png

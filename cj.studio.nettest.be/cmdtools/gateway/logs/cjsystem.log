@@ -272,3 +272,5 @@
 		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
 		at java.lang.Thread.run(Thread.java:748)
 2019年03月01日 22:35:12  信息 : -------------网关启动完毕-------------------
+2019年03月06日 09:37:40  信息 : -------------网关启动完毕-------------------
+2019年03月06日 09:41:23  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.be/cmdtools/gateway/lib/share
