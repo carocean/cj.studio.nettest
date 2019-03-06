@@ -72,5 +72,12 @@ $(document).ready(function(){
 	panelTools.delegate('> .popup-ul.folder > .popup-tbar-region > .popup-rbar-table > .popup-rbar-row > .popup-rbar-cell>input','change',function(){
 		var row=$(this).parents('.popup-rbar-row');
 		$(this).attr('style','border:1px solid red;');
+		var code=row.find('.popup-rbar-cell.code>input').val();
+		if(typeof code!='undefined'&&code!=''){
+			if(code.indexOf('.')>-1){
+				alert('名称不能含有.号');
+				row.find('.popup-rbar-cell.code>input').val('');
+			}
+		}
 	});
 });
