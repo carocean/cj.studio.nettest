@@ -49,10 +49,10 @@ public class Job implements IJob,ICalDoneEvent {
 		report.setCreator(rf.getRequestor());
 		report.setMid(rf.getMid());
 		report.setCtime(before);
-
-		Map<String, Object> headers = (Map<String, Object>) rf.getFrame().get("headers");
-		Map<String, Object> params = (Map<String, Object>) rf.getFrame().get("parameters");
-		String content = (String) params.get("content");
+		Map<String,Object> rframe=rf.getFrame();
+		Map<String, Object> headers = (Map<String, Object>) rframe.get("headers");
+		Map<String, Object> params = (Map<String, Object>) rframe.get("parameters");
+		String content = (String) rframe.get("content");
 		String protocol = (String) headers.get("protocol");
 		IInputChannel in = new MemoryInputChannel();
 		Frame frame = new Frame(in, String.format("%s %s %s", headers.get("command"), headers.get("url"), protocol));

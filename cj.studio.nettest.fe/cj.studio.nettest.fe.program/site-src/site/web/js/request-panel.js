@@ -185,11 +185,20 @@ $(document).ready(function(){
 			return;
 		}
 		var content=$(this).val();
-		$.post('./views/request-content-any-save.service',{mid:mid,content:content},function(){
-			
-		}).error(function(e){
-			alert(e.responseText);
-		});
+		content=content.replace(/\"/g,'\\"');
+		content=content.replace(/\'/g,'\\"');
+		var data='{"mid":"'+mid+'","content":"'+content+'"}';
+		 $.ajax({
+		        type: "POST",
+		        url: "./views/request-content-any-save.service",
+		        contentType: "text/html; charset=utf-8",
+		        data: data,
+		        success: function (message) {
+		        },
+		        error: function(a1,a2,a3) { // 出错处理
+		            alert(a3.message);
+		        }
+		    });
 	});
 	
 	reqPanels.find('.tab-panel.x-www-form-urlencode').undelegate('.tab-table-cell input:text','change');

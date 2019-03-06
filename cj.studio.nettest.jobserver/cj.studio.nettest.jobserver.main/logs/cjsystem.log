@@ -923,3 +923,92 @@
 2019年03月06日 00:17:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
 2019年03月06日 00:17:54  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
 2019年03月06日 00:17:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7cc1bb8500260534f426c0,rest://backend/uc/,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月06日 11:56:30  信息 : -------------网关启动完毕-------------------
+2019年03月06日 11:56:46  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 11:57:18  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 11:57:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 11:58:00  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月06日 11:59:12  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 11:59:27  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 11:59:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 12:00:24  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 12:00:24  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 12:00:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 12:01:32  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 12:01:32  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 12:01:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 12:42:41  信息 : -------------网关启动完毕-------------------
+2019年03月06日 12:42:53  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 12:43:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 12:44:07  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 12:44:07  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 12:44:07  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 12:46:59  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 12:46:59  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 12:46:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 12:48:00  信息 : -------------网关启动完毕-------------------
+2019年03月06日 12:48:08  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 12:48:39  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 12:48:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 12:51:48  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.io.InterruptedIOException: interrupted
+2019年03月06日 12:59:12  信息 : -------------网关启动完毕-------------------
+2019年03月06日 12:59:18  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 12:59:50  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 12:59:50  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 12:59:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:00:11  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:00:11  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:00:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:00:22  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:00:22  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:00:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:00:32  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:00:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 13:01:14  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:14  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:01:30  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:30  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:01:31  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:31  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:01:33  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:33  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:01:57  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:57  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:01:58  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:58  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:01:58  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:01:58  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:01:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:02:00  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:02:00  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:02:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:02:00  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:02:00  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:02:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:02:14  信息 : -------------网关启动完毕-------------------
+2019年03月06日 13:02:17  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 13:02:18  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8080
+2019年03月06日 13:02:18  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:02:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:02:40  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 13:02:40  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:02:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:04:23  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:04:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:07:15  信息 : -------------网关启动完毕-------------------
+2019年03月06日 13:07:19  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月06日 13:07:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 13:07:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 13:07:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 13:08:26  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月06日 13:08:26  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月06日 13:08:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月06日 13:09:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 13:23:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月06日 13:27:52  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成

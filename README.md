@@ -3,7 +3,8 @@
 
 ## 网络测试中心
 
-- 支持的协议有：ws,tcp,udt。http协议（restful)的测试
+- 支持的协议有：ws(websocket),tcp,udt,http
+- 支持RESTful的测试，适用的协议有：ws,tcp,udt,http
 - 测试数据和报告存入平台的测试库
 - 适合大企业建立测试中心
 - 每个人管理自己的测试数据
