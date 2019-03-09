@@ -27,7 +27,7 @@
 		},{
 			"name": "/jobserver/nettest/",
 			"uris": [
-				"tcp://localhost:9098?acceptErrorPath=/website/tcp/error/"
+				"tcp://localhost:9098?acceptErrorPath=/nettest/tcp/error/"
 			],
 			"props": {
 				
