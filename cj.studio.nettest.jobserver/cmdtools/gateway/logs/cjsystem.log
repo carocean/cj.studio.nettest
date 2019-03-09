@@ -497,3 +497,161 @@
 2019年03月07日 00:40:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
 2019年03月07日 00:40:09  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
 2019年03月07日 00:41:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f8e0d9f5aa211c39a5be2,rest://backend/uc/,http://localhost:9090 headline:GET /uc/account.service HTTP/1.1 的处理队列已完成
+2019年03月07日 01:06:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f8e0d9f5aa211c39a5be2,rest://backend/uc/,http://localhost:9090 headline:GET /uc/account.service HTTP/1.1 的处理队列已完成
+2019年03月07日 01:06:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f8e0d9f5aa211c39a5be2,rest://backend/uc/,http://localhost:9090 headline:GET /uc/account.service HTTP/1.1 的处理队列已完成
+2019年03月07日 01:06:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f8e0d9f5aa211c39a5be2,rest://backend/uc/,http://localhost:9090 headline:GET /uc/account.service HTTP/1.1 的处理队列已完成
+2019年03月07日 01:06:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f8e0d9f5aa211c39a5be2,rest://backend/uc/,http://localhost:9090 headline:GET /uc/account.service HTTP/1.1 的处理队列已完成
+2019年03月07日 01:06:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f8e0d9f5aa211c39a5be2,rest://backend/uc/,http://localhost:9090 headline:GET /uc/account.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:16:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b89f5aa211c39a5ad0,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:16:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:27:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b79f5aa211c39a5acf,rest://backend/uc,http://localhost:9090 headline:POST /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:27:06  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月07日 10:27:06  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月07日 10:27:06  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月07日 10:29:13  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b79f5aa211c39a5acf,rest://backend/uc,http://localhost:9090 headline:POST /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:29:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:29:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:37:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b89f5aa211c39a5c5d,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:37:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b89f5aa211c39a5c5d,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:37:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b89f5aa211c39a5c5d,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:37:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b89f5aa211c39a5c5d,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:38:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b99f5aa211c39a5c5e,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:38:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b99f5aa211c39a5c5e,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:39:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b99f5aa211c39a5c5e,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:39:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b99f5aa211c39a5c5f,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:40:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b99f5aa211c39a5c5f,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:47:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93ba9f5aa211c39a5c60,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:47:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93ba9f5aa211c39a5c60,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:48:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bb9f5aa211c39a5c61,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:48:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bb9f5aa211c39a5c61,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:48:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93b99f5aa211c39a5c5e,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:49:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bb9f5aa211c39a5c62,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:50:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bc9f5aa211c39a5c63,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:50:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bc9f5aa211c39a5c63,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:51:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bc9f5aa211c39a5c64,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:52:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bd9f5aa211c39a5c65,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:52:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bd9f5aa211c39a5c65,rest://backend/uc/,http://localhost:9090 headline:POST /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:53:12  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bd9f5aa211c39a5c65,rest://backend/uc/,http://localhost:9090 headline:POST /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:53:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bb9f5aa211c39a5c62,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:54:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bd9f5aa211c39a5c66,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:54:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93be9f5aa211c39a5c67,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:55:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93be9f5aa211c39a5c68,rest://backend/uc/,http://localhost:9090 headline:POST /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:56:35  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:null
+2019年03月07日 10:56:35  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 10:56:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bf9f5aa211c39a5c69,rest://backend/uc/,http://localhost:9090 headline:null /uc/organization.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 10:56:38  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:null
+2019年03月07日 10:56:38  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 10:56:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bf9f5aa211c39a5c69,rest://backend/uc/,http://localhost:9090 headline:null /uc/organization.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 10:56:44  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93bf9f5aa211c39a5c69,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:57:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c09f5aa211c39a5c6a,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:57:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c09f5aa211c39a5c6b,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:58:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c19f5aa211c39a5c6c,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:59:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c19f5aa211c39a5c6d,rest://backend/uc/,http://localhost:9090 headline:POST /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 10:59:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c09f5aa211c39a5c6b,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 11:00:09  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c39f5aa211c39a5c6e,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 11:10:22  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - java.lang.IllegalArgumentException: Invalid URL port: "9090http:"
+2019年03月07日 11:10:22  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 11:10:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET http://localhost:9090 HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 11:10:28  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - java.lang.IllegalArgumentException: Invalid URL port: "9090http:"
+2019年03月07日 11:10:28  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 11:10:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET http://localhost:9090 HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 11:10:35  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - java.lang.IllegalArgumentException: Invalid URL port: "9090http:"
+2019年03月07日 11:10:35  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 11:10:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET http://localhost:9090 HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 11:10:49  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - java.lang.IllegalArgumentException: Invalid URL port: "9090http:"
+2019年03月07日 11:10:49  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 11:10:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET http://localhost:9090 HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 11:11:24  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - java.lang.IllegalArgumentException: Invalid URL port: "9090http:"
+2019年03月07日 11:11:24  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 11:11:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET http://localhost:9090 HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 11:11:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f93c39f5aa211c39a5c6e,rest://backend/uc/,http://localhost:9090 headline:GET /uc/organization.service HTTP/1.1 的处理队列已完成
+2019年03月07日 11:11:55  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - java.lang.IllegalArgumentException: Invalid URL port: "9090http:"
+2019年03月07日 11:11:55  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月07日 11:11:55  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET http://localhost:9090 HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月07日 11:13:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94379f5aa211c39a5c70,rest://backend/uc/,http://localhost:9090 headline:GET /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月07日 11:13:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94359f5aa211c39a5c6f,rest://backend/uc/,http://localhost:9090 headline:GET /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月07日 11:14:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94389f5aa211c39a5c72,rest://backend/uc/,http://localhost:9090 headline:GET /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月07日 11:15:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f94399f5aa211c39a5c73,rest://backend/uc/,http://localhost:9090 headline:GET /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 00:40:22  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:40:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,http://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:40:28  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:40:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,http://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:40:38  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:40:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,http://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:40:40  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:40:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,http://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:40:52  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:40:52  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:41:02  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:41:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:41:04  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:41:04  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:41:30  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:41:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:41:32  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:41:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:41:33  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:41:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:41:34  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 不支持的http方法:PUT
+2019年03月08日 00:41:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:42:40  信息 : -------------网关启动完毕-------------------
+2019年03月08日 00:42:44  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月08日 00:42:45  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:42:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/tcp/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:44:34  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:44:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:44:35  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:44:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:44:35  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:44:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:44:36  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:44:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:44:36  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:44:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:45:43  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:45:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:45:46  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:45:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:46:19  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:46:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:46:21  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:46:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:46:21  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:46:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:46:22  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:46:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 00:47:57  信息 : -------------网关启动完毕-------------------
+2019年03月08日 00:48:32  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月08日 00:48:32  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 开发者调用Tcp发送时不得指定内容接受器.PUT /website/backend13/ TCP/1.0
+2019年03月08日 00:48:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 11:00:44  信息 : -------------网关启动完毕-------------------
+2019年03月08日 12:44:51  信息 : -------------网关启动完毕-------------------
+2019年03月08日 13:06:30  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月08日 13:06:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f26b09f5aa20e502c66e9,rest://backend/uc/,http://localhost:9090 headline:POST /uc/role.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:06:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月08日 13:31:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f32c59f5aa20e502c66f5,rest://backend/website2/,http://localhost:8080 headline:POST /website2/custom/ HTTP/1.1 的处理队列已完成
+2019年03月08日 13:31:51  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:31:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:19  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:20  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:20  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:21  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:21  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:21  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:21  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成
+2019年03月08日 13:32:57  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - cj.studio.ecm.EcmException: 还没完成
+2019年03月08日 13:32:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8149149f5aa2137c388fa1,rest://backend/website/,tcp://localhost:8082 headline:PUT /website/backend13/ TCP/1.0 的处理队列已完成

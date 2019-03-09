@@ -12,7 +12,6 @@ import cj.studio.ecm.net.IInputChannel;
 import cj.studio.ecm.net.io.MemoryContentReciever;
 import cj.studio.ecm.net.io.MemoryInputChannel;
 import cj.studio.ecm.net.io.MemoryOutputChannel;
-import cj.studio.gateway.socket.io.DefaultFeedbackToOutputer;
 import cj.studio.gateway.socket.pipeline.IOutputer;
 import cj.studio.nettest.be.args.RequestFrame;
 import cj.studio.nettest.be.args.SimpleReport;
@@ -93,6 +92,7 @@ public class Job implements IJob,ICalDoneEvent {
 
 		try {
 			this.outdest.send(frame, circuit);
+//			this.outdest.releasePipeline();
 		} catch (CircuitException e) {
 			report.setState(Integer.valueOf(e.getStatus()));
 			report.setMessage(e.getMessage());
@@ -116,12 +116,12 @@ public class Job implements IJob,ICalDoneEvent {
 			}
 		}
 
-		DefaultFeedbackToOutputer fb = new DefaultFeedbackToOutputer(outclient);
 		try {
-			Frame first = fb.createFirst("put /nettest/test-report.service tcp/1.0");
-			first.parameter("sender", sender.getSender());
-			fb.commitFirst(first);
-			in = fb.createLast();
+			MemoryInputChannel in2=new MemoryInputChannel();
+			Frame f = new Frame(in2,"put /nettest/test-report.service tcp/1.0");
+			f.parameter("sender", sender.getSender());
+			f.content().accept(new MemoryContentReciever());
+			in2.begin(f);
 			
 			long taketime = System.currentTimeMillis() - before;
 			report.setTakeTime(taketime);
@@ -130,9 +130,14 @@ public class Job implements IJob,ICalDoneEvent {
 			pool.addCalTask(new CalTask(CalCommand.cmd_set_min, taketime));
 			pool.addCalTask(new CalTask(CalCommand.cmd_set_max, taketime));
 			pool.addCalTask(new CalTask(CalCommand.cmd_add_passCount, 1));
+			
 			byte[] b = new Gson().toJson(report).getBytes();
-			in.writeBytes(b, 0, b.length);
-			fb.commitLast(in);
+			in2.done(b, 0, b.length);
+			
+			MemoryOutputChannel out=new MemoryOutputChannel();
+			Circuit c=new Circuit(out,"tcp/1.0 200 OK");
+			
+			outclient.send(f, c);
 			
 			sendCountReport(this.pool.getReport());
 		} catch (CircuitException e) {
@@ -149,15 +154,17 @@ public class Job implements IJob,ICalDoneEvent {
 		}
 	}
 	private void sendCountReport(CountReport report) throws CircuitException {
-		DefaultFeedbackToOutputer fb = new DefaultFeedbackToOutputer(outclient);
-		Frame first = fb.createFirst("put /nettest/count-report.service tcp/1.0");
-		first.parameter("sender", sender.getSender());
-		fb.commitFirst(first);
-		IInputChannel in = fb.createLast();
-		
+		MemoryInputChannel in=new MemoryInputChannel();
+		Frame f = new Frame(in,"put /nettest/count-report.service tcp/1.0");
+		f.parameter("sender", sender.getSender());
+		f.content().accept(new MemoryContentReciever());
+		in.begin(f);
 		byte[] b = new Gson().toJson(report).getBytes();
-		in.writeBytes(b, 0, b.length);
-		fb.commitLast(in);
+		in.done(b, 0, b.length);
+		
+		MemoryOutputChannel out=new MemoryOutputChannel();
+		Circuit c=new Circuit(out,"tcp/1.0 200 OK");
+		outclient.send(f, c);
 	}
 
 }

@@ -890,3 +890,232 @@
 2019年03月07日 00:38:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:css
 2019年03月07日 00:38:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:js
 2019年03月07日 00:38:54  错误: cj.studio.gateway.server.handler.HttpChannelHandler - 簇中缺少目标:js
+2019年03月07日 10:26:17  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：<eval>:48 TypeError: Cannot get property "user" of null
+		at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57)
+		at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213)
+		at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185)
+		at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172)
+		at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkNull(NashornBottomLinker.java:183)
+		at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:66)
+		at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124)
+		at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154)
+		at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253)
+		at jdk.nashorn.internal.scripts.Script$Recompilation$797$821AAA$\^eval\_.L:22#flow(<eval>:48)
+		at cj.studio.gateway.socket.app.IGatewayAppSiteWayWebView$$NashornJavaAdapter.flow(null:-1)
+		at cj.studio.gateway.socket.app.valve.LastWayInputValve.renderJssDocument(LastWayInputValve.java:147)
+		at cj.studio.gateway.socket.app.valve.LastWayInputValve.flow(LastWayInputValve.java:81)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.nettest.fe.program.valve.OnlineEventValve.flow(OnlineEventValve.java:22)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.nettest.fe.program.valve.SecurityValve.flow(SecurityValve.java:57)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.nettest.fe.program.valve.DecodeValve.flow(DecodeValve.java:30)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckSessionInputValve.flow(CheckSessionInputValve.java:47)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckErrorInputVavle.flow(CheckErrorInputVavle.java:39)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.CheckUrlInputValve.flow(CheckUrlInputValve.java:44)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:114)
+		at cj.studio.gateway.socket.app.valve.FirstWayInputValve.flow(FirstWayInputValve.java:23)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.nextFlow(InputPipeline.java:108)
+		at cj.studio.gateway.socket.pipeline.InputPipeline.headFlow(InputPipeline.java:76)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.flowWSPipeline(HttpChannelHandler.java:356)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.flowWebSocketFrame(HttpChannelHandler.java:346)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:118)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月07日 10:51:11  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 10:56:30  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 10:57:42  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 10:58:20  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 10:58:21  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 10:58:22  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 11:10:16  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月07日 11:10:21  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月08日 00:48:05  信息 : -------------网关启动完毕-------------------
+2019年03月08日 00:48:12  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月08日 11:00:39  信息 : -------------网关启动完毕-------------------
+2019年03月08日 11:00:55  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月08日 11:01:04  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.socket.app.valve.LastWayOutputValve.onActive(LastWayOutputValve.java:51)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:104)
+		at cj.studio.gateway.socket.app.valve.FirstWayOutputValve.onActive(FirstWayOutputValve.java:16)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:98)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.headOnActive(OutputPipeline.java:86)
+		at cj.studio.gateway.socket.pipeline.OutputSelector.select(OutputSelector.java:32)
+		at cj.studio.gateway.stub.SyncInvocationHandler.invoke(SyncInvocationHandler.java:91)
+		at cj.studio.backend.uc.stub.IRoleStub$$EnhancerByCGLIB$$604f97e3.getRolesOnUser(<generated>:-1)
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:50)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:133)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:116)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月08日 11:01:49  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.socket.app.valve.LastWayOutputValve.onActive(LastWayOutputValve.java:51)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:104)
+		at cj.studio.gateway.socket.app.valve.FirstWayOutputValve.onActive(FirstWayOutputValve.java:16)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:98)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.headOnActive(OutputPipeline.java:86)
+		at cj.studio.gateway.socket.pipeline.OutputSelector.select(OutputSelector.java:32)
+		at cj.studio.gateway.stub.SyncInvocationHandler.invoke(SyncInvocationHandler.java:91)
+		at cj.studio.backend.uc.stub.IAuthenticationStub$$EnhancerByCGLIB$$169f9fd5.authenticate(<generated>:-1)
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:41)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:133)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:116)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月08日 11:02:42  错误: cj.studio.gateway.server.handler.HttpChannelHandler -  异常：java.lang.NullPointerException
+		at cj.studio.gateway.socket.app.valve.LastWayOutputValve.onActive(LastWayOutputValve.java:51)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:104)
+		at cj.studio.gateway.socket.app.valve.FirstWayOutputValve.onActive(FirstWayOutputValve.java:16)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:98)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.headOnActive(OutputPipeline.java:86)
+		at cj.studio.gateway.socket.pipeline.OutputSelector.select(OutputSelector.java:32)
+		at cj.studio.gateway.stub.SyncInvocationHandler.invoke(SyncInvocationHandler.java:91)
+		at cj.studio.backend.uc.stub.IAuthenticationStub$$EnhancerByCGLIB$$169f9fd5.authenticate(<generated>:-1)
+		at cj.studio.nettest.fe.program.webview.AuthWebView$1.done(AuthWebView.java:41)
+		at cj.studio.gateway.socket.io.XwwwFormUrlencodedContentReciever.done(XwwwFormUrlencodedContentReciever.java:62)
+		at cj.studio.gateway.socket.io.HttpInputChannel.done(HttpInputChannel.java:58)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.handleHttpContent(HttpChannelHandler.java:133)
+		at cj.studio.gateway.server.handler.HttpChannelHandler.messageReceived(HttpChannelHandler.java:116)
+		at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:103)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+		at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月08日 13:34:06  信息 : -------------网关启动完毕-------------------
+2019年03月08日 13:36:57  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月08日 13:37:17  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月08日 13:37:24  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月08日 13:40:41  信息 : -------------网关启动完毕-------------------
+2019年03月08日 13:40:45  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月08日 13:41:05  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
+2019年03月08日 13:50:58  信息 : -------------网关启动完毕-------------------
+2019年03月08日 13:51:06  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年03月08日 14:07:43  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:44  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:44  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:50  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:50  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:50  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:51  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:51  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:51  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:53  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:53  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:53  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:54  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:54  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:54  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:54  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:54  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:54  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:55  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:59  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:59  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:59  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:59  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:59  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:07:59  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:00  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:42  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:44  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:08:47  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:09:20  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:10:22  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:11:35  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:13:27  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:13:29  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:13:29  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:14:48  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:14:50  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:14:51  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:14:51  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:14:51  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:14:52  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:TCP/1.0
+2019年03月08日 14:40:50  错误: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 不是网关协议侦:null
