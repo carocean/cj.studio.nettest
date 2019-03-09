@@ -92,7 +92,6 @@ public class Job implements IJob,ICalDoneEvent {
 
 		try {
 			this.outdest.send(frame, circuit);
-//			this.outdest.releasePipeline();
 		} catch (CircuitException e) {
 			report.setState(Integer.valueOf(e.getStatus()));
 			report.setMessage(e.getMessage());
