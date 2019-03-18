@@ -56,24 +56,24 @@ $(document).ready(function(){
 		}
 		$.get('./views/request-frame-get.service',{mid:mid},function(data){
 			var obj=$.parseJSON(data);
-			obj.frame=$.parseJSON(obj.frameText);
+			obj.frame=$.ws.toFrame(obj.frameRaw);
 			if((typeof obj.frame.content!='undefined')&&obj.frame.content.indexOf('\"')>-1){
 				obj.frame.contentText=obj.frame.content;
 				obj.frame.content=$.parseJSON(obj.frame.content.replace(/\\\"/g,'"'));
 			}
-			delete obj.frameText;
-			
-			var url=obj.frame.headers.url;
+			delete obj.frameRaw;
+			debugger;
+			var url=obj.frame.heads.url;
 
 			//			connector.ws.sendText('command=put\r\nurl='+url+'\r\nprotocol=ws/1.0\r\n\r\nname=cj\r\n\r\n我是中国人')
 			
 			var frame={heads:{},params:{}};
 			
-			for(var head in obj.frame.headers){
-				frame.heads[head]=obj.frame.headers[head];
+			for(var head in obj.frame.heads){
+				frame.heads[head]=obj.frame.heads[head];
 			}
-			for(var p in obj.frame.parameters){
-				frame.params[p]=obj.frame.parameters[p];
+			for(var p in obj.frame.params){
+				frame.params[p]=obj.frame.params[p];
 			}
 			frame.content=obj.frame.contentText;
 			for(var i=0;i<1;i++){

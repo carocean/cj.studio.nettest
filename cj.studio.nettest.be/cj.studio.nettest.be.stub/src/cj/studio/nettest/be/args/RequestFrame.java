@@ -1,16 +1,10 @@
 package cj.studio.nettest.be.args;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import cj.studio.ecm.net.CircuitException;
 import cj.studio.ecm.net.Frame;
-import cj.ultimate.gson2.com.google.gson.Gson;
-import cj.ultimate.gson2.com.google.gson.reflect.TypeToken;
-import cj.ultimate.util.StringUtil;
 
 public class RequestFrame {
-	String frameText;
+	String frameRaw;
 	String socketType;// 套节字类型，在界面上选择的
 	String requestor;// 请求者
 	String contentType;
@@ -25,7 +19,7 @@ public class RequestFrame {
 			String requestor) {
 		super();
 		try {
-			this.frameText = frame.toJson();
+			this.frameRaw = new String(frame.toBytes());
 		} catch (CircuitException e) {
 			e.printStackTrace();
 		}
@@ -42,12 +36,7 @@ public class RequestFrame {
 	public void setMid(String mid) {
 		this.mid = mid;
 	}
-	public Map<String, Object> getFrame() {
-		if(StringUtil.isEmpty(frameText)) {
-			return new HashMap<>();
-		}
-		return new Gson().fromJson(frameText, new TypeToken<HashMap<String,Object>>(){}.getType());
-	}
+	
 	public String getHost() {
 		return host;
 	}
@@ -64,12 +53,11 @@ public class RequestFrame {
 		this.dest = dest;
 	}
 
-	public String getFrameText() {
-		return frameText;
+	public String getFrameRaw() {
+		return frameRaw;
 	}
-
-	public void setFrameText(String frameText) {
-		this.frameText = frameText;
+	public void setFrameRaw(String frameRaw) {
+		this.frameRaw = frameRaw;
 	}
 
 	public String getSocketType() {

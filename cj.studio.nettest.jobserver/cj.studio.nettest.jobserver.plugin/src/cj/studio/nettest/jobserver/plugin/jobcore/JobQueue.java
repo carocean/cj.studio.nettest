@@ -11,7 +11,12 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import cj.studio.ecm.CJSystem;
+import cj.studio.ecm.EcmException;
 import cj.studio.ecm.net.CircuitException;
+import cj.studio.ecm.net.Frame;
+import cj.studio.ecm.net.IInputChannel;
+import cj.studio.ecm.net.io.MemoryContentReciever;
+import cj.studio.ecm.net.io.MemoryInputChannel;
 import cj.studio.gateway.IRuntime;
 import cj.studio.gateway.socket.Destination;
 import cj.studio.gateway.socket.pipeline.IOutputSelector;
@@ -139,15 +144,22 @@ public class JobQueue implements IJobQueue, Callable<Object> {
 //		try {
 //			this.toclient.releasePipeline();// 到前端的通道不物理关闭，仅释放
 //			this.todest.closePipeline();
-		@SuppressWarnings("unchecked")
-		Map<String, String> headers = (Map<String, String>) rf.getFrame().get("headers");
+		IInputChannel in = new MemoryInputChannel();
+		MemoryContentReciever reciever = new MemoryContentReciever();
+		Frame frame = null;
+		try {
+			frame = new Frame(in, reciever, rf.getFrameRaw().getBytes());
+			in.done(new byte[0], 0, 0);
+		} catch (CircuitException e) {
+			throw new EcmException(e);
+		}
+
 		if (hasTimeout) {
-			CJSystem.logging().info(getClass(),
-					String.format("请求：%s,%s,%s headline:%s %s %s 的处理队列已完成，但有超时退出的请求", rf.getMid(), rf.getDest(),
-							rf.getHost(), headers.get("command"), headers.get("url"), headers.get("protocol")));
+			CJSystem.logging().info(getClass(), String.format("请求：%s,%s,%s headline:%s %s %s 的处理队列已完成，但有超时退出的请求",
+					rf.getMid(), rf.getDest(), rf.getHost(), frame.command(), frame.url(), frame.protocol()));
 		} else {
 			CJSystem.logging().info(getClass(), String.format("请求：%s,%s,%s headline:%s %s %s 的处理队列已完成", rf.getMid(),
-					rf.getDest(), rf.getHost(), headers.get("command"), headers.get("url"), headers.get("protocol")));
+					rf.getDest(), rf.getHost(), frame.command(), frame.url(), frame.protocol()));
 		}
 //		} catch (CircuitException e) {
 //			throw new EcmException(e);

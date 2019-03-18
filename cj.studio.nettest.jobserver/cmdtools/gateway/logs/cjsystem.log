@@ -772,3 +772,332 @@
 2019年03月09日 22:25:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f96819f5aa211c39a5ca5,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/principals.service HTTP/1.1 的处理队列已完成
 2019年03月09日 22:26:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f96819f5aa211c39a5ca6,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/principals.service HTTP/1.1 的处理队列已完成
 2019年03月09日 22:27:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f96829f5aa211c39a5ca7,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/principals.service HTTP/1.1 的处理队列已完成
+2019年03月10日 09:41:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:25:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f953c9f5aa211c39a5c8b,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/protectedSystem.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:25:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f953c9f5aa211c39a5c8b,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/protectedSystem.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:25:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f953c9f5aa211c39a5c8b,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/protectedSystem.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:25:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f953c9f5aa211c39a5c8b,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/protectedSystem.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:25:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f953c9f5aa211c39a5c8b,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/protectedSystem.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:25:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f953c9f5aa211c39a5c8b,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/protectedSystem.service HTTP/1.1 的处理队列已完成
+2019年03月13日 15:26:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f95689f5aa211c39a5c90,rest://backend/uacc/,http://localhost:9091 headline:GET /uacc/acl.service HTTP/1.1 的处理队列已完成
+2019年03月13日 20:31:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 20:31:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 20:31:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 20:31:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 20:31:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 20:31:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:09:55  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891ce47298202aa3cc75cf,rest://backend/online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月13日 23:11:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月13日 23:11:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:13:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:25:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:25:11  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月13日 23:25:11  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月13日 23:25:11  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月13日 23:25:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891ce47298202aa3cc75cf,rest://backend/online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月13日 23:25:16  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月13日 23:25:16  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月13日 23:25:16  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月13日 23:25:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891ce47298202aa3cc75cf,rest://backend/online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月13日 23:25:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:26:10  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月13日 23:26:10  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:26:10  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:27:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:27:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:27:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:27:43  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月13日 23:27:43  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:27:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:29:22  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月13日 23:29:22  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:29:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:30:00  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月13日 23:30:00  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:30:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:31:05  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10001
+2019年03月13日 23:31:05  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:31:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:31:25  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月13日 23:31:25  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:31:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:32:27  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月13日 23:32:27  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月13日 23:32:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月13日 23:33:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月13日 23:34:04  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月14日 18:39:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月14日 18:40:03  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月14日 18:40:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月16日 13:14:51  信息 : -------------网关启动完毕-------------------
+2019年03月16日 13:16:16  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月16日 13:16:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月16日 13:16:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月16日 13:16:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月16日 20:27:31  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月16日 20:27:31  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月16日 20:27:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月16日 20:29:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月16日 20:29:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月16日 20:29:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c891d567298202aa3cc75d4,rest://backend/online/,http://localhost:10001 headline:GET /online/online/updater.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:00:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd42e13718503869cd364,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月17日 13:00:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd42e13718503869cd364,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月17日 13:02:47  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd42e13718503869cd364,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月17日 13:05:03  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:06:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:07:10  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月17日 13:07:10  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月17日 13:07:10  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月17日 13:07:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:08:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:08:10  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:09:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:09:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:09:24  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:09:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:09:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:10:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:11:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:29  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:32  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:40  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:12:41  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:18:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:19:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:19:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:19:43  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: Read timed out
+2019年03月17日 13:19:43  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月17日 13:19:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月17日 13:21:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:21:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 13:21:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:42:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:43:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:13  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:45:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:46:07  错误: cj.studio.gateway.socket.client.valve.LastClientInputValve - 503 java.net.SocketTimeoutException: timeout
+2019年03月17日 18:46:07  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月17日 18:46:07  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成，但有超时退出的请求
+2019年03月17日 18:47:01  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:47:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:49:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c813718503869cd37c,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:50:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c813718503869cd37c,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:50:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:51:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7ca13718503869cd37f,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:51:10  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:08  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c813718503869cd37d,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:30  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:56  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c613718503869cd37a,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:52:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:53:04  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:53:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c913718503869cd37e,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:54:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cb13718503869cd380,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:55:14  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cb13718503869cd381,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:55:35  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd382,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:56:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd382,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:56:55  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd382,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:57:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd382,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:57:28  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd383,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:57:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c813718503869cd37c,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:57:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd383,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:57:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7cc13718503869cd382,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 18:58:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd42e13718503869cd364,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/ HTTP/1.1 的处理队列已完成
+2019年03月17日 22:58:31  错误: cj.studio.gateway.socket.pipeline.OutputSelector -  异常：505 java.io.IOException
+		at cj.studio.gateway.socket.cable.wire.UdtGatewaySocketWire.connect(UdtGatewaySocketWire.java:153)
+		at cj.studio.gateway.socket.cable.GatewaySocketCable.onconnect(GatewaySocketCable.java:207)
+		at cj.studio.gateway.socket.cable.GatewaySocketCable.connect(GatewaySocketCable.java:200)
+		at cj.studio.gateway.socket.client.ClientGatewaySocket.connect(ClientGatewaySocket.java:113)
+		at cj.studio.gateway.DestinationLoader.load(DestinationLoader.java:49)
+		at cj.studio.gateway.GatewaySocketContainer.getAndCreate(GatewaySocketContainer.java:36)
+		at cj.studio.gateway.socket.app.valve.LastWayOutputValve.onActive(LastWayOutputValve.java:45)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:104)
+		at cj.studio.gateway.socket.app.valve.FirstWayOutputValve.onActive(FirstWayOutputValve.java:16)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:98)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.headOnActive(OutputPipeline.java:86)
+		at cj.studio.gateway.socket.pipeline.OutputSelector.select(OutputSelector.java:32)
+		at cj.studio.nettest.jobserver.plugin.jobcore.JobQueue.start(JobQueue.java:66)
+		at cj.studio.nettest.jobserver.plugin.service.JobServerService.addJob(JobServerService.java:35)
+		at sun.reflect.GeneratedMethodAccessor6.invoke(null:-1)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.bridge.Joinpoint$InvokeAspect.cut(Joinpoint.java:264)
+		at cj.studio.ecm.bridge.Joinpoint$Cutpoint.cut(Joinpoint.java:207)
+		at cj.studio.gateway.stub.aspect.RestAspect.cut(RestAspect.java:26)
+		at cj.studio.ecm.bridge.Joinpoint$Cutpoint.cut(Joinpoint.java:207)
+		at cj.studio.ecm.bridge.Joinpoint.cut(Joinpoint.java:50)
+		at cj.studio.ecm.bridge.EnhanceInterceptor.intercept(EnhanceInterceptor.java:69)
+		at cj.studio.nettest.jobserver.service.IJobServerService$$EnhancerByCGLIB$$382d8ef6.addJob(<generated>:-1)
+		at cj.studio.nettest.jobserver.program.stub.JobServerStub.addJob(JobServerStub.java:39)
+		at sun.reflect.GeneratedMethodAccessor5.invoke(null:-1)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.gateway.stub.GatewayAppSiteRestStub$1.done(GatewayAppSiteRestStub.java:112)
+		at cj.studio.gateway.socket.io.TcpInputChannel.done(TcpInputChannel.java:44)
+		at cj.studio.gateway.server.handler.TcpChannelHandler.doLastPack(TcpChannelHandler.java:123)
+		at cj.studio.gateway.server.handler.TcpChannelHandler.channelRead(TcpChannelHandler.java:107)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+	Cause by:
+		at com.barchart.udt.nio.SocketChannelUDT.finishConnect(SocketChannelUDT.java:236)
+		at io.netty.channel.udt.nio.NioUdtMessageConnectorChannel.doFinishConnect(NioUdtMessageConnectorChannel.java:133)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:417)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月17日 22:58:31  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月17日 22:58:56  错误: cj.studio.gateway.socket.pipeline.OutputSelector -  异常：505 java.io.IOException
+		at cj.studio.gateway.socket.cable.wire.UdtGatewaySocketWire.connect(UdtGatewaySocketWire.java:153)
+		at cj.studio.gateway.socket.cable.GatewaySocketCable.onconnect(GatewaySocketCable.java:207)
+		at cj.studio.gateway.socket.cable.GatewaySocketCable.connect(GatewaySocketCable.java:200)
+		at cj.studio.gateway.socket.client.ClientGatewaySocket.connect(ClientGatewaySocket.java:113)
+		at cj.studio.gateway.DestinationLoader.load(DestinationLoader.java:49)
+		at cj.studio.gateway.GatewaySocketContainer.getAndCreate(GatewaySocketContainer.java:36)
+		at cj.studio.gateway.socket.app.valve.LastWayOutputValve.onActive(LastWayOutputValve.java:45)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:104)
+		at cj.studio.gateway.socket.app.valve.FirstWayOutputValve.onActive(FirstWayOutputValve.java:16)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.nextOnActive(OutputPipeline.java:98)
+		at cj.studio.gateway.socket.pipeline.OutputPipeline.headOnActive(OutputPipeline.java:86)
+		at cj.studio.gateway.socket.pipeline.OutputSelector.select(OutputSelector.java:32)
+		at cj.studio.nettest.jobserver.plugin.jobcore.JobQueue.start(JobQueue.java:66)
+		at cj.studio.nettest.jobserver.plugin.service.JobServerService.addJob(JobServerService.java:35)
+		at sun.reflect.GeneratedMethodAccessor6.invoke(null:-1)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.ecm.bridge.Joinpoint$InvokeAspect.cut(Joinpoint.java:264)
+		at cj.studio.ecm.bridge.Joinpoint$Cutpoint.cut(Joinpoint.java:207)
+		at cj.studio.gateway.stub.aspect.RestAspect.cut(RestAspect.java:26)
+		at cj.studio.ecm.bridge.Joinpoint$Cutpoint.cut(Joinpoint.java:207)
+		at cj.studio.ecm.bridge.Joinpoint.cut(Joinpoint.java:50)
+		at cj.studio.ecm.bridge.EnhanceInterceptor.intercept(EnhanceInterceptor.java:69)
+		at cj.studio.nettest.jobserver.service.IJobServerService$$EnhancerByCGLIB$$382d8ef6.addJob(<generated>:-1)
+		at cj.studio.nettest.jobserver.program.stub.JobServerStub.addJob(JobServerStub.java:39)
+		at sun.reflect.GeneratedMethodAccessor5.invoke(null:-1)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at cj.studio.gateway.stub.GatewayAppSiteRestStub$1.done(GatewayAppSiteRestStub.java:112)
+		at cj.studio.gateway.socket.io.TcpInputChannel.done(TcpInputChannel.java:44)
+		at cj.studio.gateway.server.handler.TcpChannelHandler.doLastPack(TcpChannelHandler.java:123)
+		at cj.studio.gateway.server.handler.TcpChannelHandler.channelRead(TcpChannelHandler.java:107)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:154)
+		at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+		at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+		at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+	Cause by:
+		at com.barchart.udt.nio.SocketChannelUDT.finishConnect(SocketChannelUDT.java:236)
+		at io.netty.channel.udt.nio.NioUdtMessageConnectorChannel.doFinishConnect(NioUdtMessageConnectorChannel.java:133)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:417)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+		at java.lang.Thread.run(Thread.java:748)
+2019年03月17日 22:58:56  错误: cj.studio.gateway.server.handler.TcpChannelHandler - 不是网关协议侦:null
+2019年03月17日 23:19:48  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 23:20:16  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 23:22:44  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月17日 23:22:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 21:34:30  信息 : -------------网关启动完毕-------------------
+2019年03月18日 21:54:31  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月18日 21:54:32  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:54:39  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:54:54  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:55:01  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:55:01  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:55:14  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:55:33  信息 : -------------网关启动完毕-------------------
+2019年03月18日 21:55:38  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月18日 21:55:39  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:55:39  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 21:57:17  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 22:02:46  警告: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 超时。有job在等待30秒后仍未完成
+2019年03月18日 22:13:47  信息 : -------------网关启动完毕-------------------
+2019年03月18日 22:14:17  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月18日 22:14:17  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:14:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:14:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:14:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:14:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b79f5aa211c39a5acf,rest://backend/uc,http://localhost:9090 headline:POST /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:05  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:11  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f79b99f5aa211c39a5ad1,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:27  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:57  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:58  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:15:59  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:00  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:23  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:25  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:26  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:47  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd51413718503869cd369,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:52  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:16:55  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:25:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
