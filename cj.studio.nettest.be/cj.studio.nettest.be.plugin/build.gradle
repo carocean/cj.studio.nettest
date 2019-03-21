@@ -18,6 +18,7 @@ sourceSets {
  } 
 
 dependencies {
+	compile group: 'cj.studio.gateway2', name: 'cj.studio.orm.mongodb', version: ref_cj_studio_orm_mongodb_version
 	compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 	compile project(':cj.studio.nettest.be.stub');
 	compile fileTree('../global/runtime')
@@ -25,11 +26,22 @@ dependencies {
 	compile fileTree('src/cj/refembeds')
 	compile fileTree('src/cj/references')
 }
-task releaseToHost(type: Copy) {
+task copyRefembeds(type: Copy) {
+    into 'src/cj/refembeds'
+    from(configurations.all) {
+        include 'cj.studio.orm.mongodb-*.jar'
+        //下面在执行uploadArchives方法时只执行删除缺不拷贝，因此注释掉
+       // delete fileTree("src/cj/refembeds").matching {
+       // 	include "cj.studio.orm.mongodb-*.jar"
+    	//}
+    }
+}
+task releaseToHost(type: Copy,dependsOn:copyRefembeds) {
  dependsOn "build"
  from 'build/libs/'
 into '../cmdtools/gateway/assemblies/nettest/plugins/nettest.plugin-1.0'
  include '**/*.jar'
+  exclude '**/*-javadoc.jar','**/*-sources.jar'
  }
  
  task release(type:Copy){

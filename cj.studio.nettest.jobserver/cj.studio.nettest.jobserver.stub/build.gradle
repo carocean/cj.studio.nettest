@@ -29,6 +29,7 @@ dependencies {
  from 'build/libs/'
  into '../cj.studio.nettest.jobserver.program/src/cj/references'
  include '**/*.jar'
+  exclude '**/*-javadoc.jar','**/*-sources.jar'
  }
  task releaseToOutputs(type: Copy) {
  dependsOn "build"

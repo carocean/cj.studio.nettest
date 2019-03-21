@@ -18,18 +18,41 @@ sourceSets {
  } 
 
 dependencies {
+	compile group: 'cj.studio.gateway2', name: 'cj.studio.gateway.stub', version: ref_cj_gateway_stub_version
+	compile group: 'cj.studio.gateway2', name: 'cj.studio.orm.mongodb', version: ref_cj_studio_orm_mongodb_version
+	compile group: 'cj.studio.nettest.be', name: 'cj.studio.nettest.be.stub', version: '1.0.0'
 	compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 	compile project(':cj.studio.nettest.jobserver.stub');
 	compile fileTree('../global/runtime')
-	compile fileTree('../global/cjtools')
-	compile fileTree('src/cj/refembeds')
+	//compile fileTree('src/cj/refembeds')
 	compile fileTree('src/cj/references')
 }
+task copyRefembeds(type: Copy) {
+    into 'src/cj/refembeds'
+    from(configurations.all) {
+        include 'cj.studio.gateway.stub-*.jar','cj.studio.orm.mongodb-*.jar'
+        //下面在执行uploadArchives方法时只执行删除缺不拷贝，因此注释掉
+       // delete fileTree("src/cj/refembeds").matching {
+       // 	include "cj.studio.gateway.stub-*.jar"
+    	//}
+    }
+}
+task copyReferences(type: Copy) {
+    into 'src/cj/references'
+    from(configurations.all) {
+        include 'cj.studio.nettest.be.stub-*.jar'
+        //下面在执行uploadArchives方法时只执行删除缺不拷贝，因此注释掉
+       // delete fileTree("src/cj/references").matching {
+       // 	include "cj.studio.nettest.be.stub-*.jar"
+    	//}
+    }
+}
 task releaseToHost(type: Copy) {
- dependsOn "build"
+ dependsOn "build",copyRefembeds,copyReferences
  from 'build/libs/'
 into '../cmdtools/gateway/assemblies/nettest/plugins/nettest.plugin-1.0'
  include '**/*.jar'
+  exclude '**/*-javadoc.jar','**/*-sources.jar'
  }
  
  task release(type:Copy){

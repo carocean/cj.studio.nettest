@@ -1101,3 +1101,15 @@
 2019年03月18日 22:16:52  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
 2019年03月18日 22:16:55  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd59013718503869cd371,rest://backend/imc.online/,http://localhost:10001 headline:GET /online/terminus/online.service HTTP/1.1 的处理队列已完成
 2019年03月18日 22:25:02  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c8dd7c713718503869cd37b,rest://backend/imc.online/,http://localhost:10001 headline:POST /online/terminus/online.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:18  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947e9f5aa211c39a5c82,rest://backend/uc/,http://localhost:9090 headline:POST /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:31  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947d9f5aa211c39a5c80,rest://backend/uc/,http://localhost:9090 headline:GET /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:33  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947d9f5aa211c39a5c81,rest://backend/uc/,http://localhost:9090 headline:GET /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:34  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947d9f5aa211c39a5c81,rest://backend/uc/,http://localhost:9090 headline:GET /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:38  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947e9f5aa211c39a5c82,rest://backend/uc/,http://localhost:9090 headline:POST /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f949c9f5aa211c39a5c83,rest://backend/uc/,http://localhost:9090 headline:GET /uc/token.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:37:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f949d9f5aa211c39a5c84,rest://backend/uc/,http://localhost:9090 headline:GET /uc/token.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:38:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947e9f5aa211c39a5c82,rest://backend/uc/,http://localhost:9090 headline:POST /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:39:10  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947e9f5aa211c39a5c82,rest://backend/uc/,http://localhost:9090 headline:POST /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:39:21  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947e9f5aa211c39a5c82,rest://backend/uc/,http://localhost:9090 headline:POST /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:39:37  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f947e9f5aa211c39a5c82,rest://backend/uc/,http://localhost:9090 headline:POST /uc/authentication.service HTTP/1.1 的处理队列已完成
+2019年03月18日 22:39:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f949c9f5aa211c39a5c83,rest://backend/uc/,http://localhost:9090 headline:GET /uc/token.service HTTP/1.1 的处理队列已完成
