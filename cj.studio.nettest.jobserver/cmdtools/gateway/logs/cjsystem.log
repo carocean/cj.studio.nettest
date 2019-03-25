@@ -1116,3 +1116,26 @@
 2019年03月21日 22:39:38  信息 : -------------网关启动完毕-------------------
 2019年03月21日 22:41:51  信息 : -------------网关启动完毕-------------------
 2019年03月21日 22:43:53  信息 : -------------网关启动完毕-------------------
+2019年03月21日 22:49:45  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月21日 22:49:46  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月21日 22:49:49  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月21日 22:49:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月21日 22:49:50  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月21日 22:49:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月21日 22:49:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月21日 22:49:51  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月24日 23:59:06  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/mic/,tcp://localhost:7080 headline:PUT /mic/ TCP/1.0 的处理队列已完成
+2019年03月24日 23:59:22  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/mic/,tcp://localhost:7080 headline:PUT /mic/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:12:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/mic/,tcp://localhost:8082 headline:PUT /website/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:13:12  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/mic/,tcp://localhost:8082 headline:PUT /website/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:13:39  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website/,tcp://localhost:8082 headline:PUT /website/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:14:52  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website/,tcp://localhost:8082 headline:PUT /website/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:16:44  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website/,tcp://localhost:8082 headline:PUT /website/2 TCP/1.0 的处理队列已完成
+2019年03月25日 00:33:42  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/mic/,tcp://localhost:7080 headline:PUT /mic/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:36:20  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/mic/,tcp://localhost:7080 headline:PUT /mic/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:40:54  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website2/,tcp://localhost:8082 headline:PUT /website2/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:41:13  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website2/,tcp://localhost:8082 headline:PUT /website2/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:41:36  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website2/,tcp://localhost:8082 headline:PUT /website2/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:43:53  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website2/,tcp://localhost:8082 headline:PUT /website2/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:44:43  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website2/,tcp://localhost:8082 headline:PUT /website2/ TCP/1.0 的处理队列已完成
+2019年03月25日 00:45:19  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c97a9221371854fd1fdaa87,/backend/website2/,tcp://localhost:8082 headline:PUT /website2/ TCP/1.0 的处理队列已完成
