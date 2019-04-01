@@ -1,0 +1,13 @@
+{
+	"guid":"D9E70885-1B2C-4210-A686-0F7A0C469E2D",
+	"title":"cj.studio.nettest.be",
+	"enabled":true,
+	"desc":"测试中心中台网关",
+	"mic":{
+		"location":"/infrastructurePlatform/backend/",
+		"host":"tcp://localhost:7080?heartbeat=5000&initialWireSize=1&workThreadCount=2&acceptErrorPath=/nettest/error/",
+		"reconnDelay":6000,
+		"reconnPeriod":15000,
+		"cjtoken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjaiIsInBhc3N3b3JkIjoiMTEiLCJleHAiOjExNzQ2OTMwMzIwNjUsInVzZXIiOiJjaiIsImlhdCI6MTU1MzgzMjA2NSwianRpIjoiY2Q2MWQwYmEtNDhjMy00NzNkLTlkYTMtMDBlZGFlYzFkNDc2In0.1Yq4mMYTYO0nzeWSpg2wJhgUtK-e2tdKf1f3fM3mh0Q"
+	}
+}

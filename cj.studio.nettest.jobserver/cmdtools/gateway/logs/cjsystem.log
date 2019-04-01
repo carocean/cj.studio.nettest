@@ -1,0 +1,5 @@
+2019年03月30日 14:30:19  信息 : -------------网关启动完毕-------------------
+2019年03月30日 14:35:43  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.jobserver/cmdtools/gateway/lib/share
+2019年03月30日 14:35:44  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年03月30日 14:35:45  信息: cj.studio.nettest.jobserver.plugin.jobcore.JobQueue - 请求：5c7f78c79f5aa211c39a5ac7,rest://backend/uc,http://localhost:9090 headline:GET /uc/user.service HTTP/1.1 的处理队列已完成
+2019年04月01日 20:08:59  信息 : -------------网关启动完毕-------------------

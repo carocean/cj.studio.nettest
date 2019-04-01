@@ -1,0 +1,13 @@
+{
+	"guid":"4126B42B-7173-4D15-811B-488C2D624657",
+	"title":"cj.studio.nettest.jobserver",
+	"enabled":true,
+	"desc":"测试作业中台网关",
+	"mic":{
+		"location":"/infrastructurePlatform/backend/",
+		"host":"tcp://localhost:7080?heartbeat=5000&initialWireSize=1&workThreadCount=2&acceptErrorPath=/nettest/error/",
+		"reconnDelay":6000,
+		"reconnPeriod":15000,
+		"cjtoken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjaiIsInBhc3N3b3JkIjoiMTEiLCJleHAiOjExNzQ2OTMwMzIwNjUsInVzZXIiOiJjaiIsImlhdCI6MTU1MzgzMjA2NSwianRpIjoiY2Q2MWQwYmEtNDhjMy00NzNkLTlkYTMtMDBlZGFlYzFkNDc2In0.1Yq4mMYTYO0nzeWSpg2wJhgUtK-e2tdKf1f3fM3mh0Q"
+	}
+}
