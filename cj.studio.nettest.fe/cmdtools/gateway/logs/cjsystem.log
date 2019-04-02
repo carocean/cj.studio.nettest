@@ -1,5 +1,0 @@
-2019年03月30日 14:30:37  信息 : -------------网关启动完毕-------------------
-2019年03月30日 14:35:32  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
-2019年03月30日 14:35:43  警告: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 客户端：/jobserver/nettest/ 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的连接串中指定参数：OnChannelEvent-Notify-Dests=dest1,dest2
-2019年03月30日 14:35:43  警告: cj.studio.gateway.socket.cable.wire.TcpGatewaySocketWire$TcpClientHandler - 客户端：/jobserver/nettest/ 未指定通道激活或失活事件的通知目标。应用仅能在之后第一次请求时才能收到激活或失活事件。请在该net的连接串中指定参数：OnChannelEvent-Notify-Dests=dest1,dest2
-2019年04月01日 20:09:10  信息 : -------------网关启动完毕-------------------
