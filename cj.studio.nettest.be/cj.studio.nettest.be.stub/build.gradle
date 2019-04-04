@@ -31,6 +31,13 @@ dependencies {
  include '**/*.jar'
   exclude '**/*-javadoc.jar','**/*-sources.jar'
  }
+ task releaseToFE(type: Copy) {
+ dependsOn "build"
+ from 'build/libs/'
+ into '../../cj.studio.nettest.fe/cj.studio.nettest.fe.program/src/cj/references'
+ include '**/*.jar'
+  exclude '**/*-javadoc.jar','**/*-sources.jar'
+ }
  task releaseToOutputs(type: Copy) {
  dependsOn "build"
  from 'build/libs/'
@@ -38,5 +45,5 @@ dependencies {
  include '**/*.jar'
  }
  task release(type:Copy){
-  dependsOn "releaseToUC","releaseToOutputs"
+  dependsOn "releaseToUC",'releaseToFE',"releaseToOutputs"
  }

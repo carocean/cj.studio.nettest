@@ -11847,3 +11847,6 @@ printWelcome(doc,f){
 2019年03月09日 20:39:21  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
 2019年03月09日 20:46:48  信息 : -------------网关启动完毕-------------------
 2019年03月09日 20:46:51  信息 : 已装载共享库/Users/caroceanjofers/studio/github/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
+2019年04月04日 23:37:33  信息: cj.studio.gateway.mic.MicConnector - 注册mic成功。host tcp://localhost:7080?heartbeat=5000&initialWireSize=1&workThreadCount=2&acceptErrorPath=/nettest/error/,location /infrastructurePlatform/frontend/
+2019年04月04日 23:37:33  信息 : -------------网关启动完毕-------------------
+2019年04月04日 23:37:38  信息 : 已装载共享库/Users/caroceanjofers/studio/cj.studio.nettest/cj.studio.nettest.fe/cmdtools/gateway/lib/share
