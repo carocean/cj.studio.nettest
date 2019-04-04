@@ -8,6 +8,6 @@
 		"host":"tcp://localhost:7080?heartbeat=5000&initialWireSize=1&workThreadCount=2&acceptErrorPath=/nettest/error/",
 		"reconnDelay":6000,
 		"reconnPeriod":15000,
-		"cjtoken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjaiIsInBhc3N3b3JkIjoiMTEiLCJleHAiOjExNzQ2OTMwMzIwNjUsInVzZXIiOiJjaiIsImlhdCI6MTU1MzgzMjA2NSwianRpIjoiY2Q2MWQwYmEtNDhjMy00NzNkLTlkYTMtMDBlZGFlYzFkNDc2In0.1Yq4mMYTYO0nzeWSpg2wJhgUtK-e2tdKf1f3fM3mh0Q"
+		"cjtoken":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZXRvcy5taWMiLCJleHAiOjMzMDkwMzk3ODQzLCJ1c2VyIjoiY2oiLCJpYXQiOjE1NTQzOTc4NDMsImp0aSI6IjlhMzU0Yzc1LTIxM2YtNDYyOS04MGI3LWNkZjI4ZWQ5NjZkMCJ9.5Yc1Shpu3PnClOb8MpYkgD4l0yb6D_ZG3UjzBEkrMUc"
 	}
 }
