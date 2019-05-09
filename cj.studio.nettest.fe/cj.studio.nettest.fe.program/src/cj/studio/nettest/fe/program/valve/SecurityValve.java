@@ -2,7 +2,7 @@ package cj.studio.nettest.fe.program.valve;
 
 import java.util.List;
 
-import cj.studio.backend.uc.bo.Role;
+import cj.studio.backend.uc.bo.GlobalRole;
 import cj.studio.ecm.Scope;
 import cj.studio.ecm.annotation.CjService;
 import cj.studio.ecm.net.CircuitException;
@@ -36,10 +36,10 @@ public class SecurityValve implements IAnnotationInputValve {
 			}
 			String principals = (String) session.attribute("uc.principals");
 			@SuppressWarnings("unchecked")
-			List<Role> roles = (List<Role>) session.attribute("uc.roles");
+			List<GlobalRole> roles = (List<GlobalRole>) session.attribute("uc.roles");
 			boolean hasTestRole = false;
 			if (roles != null) {
-				for (Role r : roles) {
+				for (GlobalRole r : roles) {
 					if ("tests".equals(r.getCode())) {
 						hasTestRole = true;
 						break;

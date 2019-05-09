@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import cj.studio.backend.uc.bo.Role;
+import cj.studio.backend.uc.bo.GlobalRole;
 import cj.studio.backend.uc.stub.IAuthenticationStub;
-import cj.studio.backend.uc.stub.IRoleStub;
 import cj.studio.backend.uc.stub.ITokenStub;
+import cj.studio.backend.uc.stub.IUserStub;
 import cj.studio.ecm.annotation.CjBridge;
 import cj.studio.ecm.annotation.CjService;
 import cj.studio.ecm.net.Circuit;
@@ -30,8 +30,8 @@ public class AuthWebView implements IGatewayAppSiteWayWebView, StringTypeConvert
 	IAuthenticationStub auth;
 	@CjStubRef(remote = "rest://backend/uc/", stub = ITokenStub.class)
 	ITokenStub token;
-	@CjStubRef(remote = "rest://backend/uc/", stub = IRoleStub.class)
-	IRoleStub role;
+	@CjStubRef(remote = "rest://backend/uc/", stub = IUserStub.class)
+	IUserStub userStub;
 
 	@Override
 	public void flow(Frame f, Circuit c, IGatewayAppSiteResource ctx) throws CircuitException {
@@ -39,22 +39,34 @@ public class AuthWebView implements IGatewayAppSiteWayWebView, StringTypeConvert
 
 			@Override
 			protected void done(Frame f) throws CircuitException {
-				String user = f.parameter("user");//该user是账号也可能是统一用户
+				String user = f.parameter("user");// 该user是账号也可能是统一用户
 				String pwd = f.parameter("pwd");
-				String json = auth.authenticate("auth.password", "netos.nettest", user, pwd, Integer.MAX_VALUE);
+				if (user.contains("@")) {
+					String tenant = user.substring(user.indexOf("@") + 1, user.length());
+					if (!"netos.nettest".equals(tenant)) {
+						throw new CircuitException("500", String.format("租户：%s 没有测试中心的访问权", tenant));
+					}
+					user = user.substring(0, user.indexOf("@"));
+				}
+				String json = "";
+				if ((user.length() == 11 || user.length() == 12) && (user.startsWith("1") || user.startsWith("01"))) {
+					json = auth.authenticate("auth.phone", "netos.nettest", user, pwd, Integer.MAX_VALUE);
+				} else {
+					json = auth.authenticate("auth.password", "netos.nettest", user, pwd, Integer.MAX_VALUE);
+				}
 				Map<String, String> map = new Gson().fromJson(json, new TypeToken<HashMap<String, String>>() {
 				}.getType());
 				if (!"200".equals(map.get("status"))) {
 					throw new CircuitException(map.get("status"), map.get("message"));
 				}
 				HttpFrame frame = (HttpFrame) f;
-				String cjtoken=map.get("result");
-				Map<String,Object> entry=token.parse(cjtoken);
+				String cjtoken = map.get("result");
+				Map<String, Object> entry = token.parse(cjtoken);
 				frame.session().attribute("uc.token", cjtoken);
-				user=(String)entry.get("user");//这才是统一用户
+				user = (String) entry.get("user");// 这才是统一用户
 				frame.session().attribute("uc.principals", user);
 
-				ArrayList<Role> roles = (ArrayList<Role>) role.getRolesOnUser(user);
+				ArrayList<GlobalRole> roles = (ArrayList<GlobalRole>) userStub.listGlobalRoleOfUser(user);
 				frame.session().attribute("uc.roles", roles);
 				CookieHelper.appendCookie(c, "cjtoken", map.get("result"));
 			}
