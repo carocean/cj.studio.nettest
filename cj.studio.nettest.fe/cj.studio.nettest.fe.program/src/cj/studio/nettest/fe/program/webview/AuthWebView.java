@@ -63,9 +63,9 @@ public class AuthWebView implements IGatewayAppSiteWayWebView, StringTypeConvert
 				Map<String, Object> entry = token.parse(cjtoken);
 				frame.session().attribute("uc.token", cjtoken);
 				user = (String) entry.get("user");// 这才是统一用户
-				String account=userStub.getAccountOfUserOnTenant(user, "netos.nettest").getCode();
-				frame.session().attribute("uc.principals", account);
-				frame.session().attribute("uc.user", user);
+//				String account=userStub.getAccountOfUserOnTenant(user, "netos.nettest").getCode();
+				frame.session().attribute("uc.principals", user);
+//				frame.session().attribute("uc.user", user);
 				ArrayList<GlobalRole> roles = (ArrayList<GlobalRole>) userStub.listGlobalRoleOfUser(user);
 				frame.session().attribute("uc.roles", roles);
 				CookieHelper.appendCookie(c, "cjtoken", map.get("result"));
