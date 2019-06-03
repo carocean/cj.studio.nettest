@@ -10,7 +10,18 @@ $(document).ready(function(){
 		cli.find('.popup-rbar-cell.name>input').val('');
 		table.append(cli);
 	});
-	
+	panelTools.undelegate(' > .popup-ul > .popup-bar > .popup-bar-right-ul > li[retrieve] input','keyup');
+	panelTools.delegate('> .popup-ul > .popup-bar > .popup-bar-right-ul > li[retrieve] input','keyup',function(e){
+		if(e.keyCode!=13){
+			return;
+		}
+		var user=$(this).val();
+		$.get('./views/retrieve-config.service',{user:user},function(data){
+			window.location.href='./';
+		}).error(function(e){
+			alert(e.responseText);
+		});
+	});
 	panelTools.undelegate('> .popup-ul.root > .popup-tbar-region > .popup-rbar-table > .popup-rbar-row > .popup-rbar-cell.save','click');
 	panelTools.delegate('> .popup-ul.root > .popup-tbar-region > .popup-rbar-table > .popup-rbar-row > .popup-rbar-cell.save','click',function(){
 		var row=$(this).parent('.popup-rbar-row');

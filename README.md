@@ -9,7 +9,7 @@
 - 适合大企业建立测试中心
 - 每个人管理自己的测试数据
 - 所有服务方法全中心可见
-
+- 添加了retrieveConfig，使得当前测试者可以从先前的测试者那里找回测试配置,该方法在多人测试时非常有用
 ## 使用说明书
 
 ![测试中心主页](https://github.com/carocean/cj.studio.nettest/blob/master/documents/img/home.jpg)
